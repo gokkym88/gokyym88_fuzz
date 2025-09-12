@@ -1,0 +1,19 @@
+[100%] Built target rclcpp_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/lib/rclcpp_publisher/rclcpp_publisher
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/ament_index/resource_index/package_run_dependencies/rclcpp_publisher
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/ament_index/resource_index/parent_prefix_path/rclcpp_publisher
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/environment/path.sh
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/environment/path.dsv
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/local_setup.bash
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/local_setup.sh
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/local_setup.zsh
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/local_setup.dsv
+-- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/package.dsv
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/ament_index/resource_index/packages/rclcpp_publisher
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/cmake/rclcpp_publisherConfig.cmake
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/cmake/rclcpp_publisherConfig-version.cmake
+-- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_publisher/share/rclcpp_publisher/package.xml

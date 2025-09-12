@@ -1,0 +1,17 @@
+1632259664.209181 rcl_publisher_get_default_options@librcl.so(0x7ffd6cdfa720, 0, 0, 2) = 0x7ffd6cdfa720
+1632259664.209810 rcl_get_zero_initialized_publisher@librcl.so(0x7ffd6cdfa660, 0, 0, 0x7fd11f210f87) = 0
+1632259664.210174 rcl_publisher_init@librcl.so(0x7ffd6cdfa718, 0x7fd11f990d20, 0x7fd11f00e090, 0x7fd11f272fd4) = 0
+1632259665.135277 rcl_publisher_get_default_options@librcl.so(0x7ffd6ce01f60, 0x7fd120f83723, 1, 0x7fd120ea821f) = 0x7ffd6ce01f60
+1632259665.136037 rcl_get_zero_initialized_publisher@librcl.so(0x7fd120f854c0, 0x7fd120f83723, 1, 0x7fd120ea821f) = 0
+1632259665.188854 rcl_publisher_init@librcl.so(0x7fd11f990d40, 0x7fd11f990d20, 0x7fd11f00e0f0, 0x7fd11f82b1f0) = 0
+1632259665.196394 rcl_publish@librcl.so(0x7fd11f990d40, 0x1075550, 0, 0x1075550 <unfinished ...>
+1632259665.197412 rcl_publisher_is_valid@librcl.so(0x7fd11f990d40, 0x1075550, 0, 0x1075550 <unfinished ...>
+1632259665.198121 rcl_publisher_is_valid_except_context@librcl.so(0x7fd11f990d40, 0x1075550, 0, 0x1075550) = 1
+1632259665.199215 <... rcl_publisher_is_valid resumed> )                               = 1
+1632259665.199419 <... rcl_publish resumed> )                                          = 0
+1632259665.803490 rcl_publisher_get_default_options@librcl.so(0x7ffd6ce02250, 0x7fd120f83723, 1, 0x7fd120ea821f) = 0x7ffd6ce02250
+1632259665.804116 rcl_get_zero_initialized_publisher@librcl.so(0x7fd120f854c0, 0x7fd120f83723, 1, 0x7fd120ea821f) = 0
+1632259665.804684 rcl_publisher_init@librcl.so(0x7fd11f90f2e0, 0x7fd11f990d20, 0x7fd1192a62d0, 0x7fd11fc579e0) = 0
+1632259665.922879 rcl_publisher_fini@librcl.so(0x7fd11f990d40, 0x7fd11f990d20, 0x7fd11f990d20, 0xe0020000) = 0
+1632259665.924803 rcl_publisher_fini@librcl.so(0x7fd11f90f2e0, 0x7fd11f990d20, 0x7fd11f990d20, 0xe0020000) = 0
+1632259665.926754 rcl_publisher_fini@librcl.so(0x7ffd6ce00828, 0x7fd11f990d20, 0x7ffd6ce00828, 0) = 0

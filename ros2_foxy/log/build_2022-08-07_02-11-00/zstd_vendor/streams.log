@@ -1,0 +1,158 @@
+[0.541s] Invoking command in '/robofuzz/ros2_foxy/build/zstd_vendor': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_cmake:/robofuzz/ros2_foxy/install/ament_cmake_test:/robofuzz/ros2_foxy/install/ament_cmake_target_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_export_targets:/robofuzz/ros2_foxy/install/ament_cmake_export_interfaces:/robofuzz/ros2_foxy/install/ament_cmake_export_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_version:/robofuzz/ros2_foxy/install/ament_cmake_python:/robofuzz/ros2_foxy/install/ament_cmake_libraries:/robofuzz/ros2_foxy/install/ament_cmake_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_link_flags:/robofuzz/ros2_foxy/install/ament_cmake_export_libraries:/robofuzz/ros2_foxy/install/ament_cmake_export_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_definitions:/robofuzz/ros2_foxy/install/ament_cmake_core:/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_cmake:/robofuzz/ros2_foxy/install/ament_cmake_test:/robofuzz/ros2_foxy/install/ament_cmake_target_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_export_targets:/robofuzz/ros2_foxy/install/ament_cmake_export_interfaces:/robofuzz/ros2_foxy/install/ament_cmake_export_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_version:/robofuzz/ros2_foxy/install/ament_cmake_python:/robofuzz/ros2_foxy/install/ament_cmake_libraries:/robofuzz/ros2_foxy/install/ament_cmake_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_link_flags:/robofuzz/ros2_foxy/install/ament_cmake_export_libraries:/robofuzz/ros2_foxy/install/ament_cmake_export_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_definitions:/robofuzz/ros2_foxy/install/ament_cmake_core:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/ros2_foxy/src/ros2/rosbag2/zstd_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/zstd_vendor
+[0.676s] -- The C compiler identification is GNU 9.4.0
+[0.850s] -- The CXX compiler identification is GNU 9.4.0
+[0.869s] -- Check for working C compiler: /usr/bin/cc
+[1.056s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.057s] -- Detecting C compiler ABI info
+[1.206s] -- Detecting C compiler ABI info - done
+[1.236s] -- Detecting C compile features
+[1.237s] -- Detecting C compile features - done
+[1.244s] -- Check for working CXX compiler: /usr/bin/c++
+[1.401s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.401s] -- Detecting CXX compiler ABI info
+[1.585s] -- Detecting CXX compiler ABI info - done
+[1.636s] -- Detecting CXX compile features
+[1.649s] -- Detecting CXX compile features - done
+[1.651s] -- Found ament_cmake: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[1.787s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.788s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.411s] -- Configuring done
+[3.427s] -- Generating done
+[3.427s] -- Build files have been written to: /robofuzz/ros2_foxy/build/zstd_vendor
+[4.527s] Invoked command in '/robofuzz/ros2_foxy/build/zstd_vendor' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_cmake:/robofuzz/ros2_foxy/install/ament_cmake_test:/robofuzz/ros2_foxy/install/ament_cmake_target_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_export_targets:/robofuzz/ros2_foxy/install/ament_cmake_export_interfaces:/robofuzz/ros2_foxy/install/ament_cmake_export_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_version:/robofuzz/ros2_foxy/install/ament_cmake_python:/robofuzz/ros2_foxy/install/ament_cmake_libraries:/robofuzz/ros2_foxy/install/ament_cmake_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_link_flags:/robofuzz/ros2_foxy/install/ament_cmake_export_libraries:/robofuzz/ros2_foxy/install/ament_cmake_export_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_definitions:/robofuzz/ros2_foxy/install/ament_cmake_core:/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_cmake:/robofuzz/ros2_foxy/install/ament_cmake_test:/robofuzz/ros2_foxy/install/ament_cmake_target_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_export_targets:/robofuzz/ros2_foxy/install/ament_cmake_export_interfaces:/robofuzz/ros2_foxy/install/ament_cmake_export_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_version:/robofuzz/ros2_foxy/install/ament_cmake_python:/robofuzz/ros2_foxy/install/ament_cmake_libraries:/robofuzz/ros2_foxy/install/ament_cmake_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_link_flags:/robofuzz/ros2_foxy/install/ament_cmake_export_libraries:/robofuzz/ros2_foxy/install/ament_cmake_export_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_definitions:/robofuzz/ros2_foxy/install/ament_cmake_core:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/ros2_foxy/src/ros2/rosbag2/zstd_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/zstd_vendor
+[4.530s] Invoking command in '/robofuzz/ros2_foxy/build/zstd_vendor': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_cmake:/robofuzz/ros2_foxy/install/ament_cmake_test:/robofuzz/ros2_foxy/install/ament_cmake_target_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_export_targets:/robofuzz/ros2_foxy/install/ament_cmake_export_interfaces:/robofuzz/ros2_foxy/install/ament_cmake_export_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_version:/robofuzz/ros2_foxy/install/ament_cmake_python:/robofuzz/ros2_foxy/install/ament_cmake_libraries:/robofuzz/ros2_foxy/install/ament_cmake_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_link_flags:/robofuzz/ros2_foxy/install/ament_cmake_export_libraries:/robofuzz/ros2_foxy/install/ament_cmake_export_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_definitions:/robofuzz/ros2_foxy/install/ament_cmake_core:/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_cmake:/robofuzz/ros2_foxy/install/ament_cmake_test:/robofuzz/ros2_foxy/install/ament_cmake_target_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_export_targets:/robofuzz/ros2_foxy/install/ament_cmake_export_interfaces:/robofuzz/ros2_foxy/install/ament_cmake_export_dependencies:/robofuzz/ros2_foxy/install/ament_cmake_version:/robofuzz/ros2_foxy/install/ament_cmake_python:/robofuzz/ros2_foxy/install/ament_cmake_libraries:/robofuzz/ros2_foxy/install/ament_cmake_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_link_flags:/robofuzz/ros2_foxy/install/ament_cmake_export_libraries:/robofuzz/ros2_foxy/install/ament_cmake_export_include_directories:/robofuzz/ros2_foxy/install/ament_cmake_export_definitions:/robofuzz/ros2_foxy/install/ament_cmake_core:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /robofuzz/ros2_foxy/build/zstd_vendor -- -j12 -l12
+[4.784s] [35m[1mScanning dependencies of target zstd-1.4.4[0m
+[4.883s] [ 12%] [34m[1mCreating directories for 'zstd-1.4.4'[0m
+[5.266s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'zstd-1.4.4'[0m
+[5.316s] -- Downloading...
+[5.316s]    dst='/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+[5.316s]    timeout='60 seconds'
+[5.316s] -- Using src='https://github.com/facebook/zstd/archive/v1.4.4.zip'
+[6.005s] -- verifying file...
+[6.006s]        file='/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+[6.012s] -- Downloading... done
+[6.062s] -- extracting...
+[6.062s]      src='/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+[6.062s]      dst='/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4'
+[6.062s] -- extracting... [tar xfz]
+[6.191s] -- extracting... [analysis]
+[6.191s] -- extracting... [rename]
+[6.191s] -- extracting... [clean up]
+[6.192s] -- extracting... done
+[6.229s] [ 37%] [34m[1mPerforming patch step for 'zstd-1.4.4'[0m
+[6.233s] [ 50%] [34m[1mNo update step for 'zstd-1.4.4'[0m
+[6.234s] patching file build/cmake/CMakeLists.txt
+[6.236s] patching file build/cmake/lib/CMakeLists.txt
+[6.282s] [ 62%] [34m[1mPerforming configure step for 'zstd-1.4.4'[0m
+[6.378s] -- The C compiler identification is GNU 9.4.0
+[6.487s] -- The CXX compiler identification is GNU 9.4.0
+[6.503s] -- Check for working C compiler: /usr/bin/cc
+[6.611s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.612s] -- Detecting C compiler ABI info
+[6.716s] -- Detecting C compiler ABI info - done
+[6.739s] -- Detecting C compile features
+[6.740s] -- Detecting C compile features - done
+[6.744s] -- Check for working CXX compiler: /usr/bin/c++
+[6.863s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.865s] -- Detecting CXX compiler ABI info
+[6.987s] -- Detecting CXX compiler ABI info - done
+[7.009s] -- Detecting CXX compile features
+[7.010s] -- Detecting CXX compile features - done
+[7.011s] -- ZSTD VERSION: 1.4.4
+[7.011s] -- Setting build type to 'Release' as none was specified.
+[7.016s] -- Performing Test CXX_FLAG_STD_CPLUSPLUS11
+[7.134s] -- Performing Test CXX_FLAG_STD_CPLUSPLUS11 - Success
+[7.138s] -- Performing Test C_FLAG_STD_C99
+[7.277s] -- Performing Test C_FLAG_STD_C99 - Success
+[7.279s] -- Performing Test C_FLAG_WALL
+[7.437s] -- Performing Test C_FLAG_WALL - Success
+[7.439s] -- Performing Test CXX_FLAG_WALL
+[7.601s] -- Performing Test CXX_FLAG_WALL - Success
+[7.603s] -- Performing Test C_FLAG_WEXTRA
+[7.720s] -- Performing Test C_FLAG_WEXTRA - Success
+[7.722s] -- Performing Test CXX_FLAG_WEXTRA
+[7.867s] -- Performing Test CXX_FLAG_WEXTRA - Success
+[7.869s] -- Performing Test C_FLAG_WUNDEF
+[7.978s] -- Performing Test C_FLAG_WUNDEF - Success
+[7.979s] -- Performing Test CXX_FLAG_WUNDEF
+[8.213s] -- Performing Test CXX_FLAG_WUNDEF - Success
+[8.213s] -- Performing Test C_FLAG_WSHADOW
+[8.417s] -- Performing Test C_FLAG_WSHADOW - Success
+[8.417s] -- Performing Test CXX_FLAG_WSHADOW
+[8.620s] -- Performing Test CXX_FLAG_WSHADOW - Success
+[8.621s] -- Performing Test C_FLAG_WCAST_ALIGN
+[8.796s] -- Performing Test C_FLAG_WCAST_ALIGN - Success
+[8.798s] -- Performing Test CXX_FLAG_WCAST_ALIGN
+[9.008s] -- Performing Test CXX_FLAG_WCAST_ALIGN - Success
+[9.011s] -- Performing Test C_FLAG_WCAST_QUAL
+[9.194s] -- Performing Test C_FLAG_WCAST_QUAL - Success
+[9.195s] -- Performing Test CXX_FLAG_WCAST_QUAL
+[9.379s] -- Performing Test CXX_FLAG_WCAST_QUAL - Success
+[9.381s] -- Performing Test C_FLAG_WSTRICT_PROTOTYPES
+[9.538s] -- Performing Test C_FLAG_WSTRICT_PROTOTYPES - Success
+[9.539s] -- CMAKE_INSTALL_PREFIX: /robofuzz/ros2_foxy/build/zstd_vendor/zstd_vendor_install
+[9.539s] -- CMAKE_INSTALL_LIBDIR: lib
+[9.539s] -- ZSTD_LEGACY_SUPPORT not defined!
+[9.539s] -- ZSTD_MULTITHREAD_SUPPORT is enabled
+[9.542s] -- Looking for pthread.h
+[9.740s] -- Looking for pthread.h - found
+[9.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.893s] -- Check if compiler accepts -pthread
+[10.105s] -- Check if compiler accepts -pthread - yes
+[10.107s] -- Found Threads: TRUE  
+[10.114s] -- Configuring done
+[10.144s] -- Generating done
+[10.146s] -- Build files have been written to: /robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4-build
+[10.190s] [ 75%] [34m[1mPerforming build step for 'zstd-1.4.4'[0m
+[10.261s] [35m[1mScanning dependencies of target libzstd.pc[0m
+[10.263s] [35m[1mScanning dependencies of target libzstd_shared[0m
+[10.285s] [  3%] [34m[1mCreating pkg-config file[0m
+[10.323s] [  3%] Built target libzstd.pc
+[10.334s] [  9%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/entropy_common.c.o[0m
+[10.335s] [  9%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/debug.c.o[0m
+[10.339s] [ 12%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/fse_decompress.c.o[0m
+[10.344s] [ 15%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/pool.c.o[0m
+[10.346s] [ 18%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/error_private.c.o[0m
+[10.357s] [ 21%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/threading.c.o[0m
+[10.368s] [ 24%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/xxhash.c.o[0m
+[10.376s] [ 27%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/zstd_common.c.o[0m
+[10.386s] [ 30%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/fse_compress.c.o[0m
+[10.394s] [ 33%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/hist.c.o[0m
+[10.397s] [ 36%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress.c.o[0m
+[10.410s] [ 39%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/huf_compress.c.o[0m
+[10.435s] [ 42%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress_literals.c.o[0m
+[10.533s] [ 45%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress_sequences.c.o[0m
+[10.540s] [ 48%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_double_fast.c.o[0m
+[10.567s] [ 51%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_fast.c.o[0m
+[10.631s] [ 54%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_lazy.c.o[0m
+[10.691s] [ 57%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_ldm.c.o[0m
+[10.778s] [ 60%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_opt.c.o[0m
+[10.834s] [ 63%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstdmt_compress.c.o[0m
+[10.861s] [ 66%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/huf_decompress.c.o[0m
+[10.861s] [ 69%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_ddict.c.o[0m
+[11.042s] [ 72%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_decompress.c.o[0m
+[11.080s] [ 75%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_decompress_block.c.o[0m
+[11.116s] [ 78%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/cover.c.o[0m
+[11.499s] [ 81%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/divsufsort.c.o[0m
+[11.772s] [ 84%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/fastcover.c.o[0m
+[12.016s] [ 87%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/zdict.c.o[0m
+[12.079s] [ 90%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_common.c.o[0m
+[12.275s] [ 93%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_compress.c.o[0m
+[12.375s] [ 96%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/robofuzz/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_decompress.c.o[0m
+[37.054s] [100%] [32m[1mLinking C shared library libzstd.so[0m
+[37.157s] [100%] Built target libzstd_shared
+[37.198s] [ 87%] [34m[1mPerforming install step for 'zstd-1.4.4'[0m
+[37.262s] [  3%] [34m[1mCreating pkg-config file[0m
+[37.291s] [ 69%] Built target libzstd.pc
+[37.291s] [100%] Built target libzstd_shared
+[37.321s] [36mInstall the project...[0m
+[37.334s] -- Install configuration: "Release"
+[37.334s] -- Installing: /robofuzz/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/pkgconfig/libzstd.pc
+[37.335s] -- Installing: /robofuzz/ros2_foxy/build/zstd_vendor/zstd_vendor_install/include/zstd.h
+[37.335s] -- Installing: /robofuzz/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so.1.4.4
+[37.336s] -- Installing: /robofuzz/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so.1
+[37.337s] -- Installing: /robofuzz/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so
+[37.365s] [100%] [34m[1mCompleted 'zstd-1.4.4'[0m
+[37.416s] [100%] Built target zstd-1.4.4

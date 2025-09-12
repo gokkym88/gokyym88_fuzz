@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/ament_index_cpp/ament_cmake_environment_hooks/local_setup.sh

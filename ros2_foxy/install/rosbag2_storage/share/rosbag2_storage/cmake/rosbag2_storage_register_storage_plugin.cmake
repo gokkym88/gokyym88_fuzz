@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros2/rosbag2/rosbag2_storage/cmake/rosbag2_storage_register_storage_plugin.cmake

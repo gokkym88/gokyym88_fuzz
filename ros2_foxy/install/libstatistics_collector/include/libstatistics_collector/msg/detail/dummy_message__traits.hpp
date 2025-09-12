@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/libstatistics_collector/rosidl_generator_cpp/libstatistics_collector/msg/detail/dummy_message__traits.hpp

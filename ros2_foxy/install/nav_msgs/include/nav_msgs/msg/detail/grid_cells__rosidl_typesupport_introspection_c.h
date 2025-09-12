@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/nav_msgs/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h

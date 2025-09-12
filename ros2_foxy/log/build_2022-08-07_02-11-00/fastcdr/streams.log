@@ -1,0 +1,70 @@
+[0.644s] Invoking command in '/robofuzz/ros2_foxy/build/fastcdr': /usr/bin/cmake /robofuzz/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/fastcdr
+[1.644s] -- Setting build type to 'Release' as none was specified.
+[1.644s] -- The C compiler identification is GNU 9.4.0
+[1.645s] -- The CXX compiler identification is GNU 9.4.0
+[1.646s] -- Check for working C compiler: /usr/bin/cc
+[1.646s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.647s] -- Detecting C compiler ABI info
+[1.647s] -- Detecting C compiler ABI info - done
+[1.648s] -- Detecting C compile features
+[1.651s] -- Detecting C compile features - done
+[1.652s] -- Check for working CXX compiler: /usr/bin/c++
+[1.652s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.653s] -- Detecting CXX compiler ABI info
+[1.653s] -- Detecting CXX compiler ABI info - done
+[1.653s] -- Detecting CXX compile features
+[1.655s] -- Detecting CXX compile features - done
+[1.656s] -- Configuring Fast CDR
+[1.657s] -- Version: 1.0.13
+[1.657s] -- To change the version modify the file configure.ac
+[1.661s] -- Performing Test SUPPORTS_CXX14
+[1.661s] -- Performing Test SUPPORTS_CXX14 - Success
+[1.662s] -- Check if the system is big endian
+[1.662s] -- Searching 16 bit integer
+[1.662s] -- Looking for sys/types.h
+[1.662s] -- Looking for sys/types.h - found
+[1.662s] -- Looking for stdint.h
+[1.662s] -- Looking for stdint.h - found
+[1.664s] -- Looking for stddef.h
+[1.664s] -- Looking for stddef.h - found
+[1.665s] -- Check size of unsigned short
+[1.668s] -- Check size of unsigned short - done
+[1.669s] -- Using unsigned short
+[1.770s] -- Check if the system is big endian - little endian
+[1.821s] -- Configuring done
+[1.831s] -- Generating done
+[1.833s] -- Build files have been written to: /robofuzz/ros2_foxy/build/fastcdr
+[1.843s] Invoked command in '/robofuzz/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake /robofuzz/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/fastcdr
+[1.845s] Invoking command in '/robofuzz/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /robofuzz/ros2_foxy/build/fastcdr -- -j12 -l12
+[1.927s] [35m[1mScanning dependencies of target fastcdr[0m
+[1.972s] [ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[1.995s] [ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[1.999s] [ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[2.008s] [ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[2.011s] [ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[2.021s] [ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[4.650s] [100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[5.034s] [100%] Built target fastcdr
+[5.832s] Invoked command in '/robofuzz/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /robofuzz/ros2_foxy/build/fastcdr -- -j12 -l12
+[7.255s] Invoking command in '/robofuzz/ros2_foxy/build/fastcdr': /usr/bin/cmake --install /robofuzz/ros2_foxy/build/fastcdr
+[7.301s] -- Install configuration: "Release"
+[7.301s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/share/fastcdr/LICENSE
+[7.313s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr
+[7.313s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/exceptions
+[7.314s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/Exception.h
+[7.314s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[7.314s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+[7.314s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/FastCdr.h
+[7.314s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/fastcdr_dll.h
+[7.315s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/Cdr.h
+[7.321s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+[7.322s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/FastBuffer.h
+[7.322s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/include/fastcdr/config.h
+[7.322s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1.0.13
+[7.322s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1
+[7.323s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/lib/libfastcdr.so
+[7.323s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets.cmake
+[7.324s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets-release.cmake
+[7.324s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+[7.324s] -- Installing: /robofuzz/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake
+[7.358s] Invoked command in '/robofuzz/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --install /robofuzz/ros2_foxy/build/fastcdr

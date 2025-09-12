@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/logging_demo/rosidl_generator_c/logging_demo/srv/detail/config_logger__type_support.h

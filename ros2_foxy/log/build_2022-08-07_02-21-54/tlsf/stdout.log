@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/tlsf
+[35m[1mScanning dependencies of target tlsf[0m
+[ 50%] [32mBuilding C object CMakeFiles/tlsf.dir/src/tlsf.c.o[0m
+[100%] [32m[1mLinking C static library libtlsf.a[0m
+[100%] Built target tlsf
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/environment/library_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/environment/library_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/ament_index/resource_index/package_run_dependencies/tlsf
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/ament_index/resource_index/parent_prefix_path/tlsf
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/ament_index/resource_index/packages/tlsf
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/cmake/tlsfConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/cmake/tlsfConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/share/tlsf/package.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/include/tlsf/tlsf.h
+-- Symlinking: /robofuzz/ros2_foxy/install/tlsf/lib/libtlsf.a

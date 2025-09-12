@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/ros1_bridge/ament_cmake_environment_hooks/local_setup.zsh

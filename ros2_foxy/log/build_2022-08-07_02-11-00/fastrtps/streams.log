@@ -1,0 +1,47 @@
+[0.057s] Invoking command in '/robofuzz/ros2_foxy/build/fastrtps': CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/foonathan_memory_vendor:/robofuzz/ros2_foxy/install/fastcdr:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/robofuzz/ros2_foxy/install/fastcdr/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/robofuzz/ros2_foxy/install/foonathan_memory_vendor/lib/x86_64-linux-gnu/pkgconfig:/robofuzz/ros2_foxy/install/foonathan_memory_vendor/lib/pkgconfig /usr/bin/cmake /robofuzz/ros2_foxy/src/eProsima/Fast-DDS -DSECURITY=ON -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/fastrtps
+[0.079s] -- Setting build type to 'Release' as none was specified.
+[0.176s] -- The C compiler identification is GNU 9.4.0
+[0.273s] -- The CXX compiler identification is GNU 9.4.0
+[0.284s] -- Check for working C compiler: /usr/bin/cc
+[0.435s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.443s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.655s] -- Detecting C compile features
+[0.656s] -- Detecting C compile features - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++
+[0.961s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.971s] -- Detecting CXX compiler ABI info
+[1.196s] -- Detecting CXX compiler ABI info - done
+[1.236s] -- Detecting CXX compile features
+[1.238s] -- Detecting CXX compile features - done
+[1.240s] -- Configuring Fast RTPS
+[1.240s] -- Version: 2.1.2
+[1.241s] -- To change the version modify the file configure.ac
+[1.244s] -- Performing Test SUPPORTS_CXX14
+[1.463s] -- Performing Test SUPPORTS_CXX14 - Success
+[1.466s] -- Performing Test SUPPORTS_CXX1Y
+[1.677s] -- Performing Test SUPPORTS_CXX1Y - Success
+[1.679s] -- Performing Test SUPPORTS_CXX11
+[1.875s] -- Performing Test SUPPORTS_CXX11 - Success
+[1.878s] -- Check if the system is big endian
+[1.878s] -- Searching 16 bit integer
+[1.879s] -- Looking for sys/types.h
+[2.244s] -- Looking for sys/types.h - found
+[2.245s] -- Looking for stdint.h
+[2.777s] -- Looking for stdint.h - found
+[2.778s] -- Looking for stddef.h
+[3.325s] -- Looking for stddef.h - found
+[3.326s] -- Check size of unsigned short
+[3.929s] -- Check size of unsigned short - done
+[3.929s] -- Using unsigned short
+[4.436s] -- Check if the system is big endian - little endian
+[4.440s] -- Found fastcdr
+[4.536s] CMake Error at cmake/common/eprosima_libraries.cmake:243 (message):
+[4.536s]   Cannot find package Asio
+[4.536s] Call Stack (most recent call first):
+[4.537s]   CMakeLists.txt:221 (eprosima_find_thirdparty)
+[4.537s] 
+[4.537s] 
+[4.537s] -- Configuring incomplete, errors occurred!
+[4.538s] See also "/robofuzz/ros2_foxy/build/fastrtps/CMakeFiles/CMakeOutput.log".
+[4.579s] Invoked command in '/robofuzz/ros2_foxy/build/fastrtps' returned '1': CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/foonathan_memory_vendor:/robofuzz/ros2_foxy/install/fastcdr:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/robofuzz/ros2_foxy/install/fastcdr/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/robofuzz/ros2_foxy/install/foonathan_memory_vendor/lib/x86_64-linux-gnu/pkgconfig:/robofuzz/ros2_foxy/install/foonathan_memory_vendor/lib/pkgconfig /usr/bin/cmake /robofuzz/ros2_foxy/src/eProsima/Fast-DDS -DSECURITY=ON -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/fastrtps

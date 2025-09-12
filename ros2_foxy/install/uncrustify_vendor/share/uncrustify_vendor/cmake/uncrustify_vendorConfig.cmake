@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/uncrustify_vendor/ament_cmake_core/uncrustify_vendorConfig.cmake

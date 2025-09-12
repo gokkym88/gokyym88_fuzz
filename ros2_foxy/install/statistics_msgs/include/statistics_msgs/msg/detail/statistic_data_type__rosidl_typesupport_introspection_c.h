@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/statistics_msgs/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_c.h

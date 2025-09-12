@@ -1,0 +1,77 @@
+[0.119s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/rcl_lang_ws/src/rclcpp_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber
+[2.131s] -- The C compiler identification is GNU 9.4.0
+[2.132s] -- The CXX compiler identification is GNU 9.4.0
+[2.132s] -- Check for working C compiler: /usr/bin/cc
+[2.132s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.133s] -- Detecting C compiler ABI info
+[2.133s] -- Detecting C compiler ABI info - done
+[2.133s] -- Detecting C compile features
+[2.133s] -- Detecting C compile features - done
+[2.133s] -- Check for working CXX compiler: /usr/bin/c++
+[2.133s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.134s] -- Detecting CXX compiler ABI info
+[2.134s] -- Detecting CXX compiler ABI info - done
+[2.134s] -- Detecting CXX compile features
+[2.134s] -- Detecting CXX compile features - done
+[2.134s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.134s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.135s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.135s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.135s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.135s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.136s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.136s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.136s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.136s] -- Looking for pthread.h
+[2.136s] -- Looking for pthread.h - found
+[2.137s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.137s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.137s] -- Looking for pthread_create in pthreads
+[2.148s] -- Looking for pthread_create in pthreads - not found
+[2.148s] -- Looking for pthread_create in pthread
+[2.270s] -- Looking for pthread_create in pthread - found
+[2.273s] -- Found Threads: TRUE  
+[2.654s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.834s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.841s] -- Configured cppcheck include dirs: 
+[2.842s] -- Configured cppcheck exclude dirs and/or files: 
+[2.843s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.843s] -- Configured cpplint exclude dirs and/or files: 
+[2.846s] -- Added test 'lint_cmake' to check CMake code style
+[2.850s] -- Added test 'uncrustify' to check C / C++ code style
+[2.850s] -- Configured uncrustify additional arguments: 
+[2.852s] -- Added test 'xmllint' to check XML markup files
+[2.863s] -- Configuring done
+[2.879s] -- Generating done
+[2.883s] -- Build files have been written to: /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber
+[2.906s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/rcl_lang_ws/src/rclcpp_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber
+[2.908s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber -- -j12 -l12
+[3.005s] [35m[1mScanning dependencies of target rclcpp_create_subscriber[0m
+[3.150s] [ 50%] [32mBuilding CXX object CMakeFiles/rclcpp_create_subscriber.dir/subscriber.cpp.o[0m
+[8.955s] [100%] [32m[1mLinking CXX executable rclcpp_create_subscriber[0m
+[9.197s] [100%] Built target rclcpp_create_subscriber
+[9.208s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber -- -j12 -l12
+[9.238s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber
+[9.245s] -- Install configuration: ""
+[9.246s] -- Execute custom install script
+[9.246s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/lib/rclcpp_create_subscriber/rclcpp_create_subscriber
+[9.255s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/ament_index/resource_index/package_run_dependencies/rclcpp_create_subscriber
+[9.264s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/ament_index/resource_index/parent_prefix_path/rclcpp_create_subscriber
+[9.273s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/ament_prefix_path.sh
+[9.282s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/ament_prefix_path.dsv
+[9.290s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/path.sh
+[9.299s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/path.dsv
+[9.307s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.bash
+[9.316s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.sh
+[9.325s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.zsh
+[9.333s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.dsv
+[9.341s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/package.dsv
+[9.350s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/ament_index/resource_index/packages/rclcpp_create_subscriber
+[9.359s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/cmake/rclcpp_create_subscriberConfig.cmake
+[9.367s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/cmake/rclcpp_create_subscriberConfig-version.cmake
+[9.375s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/package.xml
+[9.386s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber

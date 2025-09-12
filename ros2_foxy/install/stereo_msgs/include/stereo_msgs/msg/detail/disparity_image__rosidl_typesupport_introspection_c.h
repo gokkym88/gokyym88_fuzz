@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/stereo_msgs/rosidl_typesupport_introspection_c/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h

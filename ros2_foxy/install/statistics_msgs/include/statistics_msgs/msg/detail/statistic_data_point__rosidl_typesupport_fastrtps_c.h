@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/statistics_msgs/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_c.h

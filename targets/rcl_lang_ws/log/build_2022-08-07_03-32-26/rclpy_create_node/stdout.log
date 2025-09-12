@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing rclpy_create_node.egg-info/PKG-INFO
+writing dependency_links to rclpy_create_node.egg-info/dependency_links.txt
+writing entry points to rclpy_create_node.egg-info/entry_points.txt
+writing requirements to rclpy_create_node.egg-info/requires.txt
+writing top-level names to rclpy_create_node.egg-info/top_level.txt
+reading manifest file 'rclpy_create_node.egg-info/SOURCES.txt'
+writing manifest file 'rclpy_create_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_node/lib/python3.8/site-packages/rclpy-create-node.egg-link (link to .)
+Installing rclpy_create_node script to /robofuzz/targets/rcl_lang_ws/install/rclpy_create_node/bin
+
+Installed /robofuzz/targets/rcl_lang_ws/build/rclpy_create_node
+running install_data

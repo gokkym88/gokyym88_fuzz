@@ -1,0 +1,7 @@
+1632259393.811762 rcl_publisher_get_default_options@librcl.so(0x7ffc6ae7a880, 0, 0, 2) = 0x7ffc6ae7a880
+1632259393.812323 rcl_get_zero_initialized_publisher@librcl.so(0x7ffc6ae7a7c0, 0, 0, 0x7ff9c7549f87) = 0
+1632259393.812652 rcl_publisher_init@librcl.so(0x7ffc6ae7a878, 0x7ff9c7cc9d20, 0x7ff9c7347090, 0x7ff9c75abfd4) = 0
+
+1632259394.118048 rcl_publisher_get_default_options@librcl.so(0x7ffc6ae820c0, 0x7ff9c92bc723, 1, 0x7ff9c91e121f) = 0x7ffc6ae820c0
+1632259394.119003 rcl_get_zero_initialized_publisher@librcl.so(0x7ff9c92be4c0, 0x7ff9c92bc723, 1, 0x7ff9c91e121f) = 0
+1632259394.119962 rcl_publisher_init@librcl.so(0x7ff9c7cc9d40, 0x7ff9c7cc9d20, 0x7ff9c73470f0, 0x7ff9c7b641f0) = 0

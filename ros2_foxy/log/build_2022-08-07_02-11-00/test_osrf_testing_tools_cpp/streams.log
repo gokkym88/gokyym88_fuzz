@@ -1,0 +1,73 @@
+[0.553s] Invoking command in '/robofuzz/ros2_foxy/build/test_osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/pkgconfig /usr/bin/cmake /robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/test_osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/test_osrf_testing_tools_cpp
+[0.945s] -- The C compiler identification is GNU 9.4.0
+[1.280s] -- The CXX compiler identification is GNU 9.4.0
+[1.306s] -- Check for working C compiler: /usr/bin/cc
+[1.752s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.754s] -- Detecting C compiler ABI info
+[2.218s] -- Detecting C compiler ABI info - done
+[2.260s] -- Detecting C compile features
+[2.261s] -- Detecting C compile features - done
+[2.264s] -- Check for working CXX compiler: /usr/bin/c++
+[2.634s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.637s] -- Detecting CXX compiler ABI info
+[3.052s] -- Detecting CXX compiler ABI info - done
+[3.106s] -- Detecting CXX compile features
+[3.108s] -- Detecting CXX compile features - done
+[3.160s] -- googletest version '1.10.0.1' selected, of versions: '1.8.1;1.10.0.1'
+[3.160s] -- building googletest from '/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/../../../share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'...
+[3.450s] -- Configuring done
+[3.453s] -- Generating done
+[3.455s] -- Build files have been written to: /robofuzz/ros2_foxy/build/test_osrf_testing_tools_cpp/googletest-1.10.0.1-extracted
+[3.574s] Scanning dependencies of target googletest
+[3.605s] [ 11%] Creating directories for 'googletest'
+[3.822s] [ 22%] Performing download step (verify and extract) for 'googletest'
+[3.860s] -- verifying file...
+[3.860s]      file='/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/../../../share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'
+[3.865s] -- verifying file... done
+[3.895s] -- extracting...
+[3.896s]      src='/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'
+[3.896s]      dst='/robofuzz/ros2_foxy/build/test_osrf_testing_tools_cpp/googletest-1.10.0.1-extracted/googletest-1.10.0.1-src'
+[3.896s] -- extracting... [tar xfz]
+[3.964s] -- extracting... [analysis]
+[3.964s] -- extracting... [rename]
+[3.968s] -- extracting... [clean up]
+[3.969s] -- extracting... done
+[4.004s] [ 33%] No patch step for 'googletest'
+[4.073s] [ 44%] No update step for 'googletest'
+[4.127s] [ 55%] No configure step for 'googletest'
+[4.186s] [ 66%] No build step for 'googletest'
+[4.247s] [ 77%] No install step for 'googletest'
+[4.298s] [ 88%] No test step for 'googletest'
+[4.351s] [100%] Completed 'googletest'
+[4.422s] [100%] Built target googletest
+[4.539s] -- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+[4.540s] -- Looking for pthread.h
+[4.674s] -- Looking for pthread.h - found
+[4.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.845s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.845s] -- Looking for pthread_create in pthreads
+[4.997s] -- Looking for pthread_create in pthreads - not found
+[4.998s] -- Looking for pthread_create in pthread
+[5.196s] -- Looking for pthread_create in pthread - found
+[5.200s] -- Found Threads: TRUE  
+[5.222s] -- Configuring done
+[5.283s] -- Generating done
+[5.293s] -- Build files have been written to: /robofuzz/ros2_foxy/build/test_osrf_testing_tools_cpp
+[5.308s] Invoked command in '/robofuzz/ros2_foxy/build/test_osrf_testing_tools_cpp' returned '0': CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/pkgconfig /usr/bin/cmake /robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/test_osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/test_osrf_testing_tools_cpp
+[5.309s] Invoking command in '/robofuzz/ros2_foxy/build/test_osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/pkgconfig /usr/bin/cmake --build /robofuzz/ros2_foxy/build/test_osrf_testing_tools_cpp -- -j12 -l12
+[6.161s] [35m[1mScanning dependencies of target gtest[0m
+[6.161s] [ 12%] [32mBuilding CXX object googletest-1.10.0.1-extracted/googletest-1.10.0.1-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.297s] [ 25%] [32m[1mLinking CXX static library ../../../lib/libgtest.a[0m
+[15.642s] [ 25%] Built target gtest
+[15.703s] [35m[1mScanning dependencies of target gtest_main[0m
+[15.783s] [ 37%] [32mBuilding CXX object googletest-1.10.0.1-extracted/googletest-1.10.0.1-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[18.456s] [ 50%] [32m[1mLinking CXX static library ../../../lib/libgtest_main.a[0m
+[18.747s] [ 50%] Built target gtest_main
+[18.825s] [35m[1mScanning dependencies of target test_is_not_working_gtest[0m
+[18.846s] [35m[1mScanning dependencies of target test_example_memory_tools_gtest[0m
+[18.941s] [ 62%] [32mBuilding CXX object CMakeFiles/test_is_not_working_gtest.dir/test/test_is_not_working.cpp.o[0m
+[18.966s] [ 75%] [32mBuilding CXX object CMakeFiles/test_example_memory_tools_gtest.dir/test/test_example_memory_tools.cpp.o[0m
+[21.877s] [ 87%] [32m[1mLinking CXX executable test_is_not_working_gtest[0m
+[22.421s] [100%] [32m[1mLinking CXX executable test_example_memory_tools_gtest[0m
+[22.639s] [100%] Built target test_is_not_working_gtest
+[23.019s] [100%] Built target test_example_memory_tools_gtest

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ros2param.egg-info
+writing ros2param.egg-info/PKG-INFO
+writing dependency_links to ros2param.egg-info/dependency_links.txt
+writing entry points to ros2param.egg-info/entry_points.txt
+writing requirements to ros2param.egg-info/requires.txt
+writing top-level names to ros2param.egg-info/top_level.txt
+writing manifest file 'ros2param.egg-info/SOURCES.txt'
+reading manifest file 'ros2param.egg-info/SOURCES.txt'
+writing manifest file 'ros2param.egg-info/SOURCES.txt'
+running build_ext
+Creating /robofuzz/ros2_foxy/install/ros2param/lib/python3.8/site-packages/site.py
+Creating /robofuzz/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param.egg-link (link to .)
+
+Installed /robofuzz/ros2_foxy/build/ros2param
+running install_data
+copying package.xml -> /robofuzz/ros2_foxy/install/ros2param/share/ros2param
+creating /robofuzz/ros2_foxy/install/ros2param/share/ament_index
+creating /robofuzz/ros2_foxy/install/ros2param/share/ament_index/resource_index
+creating /robofuzz/ros2_foxy/install/ros2param/share/ament_index/resource_index/packages
+copying resource/ros2param -> /robofuzz/ros2_foxy/install/ros2param/share/ament_index/resource_index/packages

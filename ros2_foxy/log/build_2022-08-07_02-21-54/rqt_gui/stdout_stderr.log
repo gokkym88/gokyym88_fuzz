@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating src/rqt_gui.egg-info
+writing src/rqt_gui.egg-info/PKG-INFO
+writing dependency_links to src/rqt_gui.egg-info/dependency_links.txt
+writing entry points to src/rqt_gui.egg-info/entry_points.txt
+writing requirements to src/rqt_gui.egg-info/requires.txt
+writing top-level names to src/rqt_gui.egg-info/top_level.txt
+writing manifest file 'src/rqt_gui.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_gui.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_gui.egg-info/SOURCES.txt'
+running build_ext
+Creating /robofuzz/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/site.py
+Creating /robofuzz/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt-gui.egg-link (link to src)
+Installing rqt script to /robofuzz/ros2_foxy/install/rqt_gui/bin
+
+Installed /robofuzz/ros2_foxy/build/rqt_gui/src
+running install_data
+creating /robofuzz/ros2_foxy/install/rqt_gui/share/rqt_gui/resource
+copying resource/rqt.graffle -> /robofuzz/ros2_foxy/install/rqt_gui/share/rqt_gui/resource
+copying resource/rqt.png -> /robofuzz/ros2_foxy/install/rqt_gui/share/rqt_gui/resource
+copying resource/rqt.svg -> /robofuzz/ros2_foxy/install/rqt_gui/share/rqt_gui/resource
+creating /robofuzz/ros2_foxy/install/rqt_gui/share/ament_index
+creating /robofuzz/ros2_foxy/install/rqt_gui/share/ament_index/resource_index
+creating /robofuzz/ros2_foxy/install/rqt_gui/share/ament_index/resource_index/packages
+copying resource/rqt_gui -> /robofuzz/ros2_foxy/install/rqt_gui/share/ament_index/resource_index/packages
+copying package.xml -> /robofuzz/ros2_foxy/install/rqt_gui/share/rqt_gui
+creating /robofuzz/ros2_foxy/install/rqt_gui/lib/rqt_gui
+copying bin/rqt_gui -> /robofuzz/ros2_foxy/install/rqt_gui/lib/rqt_gui

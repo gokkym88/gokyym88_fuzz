@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/rosidl_adapter/ament_cmake_core/rosidl_adapterConfig.cmake

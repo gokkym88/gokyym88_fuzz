@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros-tooling/libstatistics_collector/include/libstatistics_collector/collector/metric_details_interface.hpp

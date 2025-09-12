@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating rclpy_create_subscriber.egg-info
+writing rclpy_create_subscriber.egg-info/PKG-INFO
+writing dependency_links to rclpy_create_subscriber.egg-info/dependency_links.txt
+writing entry points to rclpy_create_subscriber.egg-info/entry_points.txt
+writing requirements to rclpy_create_subscriber.egg-info/requires.txt
+writing top-level names to rclpy_create_subscriber.egg-info/top_level.txt
+writing manifest file 'rclpy_create_subscriber.egg-info/SOURCES.txt'
+reading manifest file 'rclpy_create_subscriber.egg-info/SOURCES.txt'
+writing manifest file 'rclpy_create_subscriber.egg-info/SOURCES.txt'
+running build_ext
+Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/lib/python3.8/site-packages/site.py
+Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/lib/python3.8/site-packages/rclpy-create-subscriber.egg-link (link to .)
+Installing rclpy_create_subscriber script to /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/bin
+
+Installed /robofuzz/targets/rcl_lang_ws/build/rclpy_create_subscriber
+running install_data
+creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/share/ament_index
+creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/share/ament_index/resource_index
+creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/share/ament_index/resource_index/packages
+copying resource/rclpy_create_subscriber -> /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /robofuzz/targets/rcl_lang_ws/install/rclpy_create_subscriber/share/rclpy_create_subscriber

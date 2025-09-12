@@ -1,0 +1,25 @@
+[3.163s] Invoking command in '/robofuzz/ros2_foxy/build/ament_uncrustify': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/uncrustify_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/uncrustify_vendor:${CMAKE_PREFIX_PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_uncrustify --editable --build-directory /robofuzz/ros2_foxy/build/ament_uncrustify/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_uncrustify
+[4.028s] running develop
+[4.617s] running egg_info
+[4.618s] creating ament_uncrustify.egg-info
+[4.620s] writing ament_uncrustify.egg-info/PKG-INFO
+[4.620s] writing dependency_links to ament_uncrustify.egg-info/dependency_links.txt
+[4.620s] writing entry points to ament_uncrustify.egg-info/entry_points.txt
+[4.621s] writing requirements to ament_uncrustify.egg-info/requires.txt
+[4.621s] writing top-level names to ament_uncrustify.egg-info/top_level.txt
+[4.624s] writing manifest file 'ament_uncrustify.egg-info/SOURCES.txt'
+[4.843s] reading manifest file 'ament_uncrustify.egg-info/SOURCES.txt'
+[4.844s] writing manifest file 'ament_uncrustify.egg-info/SOURCES.txt'
+[5.102s] running build_ext
+[5.102s] Creating /robofuzz/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/site.py
+[5.123s] Creating /robofuzz/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament-uncrustify.egg-link (link to .)
+[5.125s] Installing ament_uncrustify script to /robofuzz/ros2_foxy/install/ament_uncrustify/bin
+[5.126s] 
+[5.126s] Installed /robofuzz/ros2_foxy/build/ament_uncrustify
+[5.127s] running install_data
+[5.127s] copying package.xml -> /robofuzz/ros2_foxy/install/ament_uncrustify/share/ament_uncrustify
+[5.127s] creating /robofuzz/ros2_foxy/install/ament_uncrustify/share/ament_index
+[5.128s] creating /robofuzz/ros2_foxy/install/ament_uncrustify/share/ament_index/resource_index
+[5.128s] creating /robofuzz/ros2_foxy/install/ament_uncrustify/share/ament_index/resource_index/packages
+[5.128s] copying resource/ament_uncrustify -> /robofuzz/ros2_foxy/install/ament_uncrustify/share/ament_index/resource_index/packages
+[6.579s] Invoked command in '/robofuzz/ros2_foxy/build/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/uncrustify_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/ros2_foxy/install/uncrustify_vendor:${CMAKE_PREFIX_PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_uncrustify --editable --build-directory /robofuzz/ros2_foxy/build/ament_uncrustify/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_uncrustify

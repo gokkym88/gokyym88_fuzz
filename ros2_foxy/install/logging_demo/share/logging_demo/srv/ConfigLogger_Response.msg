@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/logging_demo/rosidl_cmake/srv/ConfigLogger_Response.msg

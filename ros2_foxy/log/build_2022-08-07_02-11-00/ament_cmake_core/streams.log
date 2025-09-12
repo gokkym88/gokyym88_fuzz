@@ -1,0 +1,78 @@
+[1.340s] Invoking command in '/robofuzz/ros2_foxy/build/ament_cmake_core': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/ros2_foxy/src/ament/ament_cmake/ament_cmake_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/ament_cmake_core
+[1.628s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.629s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.963s] -- ament_cmake_core 0.9.10
+[3.119s] -- Configuring done
+[3.123s] -- Generating done
+[3.124s] -- Build files have been written to: /robofuzz/ros2_foxy/build/ament_cmake_core
+[3.144s] Invoked command in '/robofuzz/ros2_foxy/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/ros2_foxy/src/ament/ament_cmake/ament_cmake_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/ament_cmake_core
+[3.146s] Invoking command in '/robofuzz/ros2_foxy/build/ament_cmake_core': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /robofuzz/ros2_foxy/build/ament_cmake_core -- -j12 -l12
+[3.379s] Invoked command in '/robofuzz/ros2_foxy/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /robofuzz/ros2_foxy/build/ament_cmake_core -- -j12 -l12
+[3.690s] Invoking command in '/robofuzz/ros2_foxy/build/ament_cmake_core': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /robofuzz/ros2_foxy/build/ament_cmake_core
+[3.740s] -- Install configuration: ""
+[3.741s] -- Execute custom install script
+[3.742s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_index/resource_index/package_run_dependencies/ament_cmake_core
+[3.809s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_index/resource_index/parent_prefix_path/ament_cmake_core
+[3.857s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.sh
+[3.905s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.dsv
+[3.956s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/path.sh
+[4.001s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/environment/path.dsv
+[4.070s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.bash
+[4.134s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.sh
+[4.196s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.zsh
+[4.246s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/local_setup.dsv
+[4.305s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/package.dsv
+[4.355s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_index/resource_index/packages/ament_cmake_core
+[4.420s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake
+[4.474s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment-extras.cmake
+[4.540s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment_hooks-extras.cmake
+[4.622s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_index-extras.cmake
+[4.664s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake
+[4.714s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake
+[4.754s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake
+[4.775s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake
+[4.797s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake
+[4.818s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/package.xml
+[4.843s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/all.cmake
+[4.864s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake
+[4.887s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package.cmake
+[4.914s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake
+[4.950s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_register_extension.cmake
+[4.980s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/assert_file_exists.cmake
+[5.003s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/list_append_unique.cmake
+[5.026s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/normalize_path.cmake
+[5.053s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.102s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/python.cmake
+[5.158s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/stamp.cmake
+[5.200s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/string_ends_with.cmake
+[5.258s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig-version.cmake.in
+[5.311s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig.cmake.in
+[5.357s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake
+[5.379s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_generate_environment.cmake
+[5.404s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake
+[5.428s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake
+[5.465s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake
+[5.518s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.bat
+[5.572s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+[5.625s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.bat
+[5.675s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+[5.725s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake
+[5.753s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_prefix_path.cmake
+[5.787s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resource.cmake
+[5.843s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake
+[5.879s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_has_resource.cmake
+[5.904s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake
+[5.999s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake
+[6.007s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[6.043s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install.cmake.in
+[6.087s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_append_install_code.cmake
+[6.141s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake
+[6.205s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_files.cmake
+[6.258s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_programs.cmake
+[6.308s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake
+[6.374s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
+[6.437s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/install.cmake
+[6.498s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
+[6.538s] -- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target_append_uninstall_code.cmake
+[7.585s] Invoked command in '/robofuzz/ros2_foxy/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/robofuzz/ros2_foxy/build/ament_package:/robofuzz/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /robofuzz/ros2_foxy/build/ament_cmake_core

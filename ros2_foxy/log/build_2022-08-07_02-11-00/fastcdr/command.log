@@ -1,0 +1,6 @@
+Invoking command in '/robofuzz/ros2_foxy/build/fastcdr': /usr/bin/cmake /robofuzz/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/fastcdr
+Invoked command in '/robofuzz/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake /robofuzz/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/fastcdr
+Invoking command in '/robofuzz/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /robofuzz/ros2_foxy/build/fastcdr -- -j12 -l12
+Invoked command in '/robofuzz/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /robofuzz/ros2_foxy/build/fastcdr -- -j12 -l12
+Invoking command in '/robofuzz/ros2_foxy/build/fastcdr': /usr/bin/cmake --install /robofuzz/ros2_foxy/build/fastcdr
+Invoked command in '/robofuzz/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --install /robofuzz/ros2_foxy/build/fastcdr

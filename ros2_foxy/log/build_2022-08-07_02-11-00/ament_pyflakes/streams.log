@@ -1,0 +1,25 @@
+[4.268s] Invoking command in '/robofuzz/ros2_foxy/build/ament_pyflakes': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pycodestyle:/robofuzz/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_pyflakes --editable --build-directory /robofuzz/ros2_foxy/build/ament_pyflakes/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_pyflakes
+[4.954s] running develop
+[5.465s] running egg_info
+[5.465s] creating ament_pyflakes.egg-info
+[5.466s] writing ament_pyflakes.egg-info/PKG-INFO
+[5.466s] writing dependency_links to ament_pyflakes.egg-info/dependency_links.txt
+[5.466s] writing entry points to ament_pyflakes.egg-info/entry_points.txt
+[5.467s] writing requirements to ament_pyflakes.egg-info/requires.txt
+[5.467s] writing top-level names to ament_pyflakes.egg-info/top_level.txt
+[5.470s] writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[5.569s] reading manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[5.571s] writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[5.769s] running build_ext
+[5.786s] Creating /robofuzz/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages/site.py
+[5.807s] Creating /robofuzz/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages/ament-pyflakes.egg-link (link to .)
+[5.808s] Installing ament_pyflakes script to /robofuzz/ros2_foxy/install/ament_pyflakes/bin
+[5.809s] 
+[5.809s] Installed /robofuzz/ros2_foxy/build/ament_pyflakes
+[5.810s] running install_data
+[5.810s] copying package.xml -> /robofuzz/ros2_foxy/install/ament_pyflakes/share/ament_pyflakes
+[5.810s] creating /robofuzz/ros2_foxy/install/ament_pyflakes/share/ament_index
+[5.810s] creating /robofuzz/ros2_foxy/install/ament_pyflakes/share/ament_index/resource_index
+[5.811s] creating /robofuzz/ros2_foxy/install/ament_pyflakes/share/ament_index/resource_index/packages
+[5.811s] copying resource/ament_pyflakes -> /robofuzz/ros2_foxy/install/ament_pyflakes/share/ament_index/resource_index/packages
+[6.043s] Invoked command in '/robofuzz/ros2_foxy/build/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pycodestyle:/robofuzz/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_pyflakes --editable --build-directory /robofuzz/ros2_foxy/build/ament_pyflakes/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_pyflakes

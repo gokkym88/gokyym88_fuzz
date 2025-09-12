@@ -1,0 +1,111 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found pluginlib: 2.5.4 (/robofuzz/ros2_foxy/install/pluginlib/share/pluginlib/cmake)
+-- Found rosbag2_storage: 0.3.9 (/robofuzz/ros2_foxy/install/rosbag2_storage/share/rosbag2_storage/cmake)
+-- Setting yaml-cpp_DIR to: '/robofuzz/ros2_foxy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found sqlite3_vendor: 0.3.9 (/robofuzz/ros2_foxy/install/sqlite3_vendor/share/sqlite3_vendor/cmake)
+-- Found SQLite3: /usr/lib/x86_64-linux-gnu/libsqlite3.so  
+-- Found ament_cmake_gmock: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.9.7 (/robofuzz/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rosbag2_test_common: 0.3.9 (/robofuzz/ros2_foxy/install/rosbag2_test_common/share/rosbag2_test_common/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /robofuzz/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/robofuzz/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gmock sources under '/robofuzz/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/robofuzz/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/robofuzz/ros2_foxy/src/ros2/rosbag2/rosbag2_storage_default_plugins/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/rosbag2_storage_default_plugins
+[35m[1mScanning dependencies of target gmock[0m
+[  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/robofuzz/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 23%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 23%] Built target gmock
+[35m[1mScanning dependencies of target gmock_main[0m
+[ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 38%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 38%] Built target gmock_main
+[35m[1mScanning dependencies of target rosbag2_storage_default_plugins[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rosbag2_storage_default_plugins.dir/src/rosbag2_storage_default_plugins/sqlite/sqlite_wrapper.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rosbag2_storage_default_plugins.dir/src/rosbag2_storage_default_plugins/sqlite/sqlite_statement_wrapper.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosbag2_storage_default_plugins.dir/src/rosbag2_storage_default_plugins/sqlite/sqlite_storage.cpp.o[0m
+[ 69%] [32m[1mLinking CXX shared library librosbag2_storage_default_plugins.so[0m
+[ 69%] Built target rosbag2_storage_default_plugins
+[35m[1mScanning dependencies of target test_sqlite_storage[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_sqlite_storage.dir/test/rosbag2_storage_default_plugins/sqlite/test_sqlite_storage.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable test_sqlite_storage[0m
+[ 84%] Built target test_sqlite_storage
+[35m[1mScanning dependencies of target test_sqlite_wrapper[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_sqlite_wrapper.dir/test/rosbag2_storage_default_plugins/sqlite/test_sqlite_wrapper.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_sqlite_wrapper[0m
+[100%] Built target test_sqlite_wrapper
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins//plugin_description.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/include/rosbag2_storage_default_plugins/sqlite/sqlite_exception.hpp
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/include/rosbag2_storage_default_plugins/sqlite/sqlite_statement_wrapper.hpp
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/include/rosbag2_storage_default_plugins/sqlite/sqlite_storage.hpp
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/include/rosbag2_storage_default_plugins/sqlite/sqlite_wrapper.hpp
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/include/rosbag2_storage_default_plugins/visibility_control.hpp
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/lib/librosbag2_storage_default_plugins.so
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/environment/library_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/environment/library_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/ament_index/resource_index/package_run_dependencies/rosbag2_storage_default_plugins
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/ament_index/resource_index/parent_prefix_path/rosbag2_storage_default_plugins
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/ament_index/resource_index/packages/rosbag2_storage_default_plugins
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/ament_index/resource_index/rosbag2_storage__pluginlib__plugin/rosbag2_storage_default_plugins
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/cmake/rosbag2_storage_default_pluginsConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/cmake/rosbag2_storage_default_pluginsConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosbag2_storage_default_plugins/share/rosbag2_storage_default_plugins/package.xml

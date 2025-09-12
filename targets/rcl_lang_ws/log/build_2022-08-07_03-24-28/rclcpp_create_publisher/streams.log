@@ -1,0 +1,77 @@
+[0.126s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/rcl_lang_ws/src/rclcpp_create_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher
+[2.122s] -- The C compiler identification is GNU 9.4.0
+[2.122s] -- The CXX compiler identification is GNU 9.4.0
+[2.125s] -- Check for working C compiler: /usr/bin/cc
+[2.127s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.128s] -- Detecting C compiler ABI info
+[2.129s] -- Detecting C compiler ABI info - done
+[2.130s] -- Detecting C compile features
+[2.130s] -- Detecting C compile features - done
+[2.133s] -- Check for working CXX compiler: /usr/bin/c++
+[2.134s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.134s] -- Detecting CXX compiler ABI info
+[2.135s] -- Detecting CXX compiler ABI info - done
+[2.135s] -- Detecting CXX compile features
+[2.136s] -- Detecting CXX compile features - done
+[2.138s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.139s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.139s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.139s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.140s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.140s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.140s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.140s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.141s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.141s] -- Looking for pthread.h
+[2.141s] -- Looking for pthread.h - found
+[2.141s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.141s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.141s] -- Looking for pthread_create in pthreads
+[2.159s] -- Looking for pthread_create in pthreads - not found
+[2.159s] -- Looking for pthread_create in pthread
+[2.288s] -- Looking for pthread_create in pthread - found
+[2.292s] -- Found Threads: TRUE  
+[2.812s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.068s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.070s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.070s] -- Configured cppcheck include dirs: 
+[3.070s] -- Configured cppcheck exclude dirs and/or files: 
+[3.072s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.072s] -- Configured cpplint exclude dirs and/or files: 
+[3.074s] -- Added test 'lint_cmake' to check CMake code style
+[3.076s] -- Added test 'uncrustify' to check C / C++ code style
+[3.076s] -- Configured uncrustify additional arguments: 
+[3.077s] -- Added test 'xmllint' to check XML markup files
+[3.084s] -- Configuring done
+[3.098s] -- Generating done
+[3.102s] -- Build files have been written to: /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher
+[3.134s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/rcl_lang_ws/src/rclcpp_create_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher
+[3.142s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher -- -j12 -l12
+[3.246s] [35m[1mScanning dependencies of target rclcpp_create_publisher[0m
+[3.334s] [ 50%] [32mBuilding CXX object CMakeFiles/rclcpp_create_publisher.dir/publisher.cpp.o[0m
+[7.277s] [100%] [32m[1mLinking CXX executable rclcpp_create_publisher[0m
+[7.472s] [100%] Built target rclcpp_create_publisher
+[7.486s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher -- -j12 -l12
+[7.519s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher
+[7.528s] -- Install configuration: ""
+[7.529s] -- Execute custom install script
+[7.529s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/lib/rclcpp_create_publisher/rclcpp_create_publisher
+[7.541s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/ament_index/resource_index/package_run_dependencies/rclcpp_create_publisher
+[7.553s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/ament_index/resource_index/parent_prefix_path/rclcpp_create_publisher
+[7.564s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/ament_prefix_path.sh
+[7.575s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/ament_prefix_path.dsv
+[7.586s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/path.sh
+[7.597s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/path.dsv
+[7.608s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.bash
+[7.619s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.sh
+[7.630s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.zsh
+[7.641s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.dsv
+[7.652s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/package.dsv
+[7.663s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/ament_index/resource_index/packages/rclcpp_create_publisher
+[7.674s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/cmake/rclcpp_create_publisherConfig.cmake
+[7.685s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/cmake/rclcpp_create_publisherConfig-version.cmake
+[7.695s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/package.xml
+[7.711s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher

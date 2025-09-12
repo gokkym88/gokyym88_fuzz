@@ -1,0 +1,10 @@
+# 강화학습 기반 RoboFuzz 필수 의존성
+torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.21.0
+rclpy>=3.0.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+tensorboard>=2.7.0
+gym>=0.21.0
+stable-baselines3>=1.5.0

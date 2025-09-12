@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_index/resource_index/package_run_dependencies/ament_cmake_ros
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_index/resource_index/parent_prefix_path/ament_cmake_ros
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_index/resource_index/packages/ament_cmake_ros
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/package.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gmock.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gtest.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_add_ros_isolated_pytest.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/build_shared_libs.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/run_test_isolated.py

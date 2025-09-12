@@ -1,0 +1,221 @@
+[0.434s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.434s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd1cd6c3100>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd1cd6c3100>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fd1cd6c3610>)
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.442s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.443s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.443s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/robofuzz/targets/idltest_ws'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_msgs) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/idltest_msgs' with type 'ros.ament_cmake' and name 'idltest_msgs'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/idltest_target) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/idltest_target' with type 'ros.ament_cmake' and name 'idltest_target'
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.490s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'idltest_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'idltest_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/robofuzz/targets/idltest_ws/build/idltest_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/robofuzz/targets/idltest_ws/install/idltest_msgs', 'merge_install': False, 'path': '/robofuzz/targets/idltest_ws/src/idltest_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'idltest_target' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'idltest_target' with the following arguments: {'ament_cmake_args': None, 'build_base': '/robofuzz/targets/idltest_ws/build/idltest_target', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/robofuzz/targets/idltest_ws/install/idltest_target', 'merge_install': False, 'path': '/robofuzz/targets/idltest_ws/src/idltest_target', 'symlink_install': True, 'test_result_base': None}
+[0.498s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/robofuzz/targets/idltest_ws/src/idltest_msgs' with build type 'ament_cmake'
+[0.501s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/robofuzz/targets/idltest_ws/src/idltest_msgs'
+[0.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/idltest_ws/src/idltest_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/idltest_ws/install/idltest_msgs
+[4.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/idltest_ws/src/idltest_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/idltest_ws/install/idltest_msgs
+[4.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/idltest_ws/build/idltest_msgs -- -j12 -l12
+[87.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/idltest_ws/build/idltest_msgs -- -j12 -l12
+[89.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/idltest_ws/build/idltest_msgs
+[102.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(idltest_msgs)
+[102.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/idltest_ws/build/idltest_msgs
+[102.825s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs' for CMake module files
+[102.826s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs' for CMake config files
+[102.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_msgs', 'cmake_prefix_path')
+[102.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/cmake_prefix_path.ps1'
+[102.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/cmake_prefix_path.dsv'
+[102.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/cmake_prefix_path.sh'
+[102.859s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/lib'
+[102.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_msgs', 'ld_library_path_lib')
+[102.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/ld_library_path_lib.ps1'
+[102.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/ld_library_path_lib.dsv'
+[102.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/ld_library_path_lib.sh'
+[102.862s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/bin'
+[102.862s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/pkgconfig/idltest_msgs.pc'
+[102.862s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages'
+[102.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_msgs', 'pythonpath')
+[102.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/pythonpath.ps1'
+[102.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/pythonpath.dsv'
+[102.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/pythonpath.sh'
+[102.865s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.ps1'
+[102.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.dsv'
+[102.868s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.sh'
+[102.869s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.bash'
+[102.870s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.zsh'
+[102.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/robofuzz/targets/idltest_ws/install/idltest_msgs/share/colcon-core/packages/idltest_msgs)
+[104.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(idltest_msgs)
+[104.868s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs' for CMake module files
+[104.870s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs' for CMake config files
+[104.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_msgs', 'cmake_prefix_path')
+[104.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/cmake_prefix_path.ps1'
+[104.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/cmake_prefix_path.dsv'
+[104.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/cmake_prefix_path.sh'
+[104.883s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/lib'
+[104.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_msgs', 'ld_library_path_lib')
+[104.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/ld_library_path_lib.ps1'
+[104.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/ld_library_path_lib.dsv'
+[104.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/ld_library_path_lib.sh'
+[104.885s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/bin'
+[104.885s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/pkgconfig/idltest_msgs.pc'
+[104.885s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages'
+[104.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_msgs', 'pythonpath')
+[104.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/pythonpath.ps1'
+[104.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/pythonpath.dsv'
+[104.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/hook/pythonpath.sh'
+[104.892s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.ps1'
+[104.892s] INFO:colcon.colcon_core.shell:Creating package descriptor '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.dsv'
+[104.893s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.sh'
+[104.893s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.bash'
+[104.894s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/package.zsh'
+[104.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/robofuzz/targets/idltest_ws/install/idltest_msgs/share/colcon-core/packages/idltest_msgs)
+[104.895s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/robofuzz/targets/idltest_ws/src/idltest_target' with build type 'ament_cmake'
+[104.895s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/robofuzz/targets/idltest_ws/src/idltest_target'
+[104.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[104.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[104.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_target': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/targets/idltest_ws/src/idltest_target -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/idltest_ws/install/idltest_target
+[107.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_target' returned '0': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/targets/idltest_ws/src/idltest_target -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/idltest_ws/install/idltest_target
+[107.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_target': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /robofuzz/targets/idltest_ws/build/idltest_target -- -j12 -l12
+[274.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_target' returned '0': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /robofuzz/targets/idltest_ws/build/idltest_target -- -j12 -l12
+[274.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_target': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /robofuzz/targets/idltest_ws/build/idltest_target
+[275.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(idltest_target)
+[275.180s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target' for CMake module files
+[275.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_target' returned '0': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /robofuzz/targets/idltest_ws/build/idltest_target
+[275.187s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target' for CMake config files
+[275.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_target', 'cmake_prefix_path')
+[275.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/hook/cmake_prefix_path.ps1'
+[275.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/hook/cmake_prefix_path.dsv'
+[275.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/hook/cmake_prefix_path.sh'
+[275.204s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/lib'
+[275.204s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/bin'
+[275.205s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/lib/pkgconfig/idltest_target.pc'
+[275.205s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/lib/python3.8/site-packages'
+[275.206s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.ps1'
+[275.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.dsv'
+[275.208s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.sh'
+[275.209s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.bash'
+[275.209s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.zsh'
+[275.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/robofuzz/targets/idltest_ws/install/idltest_target/share/colcon-core/packages/idltest_target)
+[275.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(idltest_target)
+[275.278s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target' for CMake module files
+[275.281s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target' for CMake config files
+[275.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('idltest_target', 'cmake_prefix_path')
+[275.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/hook/cmake_prefix_path.ps1'
+[275.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/hook/cmake_prefix_path.dsv'
+[275.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/hook/cmake_prefix_path.sh'
+[275.290s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/lib'
+[275.290s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/bin'
+[275.291s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/lib/pkgconfig/idltest_target.pc'
+[275.291s] Level 1:colcon.colcon_core.environment:checking '/robofuzz/targets/idltest_ws/install/idltest_target/lib/python3.8/site-packages'
+[275.293s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.ps1'
+[275.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.dsv'
+[275.298s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.sh'
+[275.299s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.bash'
+[275.301s] INFO:colcon.colcon_core.shell:Creating package script '/robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.zsh'
+[275.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/robofuzz/targets/idltest_ws/install/idltest_target/share/colcon-core/packages/idltest_target)
+[275.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[275.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[275.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[275.307s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[275.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[275.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[275.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[275.428s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[275.445s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[275.446s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[275.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/robofuzz/targets/idltest_ws/install/local_setup.ps1'
+[275.456s] INFO:colcon.colcon_core.shell:Creating prefix util module '/robofuzz/targets/idltest_ws/install/_local_setup_util_ps1.py'
+[275.464s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/robofuzz/targets/idltest_ws/install/setup.ps1'
+[275.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/robofuzz/targets/idltest_ws/install/local_setup.sh'
+[275.473s] INFO:colcon.colcon_core.shell:Creating prefix util module '/robofuzz/targets/idltest_ws/install/_local_setup_util_sh.py'
+[275.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/robofuzz/targets/idltest_ws/install/setup.sh'
+[275.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/robofuzz/targets/idltest_ws/install/local_setup.bash'
+[275.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/robofuzz/targets/idltest_ws/install/setup.bash'
+[275.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/robofuzz/targets/idltest_ws/install/local_setup.zsh'
+[275.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/robofuzz/targets/idltest_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/sensor_msgs/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h

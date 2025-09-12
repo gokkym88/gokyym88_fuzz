@@ -1,0 +1,8 @@
+source;share/rclcpp_create_node/hook/cmake_prefix_path.ps1
+source;share/rclcpp_create_node/hook/cmake_prefix_path.dsv
+source;share/rclcpp_create_node/hook/cmake_prefix_path.sh
+source;share/rclcpp_create_node/local_setup.bash
+source;share/rclcpp_create_node/local_setup.dsv
+source;share/rclcpp_create_node/local_setup.ps1
+source;share/rclcpp_create_node/local_setup.sh
+source;share/rclcpp_create_node/local_setup.zsh

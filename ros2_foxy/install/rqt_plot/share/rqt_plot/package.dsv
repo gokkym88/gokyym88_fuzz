@@ -1,0 +1,9 @@
+source;share/rqt_plot/hook/pythonpath.ps1
+source;share/rqt_plot/hook/pythonpath.dsv
+source;share/rqt_plot/hook/pythonpath.sh
+source;share/rqt_plot/hook/ament_prefix_path.ps1
+source;share/rqt_plot/hook/ament_prefix_path.dsv
+source;share/rqt_plot/hook/ament_prefix_path.sh
+source;../../build/rqt_plot/src/share/rqt_plot/hook/pythonpath_develop.ps1
+source;../../build/rqt_plot/src/share/rqt_plot/hook/pythonpath_develop.dsv
+source;../../build/rqt_plot/src/share/rqt_plot/hook/pythonpath_develop.sh

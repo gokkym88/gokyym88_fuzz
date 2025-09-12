@@ -1,0 +1,69 @@
+[0.029s] Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_target': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/targets/idltest_ws/src/idltest_target -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/idltest_ws/install/idltest_target
+[0.130s] -- The C compiler identification is GNU 9.4.0
+[0.226s] -- The CXX compiler identification is GNU 9.4.0
+[0.234s] -- Check for working C compiler: /usr/bin/cc
+[0.319s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.320s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.485s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++
+[0.607s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.608s] -- Detecting CXX compiler ABI info
+[0.709s] -- Detecting CXX compiler ABI info - done
+[0.737s] -- Detecting CXX compile features
+[0.737s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.793s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.793s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.071s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.109s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.222s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.404s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.481s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.627s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.748s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.756s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.762s] -- Looking for pthread.h
+[1.896s] -- Looking for pthread.h - found
+[1.896s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.010s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.010s] -- Looking for pthread_create in pthreads
+[2.096s] -- Looking for pthread_create in pthreads - not found
+[2.097s] -- Looking for pthread_create in pthread
+[2.205s] -- Looking for pthread_create in pthread - found
+[2.207s] -- Found Threads: TRUE  
+[2.588s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.605s] -- Found idltest_msgs: 1.0.0 (/robofuzz/targets/idltest_ws/install/idltest_msgs/share/idltest_msgs/cmake)
+[2.783s] -- Configuring done
+[2.796s] -- Generating done
+[2.799s] -- Build files have been written to: /robofuzz/targets/idltest_ws/build/idltest_target
+[2.806s] Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_target' returned '0': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /robofuzz/targets/idltest_ws/src/idltest_target -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/idltest_ws/install/idltest_target
+[2.808s] Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_target': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /robofuzz/targets/idltest_ws/build/idltest_target -- -j12 -l12
+[2.873s] [35m[1mScanning dependencies of target idltest_target[0m
+[3.010s] [ 50%] [32mBuilding CXX object CMakeFiles/idltest_target.dir/idltest_target.cpp.o[0m
+[158.821s] [100%] [32m[1mLinking CXX executable idltest_target[0m
+[169.843s] [100%] Built target idltest_target
+[169.871s] Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_target' returned '0': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /robofuzz/targets/idltest_ws/build/idltest_target -- -j12 -l12
+[169.918s] Invoking command in '/robofuzz/targets/idltest_ws/build/idltest_target': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /robofuzz/targets/idltest_ws/build/idltest_target
+[169.931s] -- Install configuration: ""
+[169.933s] -- Execute custom install script
+[169.934s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/lib/idltest_target/idltest_target
+[169.946s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/ament_index/resource_index/package_run_dependencies/idltest_target
+[169.972s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/ament_index/resource_index/parent_prefix_path/idltest_target
+[169.989s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/environment/ament_prefix_path.sh
+[170.007s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/environment/ament_prefix_path.dsv
+[170.030s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/environment/path.sh
+[170.044s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/environment/path.dsv
+[170.067s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/local_setup.bash
+[170.087s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/local_setup.sh
+[170.099s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/local_setup.zsh
+[170.131s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/local_setup.dsv
+[170.148s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.dsv
+[170.165s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/ament_index/resource_index/packages/idltest_target
+[170.193s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/cmake/ament_cmake_export_dependencies-extras.cmake
+[170.219s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/cmake/idltest_targetConfig.cmake
+[170.238s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/cmake/idltest_targetConfig-version.cmake
+[170.265s] -- Symlinking: /robofuzz/targets/idltest_ws/install/idltest_target/share/idltest_target/package.xml
+[170.287s] Invoked command in '/robofuzz/targets/idltest_ws/build/idltest_target' returned '0': AMENT_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /robofuzz/targets/idltest_ws/build/idltest_target

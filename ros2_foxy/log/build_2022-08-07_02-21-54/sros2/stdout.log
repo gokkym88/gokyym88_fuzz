@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating sros2.egg-info
+writing sros2.egg-info/PKG-INFO
+writing dependency_links to sros2.egg-info/dependency_links.txt
+writing entry points to sros2.egg-info/entry_points.txt
+writing requirements to sros2.egg-info/requires.txt
+writing top-level names to sros2.egg-info/top_level.txt
+writing manifest file 'sros2.egg-info/SOURCES.txt'
+reading manifest file 'sros2.egg-info/SOURCES.txt'
+writing manifest file 'sros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /robofuzz/ros2_foxy/install/sros2/lib/python3.8/site-packages/site.py
+Creating /robofuzz/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2.egg-link (link to .)
+
+Installed /robofuzz/ros2_foxy/build/sros2
+running install_data
+copying package.xml -> /robofuzz/ros2_foxy/install/sros2/share/sros2
+creating /robofuzz/ros2_foxy/install/sros2/share/ament_index
+creating /robofuzz/ros2_foxy/install/sros2/share/ament_index/resource_index
+creating /robofuzz/ros2_foxy/install/sros2/share/ament_index/resource_index/packages
+copying resource/sros2 -> /robofuzz/ros2_foxy/install/sros2/share/ament_index/resource_index/packages
+creating /robofuzz/ros2_foxy/install/sros2/share/sros2/xml_cache
+copying xml_cache/README.md -> /robofuzz/ros2_foxy/install/sros2/share/sros2/xml_cache
+copying xml_cache/xhtml-cache.xml -> /robofuzz/ros2_foxy/install/sros2/share/sros2/xml_cache
+copying xml_cache/xml.xsd -> /robofuzz/ros2_foxy/install/sros2/share/sros2/xml_cache

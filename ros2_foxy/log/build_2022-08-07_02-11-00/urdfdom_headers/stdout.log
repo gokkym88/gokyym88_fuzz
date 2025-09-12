@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- urdfdom_headers version 1.0.5
+-- Configuration successful. Type make install to install urdfdom_headers.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/urdfdom_headers
+-- Install configuration: ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config.cmake
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config-version.cmake
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/pkgconfig/urdfdom_headers.pc
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headersExport.cmake
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_sensor
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_sensor/types.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_sensor/sensor.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/joint.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/pose.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/utils.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/model.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/color.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/twist.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/link.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/types.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/model_state.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/twist.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/types.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_world
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_world/world.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_world/types.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_exception
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_exception/exception.h

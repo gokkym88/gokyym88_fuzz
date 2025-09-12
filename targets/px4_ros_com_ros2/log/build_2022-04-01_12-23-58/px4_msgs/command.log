@@ -1,0 +1,4 @@
+Invoking command in '/robofuzz/targets/px4_ros_com_ros2/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/px4_ros_com_ros2/build/px4_msgs -- -j12 -l12
+Invoked command in '/robofuzz/targets/px4_ros_com_ros2/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/px4_ros_com_ros2/build/px4_msgs -- -j12 -l12
+Invoking command in '/robofuzz/targets/px4_ros_com_ros2/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/px4_ros_com_ros2/build/px4_msgs
+Invoked command in '/robofuzz/targets/px4_ros_com_ros2/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/px4_ros_com_ros2/build/px4_msgs

@@ -1,0 +1,218 @@
+[0.017s] Invoking command in '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/moveit2_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools
+[0.105s] -- The C compiler identification is GNU 9.4.0
+[0.160s] -- The CXX compiler identification is GNU 9.4.0
+[0.166s] -- Check for working C compiler: /usr/bin/cc
+[0.235s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.236s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.333s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.416s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.514s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.811s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.905s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.068s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.265s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.268s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.269s] -- Looking for pthread.h
+[1.339s] -- Looking for pthread.h - found
+[1.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.414s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.414s] -- Looking for pthread_create in pthreads
+[1.477s] -- Looking for pthread_create in pthreads - not found
+[1.477s] -- Looking for pthread_create in pthread
+[1.554s] -- Looking for pthread_create in pthread - found
+[1.555s] -- Found Threads: TRUE  
+[1.769s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.857s] -- Found rviz_ogre_vendor: 8.2.6 (/opt/ros/foxy/share/rviz_ogre_vendor/cmake)
+[1.858s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.861s] -- Found OGRE
+[1.861s] --   static     : OFF
+[1.861s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.861s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.861s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.861s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.861s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[1.861s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.862s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[1.862s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.862s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.862s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.862s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.906s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.915s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.044s] -- Found X11: /usr/include   
+[2.044s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.120s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.120s] -- Looking for gethostbyname
+[2.208s] -- Looking for gethostbyname - found
+[2.208s] -- Looking for connect
+[2.296s] -- Looking for connect - found
+[2.296s] -- Looking for remove
+[2.390s] -- Looking for remove - found
+[2.391s] -- Looking for shmat
+[2.486s] -- Looking for shmat - found
+[2.487s] -- Looking for IceConnectionNumber in ICE
+[2.585s] -- Looking for IceConnectionNumber in ICE - found
+[2.591s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.591s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.597s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.752s] -- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)
+[2.836s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.936s] -- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[3.033s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.036s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/foxy/share/eigen_stl_containers/cmake)
+[3.044s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.047s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[3.052s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[3.067s] -- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.461s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.511s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[3.547s] -- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)
+[3.579s] -- Found rviz_common: 8.2.6 (/opt/ros/foxy/share/rviz_common/cmake)
+[3.685s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.803s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.811s] -- Found rviz_default_plugins: 8.2.6 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[4.411s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.415s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.419s] -- Check if compiler accepts -pthread
+[4.491s] -- Check if compiler accepts -pthread - yes
+[4.576s] -- Configuring done
+[4.764s] -- Generating done
+[4.768s] -- Build files have been written to: /robofuzz/targets/moveit2_ws/build/rviz_visual_tools
+[4.780s] Invoked command in '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/targets/moveit2_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools
+[4.782s] Invoking command in '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/moveit2_ws/build/rviz_visual_tools -- -j12 -l12
+[4.831s] [35m[1mScanning dependencies of target gtest_main_autogen[0m
+[4.831s] [35m[1mScanning dependencies of target gtest_autogen[0m
+[4.831s] [35m[1mScanning dependencies of target rviz_visual_tools_gui_autogen[0m
+[4.831s] [35m[1mScanning dependencies of target rviz_visual_tools_remote_control_autogen[0m
+[4.850s] [  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[4.850s] [  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[4.850s] [  7%] [34m[1mAutomatic MOC for target gtest_main[0m
+[4.850s] [ 10%] [34m[1mAutomatic MOC for target gtest[0m
+[4.875s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[4.876s] [ 10%] Built target gtest_autogen
+[4.876s] [ 10%] Built target gtest_main_autogen
+[4.889s] [35m[1mScanning dependencies of target gtest[0m
+[4.889s] [35m[1mScanning dependencies of target gtest_main[0m
+[4.915s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[4.915s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.921s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.921s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[5.067s] [ 20%] Built target rviz_visual_tools_gui_autogen
+[5.080s] [35m[1mScanning dependencies of target rviz_visual_tools_remote_control[0m
+[5.080s] [35m[1mScanning dependencies of target rviz_visual_tools_gui[0m
+[5.135s] [ 23%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o[0m
+[5.141s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o[0m
+[5.212s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o[0m
+[5.213s] [ 30%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o[0m
+[5.219s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o[0m
+[5.220s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o[0m
+[5.871s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.918s] [ 38%] Built target gtest_main
+[13.340s] [ 41%] [32m[1mLinking CXX shared library librviz_visual_tools_remote_control.so[0m
+[13.505s] [ 41%] Built target rviz_visual_tools_remote_control
+[13.516s] [35m[1mScanning dependencies of target rviz_visual_tools_autogen[0m
+[13.528s] [ 43%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[13.549s] [ 43%] Built target rviz_visual_tools_autogen
+[13.561s] [35m[1mScanning dependencies of target rviz_visual_tools[0m
+[13.616s] [ 46%] [32m[1mLinking CXX shared library librviz_visual_tools_gui.so[0m
+[13.665s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o[0m
+[13.679s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[13.680s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m
+[14.982s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.063s] [ 56%] Built target gtest
+[15.446s] [ 56%] Built target rviz_visual_tools_gui
+[29.566s] [ 58%] [32m[1mLinking CXX shared library librviz_visual_tools.so[0m
+[29.712s] [ 58%] Built target rviz_visual_tools
+[29.724s] [35m[1mScanning dependencies of target rviz_visual_tools_rvt_test_autogen[0m
+[29.724s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple_autogen[0m
+[29.724s] [35m[1mScanning dependencies of target rviz_visual_tools_demo_autogen[0m
+[29.735s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[29.735s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[29.735s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[29.755s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[29.755s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[29.755s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[29.767s] [35m[1mScanning dependencies of target rviz_visual_tools_demo[0m
+[29.767s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple[0m
+[29.767s] [35m[1mScanning dependencies of target rviz_visual_tools_rvt_test[0m
+[29.852s] [ 71%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o[0m
+[29.852s] [ 71%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o[0m
+[29.855s] [ 74%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o[0m
+[29.867s] [ 76%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o[0m
+[29.870s] [ 79%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o[0m
+[29.871s] [ 82%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o[0m
+[33.187s] [ 84%] [32m[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so[0m
+[33.348s] [ 84%] Built target rviz_visual_tools_imarker_simple
+[33.360s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo_autogen[0m
+[33.373s] [ 87%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[33.395s] [ 87%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[33.410s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo[0m
+[33.500s] [ 89%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o[0m
+[33.510s] [ 92%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o[0m
+[34.226s] [ 94%] [32m[1mLinking CXX executable rviz_visual_tools_demo[0m
+[34.404s] [ 94%] Built target rviz_visual_tools_demo
+[35.643s] [ 97%] [32m[1mLinking CXX executable rviz_visual_tools_rvt_test[0m
+[35.827s] [ 97%] Built target rviz_visual_tools_rvt_test
+[36.891s] [100%] [32m[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo[0m
+[37.028s] [100%] Built target rviz_visual_tools_imarker_simple_demo
+[37.040s] Invoked command in '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/moveit2_ws/build/rviz_visual_tools -- -j12 -l12
+[37.118s] Invoking command in '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/moveit2_ws/build/rviz_visual_tools
+[37.132s] -- Install configuration: "Release"
+[37.133s] -- Execute custom install script
+[37.133s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools//plugin_description.xml
+[37.146s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[37.158s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[37.170s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[37.180s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[37.189s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[37.198s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[37.207s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[37.217s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[37.226s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[37.236s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[37.245s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[37.255s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[37.264s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[37.274s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[37.284s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[37.293s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[37.302s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[37.311s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[37.319s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[37.328s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[37.336s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[37.345s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[37.354s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[37.363s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[37.372s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[37.380s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[37.389s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[37.398s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[37.406s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.415s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.424s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[37.432s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[37.441s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[37.449s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[37.458s] -- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[37.459s] -- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+[37.459s] -- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[37.460s] -- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+[37.460s] -- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[37.461s] -- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+[37.461s] -- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[37.462s] -- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+[37.464s] Invoked command in '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/moveit2_ws/build/rviz_visual_tools

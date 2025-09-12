@@ -1,0 +1,23 @@
+[0.117s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber -- -j12 -l12
+[1.486s] [100%] Built target rclcpp_create_subscriber
+[1.492s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber -- -j12 -l12
+[1.562s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber
+[1.588s] -- Install configuration: ""
+[1.588s] -- Execute custom install script
+[1.588s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/lib/rclcpp_create_subscriber/rclcpp_create_subscriber
+[1.588s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/ament_index/resource_index/package_run_dependencies/rclcpp_create_subscriber
+[1.588s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/ament_index/resource_index/parent_prefix_path/rclcpp_create_subscriber
+[1.589s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/ament_prefix_path.sh
+[1.589s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/ament_prefix_path.dsv
+[1.589s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/path.sh
+[1.589s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/environment/path.dsv
+[1.591s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.bash
+[1.591s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.sh
+[1.592s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.zsh
+[1.593s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/local_setup.dsv
+[1.594s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/package.dsv
+[1.615s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/ament_index/resource_index/packages/rclcpp_create_subscriber
+[1.616s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/cmake/rclcpp_create_subscriberConfig.cmake
+[1.616s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/cmake/rclcpp_create_subscriberConfig-version.cmake
+[1.617s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_subscriber/share/rclcpp_create_subscriber/package.xml
+[1.660s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_subscriber

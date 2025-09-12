@@ -1,0 +1,177 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/robofuzz/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found action_msgs: 1.0.0 (/robofuzz/ros2_foxy/install/action_msgs/share/action_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /robofuzz/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rcl: 1.1.14 (/robofuzz/ros2_foxy/install/rcl/share/rcl/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/robofuzz/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.9.7 (/robofuzz/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found test_msgs: 1.0.0 (/robofuzz/ros2_foxy/install/test_msgs/share/test_msgs/cmake)
+-- Found gtest sources under '/robofuzz/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found rmw_cyclonedds_cpp: 0.7.9 (/robofuzz/ros2_foxy/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Found rmw_fastrtps_cpp: 1.3.1 (/robofuzz/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_fastrtps_dynamic_cpp: 1.3.1 (/robofuzz/ros2_foxy/install/rmw_fastrtps_dynamic_cpp/share/rmw_fastrtps_dynamic_cpp/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/robofuzz/ros2_foxy/src/ros2/rcl/rcl_action/include>;/robofuzz/ros2_foxy/src/ros2/rcl/rcl_action/include;/robofuzz/ros2_foxy/src/ros2/rcl/rcl_action/src
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/rcl_action
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target rcl_action[0m
+[35m[1mScanning dependencies of target gtest[0m
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_client.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_server.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_handle.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_state_machine.c.o[0m
+[ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/names.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/graph.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/types.c.o[0m
+[ 22%] [32m[1mLinking C shared library librcl_action.so[0m
+[ 22%] Built target rcl_action
+[ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 25%] Built target gtest_main
+[ 27%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 27%] Built target gtest
+[35m[1mScanning dependencies of target test_goal_state_machine[0m
+[35m[1mScanning dependencies of target test_action_server[0m
+[35m[1mScanning dependencies of target test_names[0m
+[35m[1mScanning dependencies of target test_wait[0m
+[35m[1mScanning dependencies of target test_action_interaction__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_graph__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target test_action_client[0m
+[35m[1mScanning dependencies of target test_action_interaction__rmw_fastrtps_cpp[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/test_goal_state_machine.dir/test/rcl_action/test_goal_state_machine.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/test_names.dir/test/rcl_action/test_names.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/test_action_server.dir/test/rcl_action/test_action_server.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_cyclonedds_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_wait.dir/test/rcl_action/test_wait.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/test_action_client.dir/test/rcl_action/test_action_client.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[35m[1mScanning dependencies of target test_action_communication__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target test_action_communication__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_types[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[35m[1mScanning dependencies of target test_action_interaction__rmw_cyclonedds_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/test_types.dir/test/rcl_action/test_types.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable test_goal_state_machine[0m
+[ 59%] [32m[1mLinking CXX executable test_wait[0m
+[ 59%] Built target test_goal_state_machine
+[35m[1mScanning dependencies of target test_goal_handle[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/test_goal_handle.dir/test/rcl_action/test_goal_handle.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable test_action_client[0m
+[ 65%] [32m[1mLinking CXX executable test_action_interaction__rmw_fastrtps_cpp[0m
+[ 65%] Built target test_wait
+[35m[1mScanning dependencies of target test_action_communication__rmw_cyclonedds_cpp[0m
+[ 68%] [32m[1mLinking CXX executable test_action_interaction__rmw_fastrtps_dynamic_cpp[0m
+[ 70%] [32m[1mLinking CXX executable test_names[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_graph__rmw_cyclonedds_cpp[0m
+[ 77%] [32m[1mLinking CXX executable test_types[0m
+[ 77%] Built target test_action_client
+[ 77%] Built target test_action_interaction__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_graph__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target test_graph__rmw_fastrtps_dynamic_cpp[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_fastrtps_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 79%] Built target test_action_interaction__rmw_fastrtps_dynamic_cpp
+[ 81%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable test_action_communication__rmw_fastrtps_dynamic_cpp[0m
+[ 84%] Built target test_names
+[ 86%] [32m[1mLinking CXX executable test_action_communication__rmw_fastrtps_cpp[0m
+[ 86%] Built target test_graph__rmw_cyclonedds_cpp
+[ 88%] [32m[1mLinking CXX executable test_action_interaction__rmw_cyclonedds_cpp[0m
+[ 88%] Built target test_types
+[ 88%] Built target test_action_communication__rmw_fastrtps_dynamic_cpp
+[ 88%] Built target test_action_communication__rmw_fastrtps_cpp
+[ 88%] Built target test_action_interaction__rmw_cyclonedds_cpp
+[ 90%] [32m[1mLinking CXX executable test_action_server[0m
+[ 90%] Built target test_action_server
+[ 93%] [32m[1mLinking CXX executable test_action_communication__rmw_cyclonedds_cpp[0m
+[ 93%] Built target test_action_communication__rmw_cyclonedds_cpp
+[ 95%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_dynamic_cpp[0m
+[ 95%] Built target test_graph__rmw_fastrtps_dynamic_cpp
+[ 97%] [32m[1mLinking CXX executable test_goal_handle[0m
+[100%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_cpp[0m
+[100%] Built target test_goal_handle
+[100%] Built target test_graph__rmw_fastrtps_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/action_client.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/action_server.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/default_qos.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/goal_handle.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/goal_state_machine.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/graph.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/names.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/rcl_action.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/types.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/visibility_control.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/include/rcl_action/wait.h
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/environment/library_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/environment/library_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/ament_index/resource_index/package_run_dependencies/rcl_action
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/ament_index/resource_index/parent_prefix_path/rcl_action
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/ament_index/resource_index/packages/rcl_action
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/package.xml
+-- Installing: /robofuzz/ros2_foxy/install/rcl_action/lib/librcl_action.so
+-- Set runtime path of "/robofuzz/ros2_foxy/install/rcl_action/lib/librcl_action.so" to ""
+-- Installing: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionExport.cmake
+-- Installing: /robofuzz/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionExport-noconfig.cmake

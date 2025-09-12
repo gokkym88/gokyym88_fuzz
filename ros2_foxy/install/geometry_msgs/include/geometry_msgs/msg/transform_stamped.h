@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/geometry_msgs/rosidl_generator_c/geometry_msgs/msg/transform_stamped.h

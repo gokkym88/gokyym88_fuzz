@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/example_interfaces/rosidl_generator_c/example_interfaces/msg/detail/char__type_support.h

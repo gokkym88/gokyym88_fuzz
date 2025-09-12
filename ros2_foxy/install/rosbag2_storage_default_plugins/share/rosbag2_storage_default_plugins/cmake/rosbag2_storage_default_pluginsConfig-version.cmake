@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/rosbag2_storage_default_plugins/ament_cmake_core/rosbag2_storage_default_pluginsConfig-version.cmake

@@ -1,0 +1,23 @@
+[3.159s] Invoking command in '/robofuzz/ros2_foxy/build/domain_coordinator': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/domain_coordinator/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/domain_coordinator --editable --build-directory /robofuzz/ros2_foxy/build/domain_coordinator/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/domain_coordinator
+[3.733s] running develop
+[4.095s] running egg_info
+[4.095s] creating domain_coordinator.egg-info
+[4.096s] writing domain_coordinator.egg-info/PKG-INFO
+[4.096s] writing dependency_links to domain_coordinator.egg-info/dependency_links.txt
+[4.096s] writing requirements to domain_coordinator.egg-info/requires.txt
+[4.097s] writing top-level names to domain_coordinator.egg-info/top_level.txt
+[4.100s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[4.203s] reading manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[4.205s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[4.330s] running build_ext
+[4.336s] Creating /robofuzz/ros2_foxy/install/domain_coordinator/lib/python3.8/site-packages/site.py
+[4.337s] Creating /robofuzz/ros2_foxy/install/domain_coordinator/lib/python3.8/site-packages/domain-coordinator.egg-link (link to .)
+[4.338s] 
+[4.338s] Installed /robofuzz/ros2_foxy/build/domain_coordinator
+[4.338s] running install_data
+[4.339s] copying package.xml -> /robofuzz/ros2_foxy/install/domain_coordinator/share/domain_coordinator
+[4.339s] creating /robofuzz/ros2_foxy/install/domain_coordinator/share/ament_index
+[4.339s] creating /robofuzz/ros2_foxy/install/domain_coordinator/share/ament_index/resource_index
+[4.339s] creating /robofuzz/ros2_foxy/install/domain_coordinator/share/ament_index/resource_index/packages
+[4.339s] copying resource/domain_coordinator -> /robofuzz/ros2_foxy/install/domain_coordinator/share/ament_index/resource_index/packages
+[4.613s] Invoked command in '/robofuzz/ros2_foxy/build/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/domain_coordinator/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/domain_coordinator --editable --build-directory /robofuzz/ros2_foxy/build/domain_coordinator/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/domain_coordinator

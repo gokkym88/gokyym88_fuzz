@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/action_msgs/rosidl_generator_c/action_msgs/msg/detail/goal_info__type_support.h

@@ -1,0 +1,9 @@
+source;share/rqt_service_caller/hook/pythonpath.ps1
+source;share/rqt_service_caller/hook/pythonpath.dsv
+source;share/rqt_service_caller/hook/pythonpath.sh
+source;share/rqt_service_caller/hook/ament_prefix_path.ps1
+source;share/rqt_service_caller/hook/ament_prefix_path.dsv
+source;share/rqt_service_caller/hook/ament_prefix_path.sh
+source;../../build/rqt_service_caller/src/share/rqt_service_caller/hook/pythonpath_develop.ps1
+source;../../build/rqt_service_caller/src/share/rqt_service_caller/hook/pythonpath_develop.dsv
+source;../../build/rqt_service_caller/src/share/rqt_service_caller/hook/pythonpath_develop.sh

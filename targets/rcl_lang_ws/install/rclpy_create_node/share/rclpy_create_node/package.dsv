@@ -1,0 +1,12 @@
+source;share/rclpy_create_node/hook/path.ps1
+source;share/rclpy_create_node/hook/path.dsv
+source;share/rclpy_create_node/hook/path.sh
+source;share/rclpy_create_node/hook/pythonpath.ps1
+source;share/rclpy_create_node/hook/pythonpath.dsv
+source;share/rclpy_create_node/hook/pythonpath.sh
+source;share/rclpy_create_node/hook/ament_prefix_path.ps1
+source;share/rclpy_create_node/hook/ament_prefix_path.dsv
+source;share/rclpy_create_node/hook/ament_prefix_path.sh
+source;../../build/rclpy_create_node/share/rclpy_create_node/hook/pythonpath_develop.ps1
+source;../../build/rclpy_create_node/share/rclpy_create_node/hook/pythonpath_develop.dsv
+source;../../build/rclpy_create_node/share/rclpy_create_node/hook/pythonpath_develop.sh

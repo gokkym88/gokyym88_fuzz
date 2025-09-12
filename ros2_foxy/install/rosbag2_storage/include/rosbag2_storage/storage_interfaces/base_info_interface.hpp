@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros2/rosbag2/rosbag2_storage/include/rosbag2_storage/storage_interfaces/base_info_interface.hpp

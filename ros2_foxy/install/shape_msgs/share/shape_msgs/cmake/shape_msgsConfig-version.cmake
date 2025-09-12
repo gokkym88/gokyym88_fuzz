@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/shape_msgs/ament_cmake_core/shape_msgsConfig-version.cmake

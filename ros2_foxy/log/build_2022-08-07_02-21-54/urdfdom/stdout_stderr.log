@@ -1,0 +1,91 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- The C compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- urdfdom version 1.0.0
+-- Performing Test HAS_VISIBILITY
+-- Performing Test HAS_VISIBILITY - Success
+-- Found tinyxml_vendor: 0.8.2 (/robofuzz/ros2_foxy/install/tinyxml_vendor/share/tinyxml_vendor/cmake)
+-- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+-- Found console_bridge_vendor: 1.2.4 (/robofuzz/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/cmake)
+-- Configuration successful. Type make to compile urdfdom
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/urdfdom
+[35m[1mScanning dependencies of target urdfdom_world[0m
+[35m[1mScanning dependencies of target urdfdom_model[0m
+[35m[1mScanning dependencies of target urdfdom_model_state[0m
+[  4%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_model.dir/src/pose.cpp.o[0m
+[  8%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_world.dir/src/pose.cpp.o[0m
+[ 12%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_model.dir/src/model.cpp.o[0m
+[ 16%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_world.dir/src/model.cpp.o[0m
+[ 20%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_model_state.dir/src/urdf_model_state.cpp.o[0m
+[ 25%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_world.dir/src/link.cpp.o[0m
+[ 29%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_model.dir/src/link.cpp.o[0m
+[ 33%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_model.dir/src/joint.cpp.o[0m
+[ 37%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_model_state.dir/src/twist.cpp.o[0m
+[ 41%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_world.dir/src/world.cpp.o[0m
+[ 45%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_world.dir/src/joint.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library ../lib/liburdfdom_model_state.so[0m
+[ 50%] Built target urdfdom_model_state
+[ 54%] [32m[1mLinking CXX shared library ../lib/liburdfdom_model.so[0m
+[ 54%] Built target urdfdom_model
+[ 58%] [32m[1mLinking CXX shared library ../lib/liburdfdom_world.so[0m
+[ 58%] Built target urdfdom_world
+[35m[1mScanning dependencies of target urdf_unit_test[0m
+[ 62%] [32mBuilding CXX object urdf_parser/test/CMakeFiles/urdf_unit_test.dir/urdf_unit_test.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable ../../bin/urdf_unit_test[0m
+[ 66%] Built target urdf_unit_test
+[35m[1mScanning dependencies of target check_urdf[0m
+[ 70%] [32mBuilding CXX object urdf_parser/CMakeFiles/check_urdf.dir/src/check_urdf.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ../bin/check_urdf[0m
+[ 75%] Built target check_urdf
+[35m[1mScanning dependencies of target urdfdom_sensor[0m
+[ 79%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdfdom_sensor.dir/src/urdf_sensor.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library ../lib/liburdfdom_sensor.so[0m
+[ 83%] Built target urdfdom_sensor
+[35m[1mScanning dependencies of target urdf_mem_test[0m
+[ 87%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdf_mem_test.dir/test/memtest.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable ../bin/urdf_mem_test[0m
+[ 91%] Built target urdf_mem_test
+[35m[1mScanning dependencies of target urdf_to_graphiz[0m
+[ 95%] [32mBuilding CXX object urdf_parser/CMakeFiles/urdf_to_graphiz.dir/src/urdf_to_graphiz.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../bin/urdf_to_graphiz[0m
+[100%] Built target urdf_to_graphiz
+-- Install configuration: "Release"
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/share/urdfdom/package.xml
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/urdfdom/cmake/urdfdom-config.cmake
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/pkgconfig/urdfdom.pc
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/bin/check_urdf
+-- Set runtime path of "/robofuzz/ros2_foxy/install/urdfdom/bin/check_urdf" to ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/bin/urdf_to_graphiz
+-- Set runtime path of "/robofuzz/ros2_foxy/install/urdfdom/bin/urdf_to_graphiz" to ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/bin/urdf_mem_test
+-- Set runtime path of "/robofuzz/ros2_foxy/install/urdfdom/bin/urdf_mem_test" to ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_model.so.1.0
+-- Set runtime path of "/robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_model.so.1.0" to ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_model.so
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_world.so.1.0
+-- Set runtime path of "/robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_world.so.1.0" to ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_world.so
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_sensor.so.1.0
+-- Set runtime path of "/robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_sensor.so.1.0" to ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_sensor.so
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_model_state.so.1.0
+-- Set runtime path of "/robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_model_state.so.1.0" to ""
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/liburdfdom_model_state.so
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/urdfdom/cmake/urdfdomExport.cmake
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/lib/urdfdom/cmake/urdfdomExport-release.cmake
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/include/urdf_parser
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/include/urdf_parser/exportdecl.h
+-- Installing: /robofuzz/ros2_foxy/install/urdfdom/include/urdf_parser/urdf_parser.h

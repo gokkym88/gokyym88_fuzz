@@ -1,0 +1,25 @@
+[2.916s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclpy_publisher': PYTHONPATH=/robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher --editable --build-directory /robofuzz/targets/rcl_lang_ws/build/rclpy_publisher/build --no-deps install_data --install-dir /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher
+[3.483s] running develop
+[3.881s] running egg_info
+[3.881s] creating rclpy_publisher.egg-info
+[3.882s] writing rclpy_publisher.egg-info/PKG-INFO
+[3.882s] writing dependency_links to rclpy_publisher.egg-info/dependency_links.txt
+[3.882s] writing entry points to rclpy_publisher.egg-info/entry_points.txt
+[3.883s] writing requirements to rclpy_publisher.egg-info/requires.txt
+[3.883s] writing top-level names to rclpy_publisher.egg-info/top_level.txt
+[3.885s] writing manifest file 'rclpy_publisher.egg-info/SOURCES.txt'
+[3.977s] reading manifest file 'rclpy_publisher.egg-info/SOURCES.txt'
+[3.978s] writing manifest file 'rclpy_publisher.egg-info/SOURCES.txt'
+[4.100s] running build_ext
+[4.100s] Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/lib/python3.8/site-packages/site.py
+[4.105s] Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/lib/python3.8/site-packages/rclpy-publisher.egg-link (link to .)
+[4.107s] Installing rclpy_publisher script to /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/bin
+[4.108s] 
+[4.108s] Installed /robofuzz/targets/rcl_lang_ws/build/rclpy_publisher
+[4.108s] running install_data
+[4.108s] creating /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/share/ament_index
+[4.109s] creating /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/share/ament_index/resource_index
+[4.109s] creating /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/share/ament_index/resource_index/packages
+[4.109s] copying resource/rclpy_publisher -> /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/share/ament_index/resource_index/packages
+[4.109s] copying package.xml -> /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/share/rclpy_publisher
+[4.170s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclpy_publisher' returned '0': PYTHONPATH=/robofuzz/targets/rcl_lang_ws/install/rclpy_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher --editable --build-directory /robofuzz/targets/rcl_lang_ws/build/rclpy_publisher/build --no-deps install_data --install-dir /robofuzz/targets/rcl_lang_ws/install/rclpy_publisher

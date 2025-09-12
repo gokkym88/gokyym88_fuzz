@@ -1,0 +1,17 @@
+[0.988s] Invoking command in '/robofuzz/ros2_foxy/build/ament_copyright': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_copyright --editable --build-directory /robofuzz/ros2_foxy/build/ament_copyright/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_copyright
+[1.321s] running develop
+[1.514s] running egg_info
+[1.514s] writing ament_copyright.egg-info/PKG-INFO
+[1.514s] writing dependency_links to ament_copyright.egg-info/dependency_links.txt
+[1.515s] writing entry points to ament_copyright.egg-info/entry_points.txt
+[1.515s] writing requirements to ament_copyright.egg-info/requires.txt
+[1.515s] writing top-level names to ament_copyright.egg-info/top_level.txt
+[1.569s] reading manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[1.571s] writing manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[1.629s] running build_ext
+[1.630s] Creating /robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages/ament-copyright.egg-link (link to .)
+[1.631s] Installing ament_copyright script to /robofuzz/ros2_foxy/install/ament_copyright/bin
+[1.631s] 
+[1.632s] Installed /robofuzz/ros2_foxy/build/ament_copyright
+[1.632s] running install_data
+[1.656s] Invoked command in '/robofuzz/ros2_foxy/build/ament_copyright' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_copyright --editable --build-directory /robofuzz/ros2_foxy/build/ament_copyright/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_copyright

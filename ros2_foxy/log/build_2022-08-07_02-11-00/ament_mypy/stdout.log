@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating ament_mypy.egg-info
+writing ament_mypy.egg-info/PKG-INFO
+writing dependency_links to ament_mypy.egg-info/dependency_links.txt
+writing entry points to ament_mypy.egg-info/entry_points.txt
+writing requirements to ament_mypy.egg-info/requires.txt
+writing top-level names to ament_mypy.egg-info/top_level.txt
+writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+reading manifest file 'ament_mypy.egg-info/SOURCES.txt'
+writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+running build_ext
+Creating /robofuzz/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/site.py
+Creating /robofuzz/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament-mypy.egg-link (link to .)
+Installing ament_mypy script to /robofuzz/ros2_foxy/install/ament_mypy/bin
+
+Installed /robofuzz/ros2_foxy/build/ament_mypy
+running install_data
+copying package.xml -> /robofuzz/ros2_foxy/install/ament_mypy/share/ament_mypy
+creating /robofuzz/ros2_foxy/install/ament_mypy/share/ament_index
+creating /robofuzz/ros2_foxy/install/ament_mypy/share/ament_index/resource_index
+creating /robofuzz/ros2_foxy/install/ament_mypy/share/ament_index/resource_index/packages
+copying resource/ament_mypy -> /robofuzz/ros2_foxy/install/ament_mypy/share/ament_index/resource_index/packages

@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros2/rosbag2/rosbag2_cpp/include/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp

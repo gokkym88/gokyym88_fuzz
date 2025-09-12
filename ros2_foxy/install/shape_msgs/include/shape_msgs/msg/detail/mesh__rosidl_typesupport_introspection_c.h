@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/shape_msgs/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h

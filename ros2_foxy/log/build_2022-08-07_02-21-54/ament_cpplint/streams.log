@@ -1,0 +1,17 @@
+[3.993s] Invoking command in '/robofuzz/ros2_foxy/build/ament_cpplint': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_cpplint --editable --build-directory /robofuzz/ros2_foxy/build/ament_cpplint/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_cpplint
+[4.470s] running develop
+[4.730s] running egg_info
+[4.731s] writing ament_cpplint.egg-info/PKG-INFO
+[4.731s] writing dependency_links to ament_cpplint.egg-info/dependency_links.txt
+[4.731s] writing entry points to ament_cpplint.egg-info/entry_points.txt
+[4.731s] writing requirements to ament_cpplint.egg-info/requires.txt
+[4.732s] writing top-level names to ament_cpplint.egg-info/top_level.txt
+[4.810s] reading manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+[4.812s] writing manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+[4.892s] running build_ext
+[4.892s] Creating /robofuzz/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament-cpplint.egg-link (link to .)
+[4.894s] Installing ament_cpplint script to /robofuzz/ros2_foxy/install/ament_cpplint/bin
+[4.896s] 
+[4.897s] Installed /robofuzz/ros2_foxy/build/ament_cpplint
+[4.897s] running install_data
+[5.381s] Invoked command in '/robofuzz/ros2_foxy/build/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_cpplint --editable --build-directory /robofuzz/ros2_foxy/build/ament_cpplint/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_cpplint

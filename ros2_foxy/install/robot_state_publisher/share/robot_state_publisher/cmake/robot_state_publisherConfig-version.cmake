@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/robot_state_publisher/ament_cmake_core/robot_state_publisherConfig-version.cmake

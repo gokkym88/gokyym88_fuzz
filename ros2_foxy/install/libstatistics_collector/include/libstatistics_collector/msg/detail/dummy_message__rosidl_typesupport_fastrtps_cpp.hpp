@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/libstatistics_collector/rosidl_typesupport_fastrtps_cpp/libstatistics_collector/msg/detail/dummy_message__rosidl_typesupport_fastrtps_cpp.hpp

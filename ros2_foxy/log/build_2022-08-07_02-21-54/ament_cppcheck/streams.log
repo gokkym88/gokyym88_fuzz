@@ -1,0 +1,17 @@
+[2.475s] Invoking command in '/robofuzz/ros2_foxy/build/ament_cppcheck': PYTHONPATH=/robofuzz/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_cppcheck --editable --build-directory /robofuzz/ros2_foxy/build/ament_cppcheck/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_cppcheck
+[2.832s] running develop
+[3.040s] running egg_info
+[3.040s] writing ament_cppcheck.egg-info/PKG-INFO
+[3.040s] writing dependency_links to ament_cppcheck.egg-info/dependency_links.txt
+[3.041s] writing entry points to ament_cppcheck.egg-info/entry_points.txt
+[3.041s] writing requirements to ament_cppcheck.egg-info/requires.txt
+[3.041s] writing top-level names to ament_cppcheck.egg-info/top_level.txt
+[3.101s] reading manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[3.102s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[3.167s] running build_ext
+[3.168s] Creating /robofuzz/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages/ament-cppcheck.egg-link (link to .)
+[3.169s] Installing ament_cppcheck script to /robofuzz/ros2_foxy/install/ament_cppcheck/bin
+[3.169s] 
+[3.169s] Installed /robofuzz/ros2_foxy/build/ament_cppcheck
+[3.169s] running install_data
+[3.320s] Invoked command in '/robofuzz/ros2_foxy/build/ament_cppcheck' returned '0': PYTHONPATH=/robofuzz/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_cppcheck --editable --build-directory /robofuzz/ros2_foxy/build/ament_cppcheck/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_cppcheck

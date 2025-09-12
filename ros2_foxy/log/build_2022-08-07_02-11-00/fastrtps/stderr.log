@@ -1,0 +1,6 @@
+CMake Error at cmake/common/eprosima_libraries.cmake:243 (message):
+  Cannot find package Asio
+Call Stack (most recent call first):
+  CMakeLists.txt:221 (eprosima_find_thirdparty)
+
+

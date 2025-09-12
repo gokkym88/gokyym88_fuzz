@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/geometry2
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/ament_index/resource_index/package_run_dependencies/geometry2
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/ament_index/resource_index/parent_prefix_path/geometry2
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/ament_index/resource_index/packages/geometry2
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/cmake/geometry2Config.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/cmake/geometry2Config-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/geometry2/share/geometry2/package.xml

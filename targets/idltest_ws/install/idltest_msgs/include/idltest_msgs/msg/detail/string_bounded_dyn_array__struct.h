@@ -1,0 +1,1 @@
+/robofuzz/targets/idltest_ws/build/idltest_msgs/rosidl_generator_c/idltest_msgs/msg/detail/string_bounded_dyn_array__struct.h

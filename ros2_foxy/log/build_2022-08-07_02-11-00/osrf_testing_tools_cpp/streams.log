@@ -1,0 +1,155 @@
+[1.161s] Invoking command in '/robofuzz/ros2_foxy/build/osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp
+[1.625s] -- The C compiler identification is GNU 9.4.0
+[1.625s] -- The CXX compiler identification is GNU 9.4.0
+[1.626s] -- Check for working C compiler: /usr/bin/cc
+[1.627s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.627s] -- Detecting C compiler ABI info
+[1.628s] -- Detecting C compiler ABI info - done
+[1.628s] -- Detecting C compile features
+[1.632s] -- Detecting C compile features - done
+[1.632s] -- Check for working CXX compiler: /usr/bin/c++
+[1.659s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.661s] -- Detecting CXX compiler ABI info
+[1.852s] -- Detecting CXX compiler ABI info - done
+[1.881s] -- Detecting CXX compile features
+[1.881s] -- Detecting CXX compile features - done
+[1.935s] -- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR) 
+[1.947s] -- Found libbfd: /usr/lib/x86_64-linux-gnu/libbfd.so  
+[1.960s] -- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR) 
+[1.964s] -- Found Backward: /robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp  
+[1.997s] -- googletest version '1.10.0.1' selected, of versions: '1.8.1;1.10.0.1'
+[1.997s] -- building googletest from '/robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'...
+[2.257s] -- Configuring done
+[2.262s] -- Generating done
+[2.270s] -- Build files have been written to: /robofuzz/ros2_foxy/build/osrf_testing_tools_cpp/googletest-1.10.0.1-extracted
+[2.407s] Scanning dependencies of target googletest
+[2.440s] [ 11%] Creating directories for 'googletest'
+[2.593s] [ 22%] Performing download step (verify and extract) for 'googletest'
+[2.607s] -- verifying file...
+[2.607s]      file='/robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'
+[2.609s] -- verifying file... done
+[2.634s] -- extracting...
+[2.635s]      src='/robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'
+[2.635s]      dst='/robofuzz/ros2_foxy/build/osrf_testing_tools_cpp/googletest-1.10.0.1-extracted/googletest-1.10.0.1-src'
+[2.635s] -- extracting... [tar xfz]
+[2.699s] -- extracting... [analysis]
+[2.703s] -- extracting... [rename]
+[2.703s] -- extracting... [clean up]
+[2.703s] -- extracting... done
+[2.741s] [ 33%] No patch step for 'googletest'
+[2.802s] [ 44%] No update step for 'googletest'
+[2.855s] [ 55%] No configure step for 'googletest'
+[2.901s] [ 66%] No build step for 'googletest'
+[2.952s] [ 77%] No install step for 'googletest'
+[2.993s] [ 88%] No test step for 'googletest'
+[3.040s] [100%] Completed 'googletest'
+[3.115s] [100%] Built target googletest
+[3.232s] -- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+[3.234s] -- Looking for pthread.h
+[3.400s] -- Looking for pthread.h - found
+[3.401s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.552s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.552s] -- Looking for pthread_create in pthreads
+[3.656s] -- Looking for pthread_create in pthreads - not found
+[3.656s] -- Looking for pthread_create in pthread
+[3.886s] -- Looking for pthread_create in pthread - found
+[3.890s] -- Found Threads: TRUE  
+[3.932s] -- Configuring done
+[4.078s] -- Generating done
+[4.089s] -- Build files have been written to: /robofuzz/ros2_foxy/build/osrf_testing_tools_cpp
+[4.223s] Invoked command in '/robofuzz/ros2_foxy/build/osrf_testing_tools_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp
+[4.224s] Invoking command in '/robofuzz/ros2_foxy/build/osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/ros2_foxy/build/osrf_testing_tools_cpp -- -j12 -l12
+[4.422s] [35m[1mScanning dependencies of target memory_tools[0m
+[4.444s] [35m[1mScanning dependencies of target test_runner[0m
+[4.463s] [35m[1mScanning dependencies of target gtest[0m
+[4.528s] [  4%] [32mBuilding CXX object src/test_runner/CMakeFiles/test_runner.dir/main.cpp.o[0m
+[4.530s] [  8%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/custom_memory_functions.cpp.o[0m
+[4.554s] [ 12%] [32mBuilding CXX object googletest-1.10.0.1-extracted/googletest-1.10.0.1-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.567s] [ 16%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/implementation_monitoring_override.cpp.o[0m
+[4.572s] [ 20%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/initialize.cpp.o[0m
+[4.628s] [ 24%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/memory_tools_service.cpp.o[0m
+[4.632s] [ 28%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/is_working.cpp.o[0m
+[4.671s] [ 32%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/monitoring.cpp.o[0m
+[4.680s] [ 36%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/register_hooks.cpp.o[0m
+[4.811s] [ 40%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/verbosity.cpp.o[0m
+[4.815s] [ 44%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/testing_helpers.cpp.o[0m
+[4.819s] [ 48%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/stack_trace.cpp.o[0m
+[6.356s] [ 52%] [32m[1mLinking CXX executable test_runner[0m
+[6.831s] [ 52%] Built target test_runner
+[9.725s] [ 56%] [32m[1mLinking CXX shared library libmemory_tools.so[0m
+[10.201s] [ 56%] Built target memory_tools
+[10.253s] [35m[1mScanning dependencies of target memory_tools_interpose[0m
+[10.318s] [ 60%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools_interpose.dir/memory_tools.cpp.o[0m
+[11.204s] [ 64%] [32m[1mLinking CXX shared library libmemory_tools_interpose.so[0m
+[11.503s] [ 64%] Built target memory_tools_interpose
+[14.663s] [ 68%] [32m[1mLinking CXX static library ../../../lib/libgtest.a[0m
+[14.884s] [ 68%] Built target gtest
+[14.928s] [35m[1mScanning dependencies of target gtest_main[0m
+[14.975s] [ 72%] [32mBuilding CXX object googletest-1.10.0.1-extracted/googletest-1.10.0.1-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.100s] [ 76%] [32m[1mLinking CXX static library ../../../lib/libgtest_main.a[0m
+[16.348s] [ 76%] Built target gtest_main
+[16.430s] [35m[1mScanning dependencies of target assert_env_vars[0m
+[16.441s] [35m[1mScanning dependencies of target test_parse_environment_variable[0m
+[16.457s] [35m[1mScanning dependencies of target test_memory_tools[0m
+[16.485s] [ 80%] [32mBuilding CXX object test/test_runner/CMakeFiles/test_parse_environment_variable.dir/test_parse_environment_variable.cpp.o[0m
+[16.509s] [ 84%] [32mBuilding CXX object test/test_runner/CMakeFiles/assert_env_vars.dir/assert_env_vars.cpp.o[0m
+[16.630s] [ 88%] [32mBuilding CXX object test/memory_tools/CMakeFiles/test_memory_tools.dir/test_memory_tools.cpp.o[0m
+[19.755s] [ 92%] [32m[1mLinking CXX executable assert_env_vars[0m
+[19.772s] [ 96%] [32m[1mLinking CXX executable test_parse_environment_variable[0m
+[20.238s] [ 96%] Built target test_parse_environment_variable
+[20.301s] [ 96%] Built target assert_env_vars
+[20.695s] [100%] [32m[1mLinking CXX executable test_memory_tools[0m
+[20.887s] [100%] Built target test_memory_tools
+[22.428s] Invoked command in '/robofuzz/ros2_foxy/build/osrf_testing_tools_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/ros2_foxy/build/osrf_testing_tools_cpp -- -j12 -l12
+[22.522s] Invoking command in '/robofuzz/ros2_foxy/build/osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/ros2_foxy/build/osrf_testing_tools_cpp
+[22.545s] -- Install configuration: ""
+[22.549s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfig.cmake
+[22.549s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfigVersion.cmake
+[22.549s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor
+[22.549s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google
+[22.549s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest
+[22.549s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/googletest-external-project-add.cmake.in
+[22.550s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.7.0.tar.gz
+[22.550s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz
+[22.551s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.8.1.tar.gz
+[22.553s] -- Up-to-date: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake
+[22.554s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_require_googletest.cmake
+[22.554s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_add_test.cmake
+[22.555s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_extract_and_build_googletest.cmake
+[22.555s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_get_googletest_versions.cmake
+[22.555s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include
+[22.556s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp
+[22.556s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor
+[22.556s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark
+[22.556s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant
+[22.557s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/README.md
+[22.557s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/LICENSE.md
+[22.558s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/variant.hpp
+[22.558s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/macros.hpp
+[22.558s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools
+[22.558s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/stack_trace.hpp
+[22.559s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/monitoring.hpp
+[22.559s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/initialize.hpp
+[22.559s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/register_hooks.hpp
+[22.559s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/is_working.hpp
+[22.560s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/visibility_control.hpp
+[22.560s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools_service.hpp
+[22.560s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/verbosity.hpp
+[22.560s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/gtest_quickstart.hpp
+[22.564s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools.hpp
+[22.564s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/testing_helpers.hpp
+[22.564s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/scope_exit.hpp
+[22.565s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/demangle.hpp
+[22.565s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/variant_helper.hpp
+[22.565s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/package.xml
+[22.565s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/libmemory_tools.so
+[22.566s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport.cmake
+[22.566s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport-noconfig.cmake
+[22.567s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so
+[22.567s] -- Set runtime path of "/robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so" to ""
+[22.567s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport.cmake
+[22.568s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport-noconfig.cmake
+[22.569s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/lib/osrf_testing_tools_cpp/test_runner
+[22.569s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport.cmake
+[22.570s] -- Installing: /robofuzz/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport-noconfig.cmake
+[22.583s] Invoked command in '/robofuzz/ros2_foxy/build/osrf_testing_tools_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/ros2_foxy/build/osrf_testing_tools_cpp

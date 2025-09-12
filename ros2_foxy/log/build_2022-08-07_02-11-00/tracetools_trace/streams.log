@@ -1,0 +1,25 @@
+[5.602s] Invoking command in '/robofuzz/ros2_foxy/build/tracetools_trace': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_xmllint:/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_mypy:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_xmllint/bin:/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_mypy/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/tracetools_trace/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_xmllint:/robofuzz/ros2_foxy/install/ament_xmllint/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_mypy:/robofuzz/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/tracetools_trace --editable --build-directory /robofuzz/ros2_foxy/build/tracetools_trace/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/tracetools_trace
+[6.300s] running develop
+[6.616s] running egg_info
+[6.617s] creating tracetools_trace.egg-info
+[6.617s] writing tracetools_trace.egg-info/PKG-INFO
+[6.617s] writing dependency_links to tracetools_trace.egg-info/dependency_links.txt
+[6.618s] writing entry points to tracetools_trace.egg-info/entry_points.txt
+[6.618s] writing requirements to tracetools_trace.egg-info/requires.txt
+[6.618s] writing top-level names to tracetools_trace.egg-info/top_level.txt
+[6.621s] writing manifest file 'tracetools_trace.egg-info/SOURCES.txt'
+[6.723s] reading manifest file 'tracetools_trace.egg-info/SOURCES.txt'
+[6.726s] writing manifest file 'tracetools_trace.egg-info/SOURCES.txt'
+[6.843s] running build_ext
+[6.844s] Creating /robofuzz/ros2_foxy/install/tracetools_trace/lib/python3.8/site-packages/site.py
+[6.849s] Creating /robofuzz/ros2_foxy/install/tracetools_trace/lib/python3.8/site-packages/tracetools-trace.egg-link (link to .)
+[6.851s] Installing trace script to /robofuzz/ros2_foxy/install/tracetools_trace/lib/tracetools_trace
+[6.852s] 
+[6.852s] Installed /robofuzz/ros2_foxy/build/tracetools_trace
+[6.852s] running install_data
+[6.852s] copying package.xml -> /robofuzz/ros2_foxy/install/tracetools_trace/share/tracetools_trace
+[6.853s] creating /robofuzz/ros2_foxy/install/tracetools_trace/share/ament_index
+[6.853s] creating /robofuzz/ros2_foxy/install/tracetools_trace/share/ament_index/resource_index
+[6.853s] creating /robofuzz/ros2_foxy/install/tracetools_trace/share/ament_index/resource_index/packages
+[6.854s] copying resource/tracetools_trace -> /robofuzz/ros2_foxy/install/tracetools_trace/share/ament_index/resource_index/packages
+[6.920s] Invoked command in '/robofuzz/ros2_foxy/build/tracetools_trace' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_xmllint:/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_mypy:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_xmllint/bin:/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_mypy/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/tracetools_trace/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_xmllint:/robofuzz/ros2_foxy/install/ament_xmllint/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_mypy:/robofuzz/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/tracetools_trace --editable --build-directory /robofuzz/ros2_foxy/build/tracetools_trace/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/tracetools_trace

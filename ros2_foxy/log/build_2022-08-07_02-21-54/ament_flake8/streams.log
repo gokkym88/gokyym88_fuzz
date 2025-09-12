@@ -1,0 +1,17 @@
+[1.523s] Invoking command in '/robofuzz/ros2_foxy/build/ament_flake8': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_flake8 --editable --build-directory /robofuzz/ros2_foxy/build/ament_flake8/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_flake8
+[1.908s] running develop
+[2.118s] running egg_info
+[2.118s] writing ament_flake8.egg-info/PKG-INFO
+[2.118s] writing dependency_links to ament_flake8.egg-info/dependency_links.txt
+[2.118s] writing entry points to ament_flake8.egg-info/entry_points.txt
+[2.119s] writing requirements to ament_flake8.egg-info/requires.txt
+[2.119s] writing top-level names to ament_flake8.egg-info/top_level.txt
+[2.176s] reading manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[2.177s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[2.252s] running build_ext
+[2.253s] Creating /robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament-flake8.egg-link (link to .)
+[2.253s] Installing ament_flake8 script to /robofuzz/ros2_foxy/install/ament_flake8/bin
+[2.253s] 
+[2.254s] Installed /robofuzz/ros2_foxy/build/ament_flake8
+[2.254s] running install_data
+[2.329s] Invoked command in '/robofuzz/ros2_foxy/build/ament_flake8' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_flake8 --editable --build-directory /robofuzz/ros2_foxy/build/ament_flake8/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_flake8

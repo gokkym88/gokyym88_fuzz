@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ament/ament_lint/ament_cmake_clang_format/cmake/ament_cmake_clang_format_lint_hook.cmake

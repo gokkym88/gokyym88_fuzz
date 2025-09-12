@@ -1,0 +1,17 @@
+[3.844s] Invoking command in '/robofuzz/ros2_foxy/build/ament_clang_format': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_clang_format --editable --build-directory /robofuzz/ros2_foxy/build/ament_clang_format/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_clang_format
+[4.480s] running develop
+[4.841s] running egg_info
+[4.841s] writing ament_clang_format.egg-info/PKG-INFO
+[4.842s] writing dependency_links to ament_clang_format.egg-info/dependency_links.txt
+[4.845s] writing entry points to ament_clang_format.egg-info/entry_points.txt
+[4.845s] writing requirements to ament_clang_format.egg-info/requires.txt
+[4.846s] writing top-level names to ament_clang_format.egg-info/top_level.txt
+[4.939s] reading manifest file 'ament_clang_format.egg-info/SOURCES.txt'
+[4.941s] writing manifest file 'ament_clang_format.egg-info/SOURCES.txt'
+[5.012s] running build_ext
+[5.013s] Creating /robofuzz/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament-clang-format.egg-link (link to .)
+[5.014s] Installing ament_clang_format script to /robofuzz/ros2_foxy/install/ament_clang_format/bin
+[5.014s] 
+[5.014s] Installed /robofuzz/ros2_foxy/build/ament_clang_format
+[5.015s] running install_data
+[5.385s] Invoked command in '/robofuzz/ros2_foxy/build/ament_clang_format' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_copyright:/robofuzz/ros2_foxy/install/ament_pep257:/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_copyright/bin:/robofuzz/ros2_foxy/install/ament_pep257/bin:/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_copyright:/robofuzz/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pep257:/robofuzz/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_clang_format --editable --build-directory /robofuzz/ros2_foxy/build/ament_clang_format/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_clang_format

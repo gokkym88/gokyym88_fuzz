@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/ament_index/resource_index/package_run_dependencies/python_cmake_module
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/ament_index/resource_index/parent_prefix_path/python_cmake_module
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/ament_index/resource_index/packages/python_cmake_module
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake/python_cmake_module-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake/python_cmake_moduleConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake/python_cmake_moduleConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/package.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake

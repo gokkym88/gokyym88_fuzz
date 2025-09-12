@@ -1,0 +1,25 @@
+[4.296s] Invoking command in '/robofuzz/ros2_foxy/build/ament_flake8': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_flake8 --editable --build-directory /robofuzz/ros2_foxy/build/ament_flake8/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_flake8
+[5.235s] running develop
+[5.690s] running egg_info
+[5.691s] creating ament_flake8.egg-info
+[5.691s] writing ament_flake8.egg-info/PKG-INFO
+[5.692s] writing dependency_links to ament_flake8.egg-info/dependency_links.txt
+[5.692s] writing entry points to ament_flake8.egg-info/entry_points.txt
+[5.692s] writing requirements to ament_flake8.egg-info/requires.txt
+[5.693s] writing top-level names to ament_flake8.egg-info/top_level.txt
+[5.696s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[5.823s] reading manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[5.825s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[5.963s] running build_ext
+[5.963s] Creating /robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/site.py
+[5.968s] Creating /robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament-flake8.egg-link (link to .)
+[5.971s] Installing ament_flake8 script to /robofuzz/ros2_foxy/install/ament_flake8/bin
+[5.971s] 
+[5.972s] Installed /robofuzz/ros2_foxy/build/ament_flake8
+[5.972s] running install_data
+[5.972s] copying package.xml -> /robofuzz/ros2_foxy/install/ament_flake8/share/ament_flake8
+[5.972s] creating /robofuzz/ros2_foxy/install/ament_flake8/share/ament_index
+[5.973s] creating /robofuzz/ros2_foxy/install/ament_flake8/share/ament_index/resource_index
+[5.973s] creating /robofuzz/ros2_foxy/install/ament_flake8/share/ament_index/resource_index/packages
+[5.973s] copying resource/ament_flake8 -> /robofuzz/ros2_foxy/install/ament_flake8/share/ament_index/resource_index/packages
+[6.058s] Invoked command in '/robofuzz/ros2_foxy/build/ament_flake8' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_flake8 --editable --build-directory /robofuzz/ros2_foxy/build/ament_flake8/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_flake8

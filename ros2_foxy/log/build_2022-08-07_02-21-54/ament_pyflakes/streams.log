@@ -1,0 +1,17 @@
+[1.457s] Invoking command in '/robofuzz/ros2_foxy/build/ament_pyflakes': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pycodestyle:/robofuzz/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_pyflakes --editable --build-directory /robofuzz/ros2_foxy/build/ament_pyflakes/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_pyflakes
+[1.830s] running develop
+[2.043s] running egg_info
+[2.046s] writing ament_pyflakes.egg-info/PKG-INFO
+[2.046s] writing dependency_links to ament_pyflakes.egg-info/dependency_links.txt
+[2.046s] writing entry points to ament_pyflakes.egg-info/entry_points.txt
+[2.047s] writing requirements to ament_pyflakes.egg-info/requires.txt
+[2.049s] writing top-level names to ament_pyflakes.egg-info/top_level.txt
+[2.104s] reading manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[2.105s] writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[2.179s] running build_ext
+[2.180s] Creating /robofuzz/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages/ament-pyflakes.egg-link (link to .)
+[2.181s] Installing ament_pyflakes script to /robofuzz/ros2_foxy/install/ament_pyflakes/bin
+[2.182s] 
+[2.182s] Installed /robofuzz/ros2_foxy/build/ament_pyflakes
+[2.182s] running install_data
+[2.245s] Invoked command in '/robofuzz/ros2_foxy/build/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_pycodestyle:/robofuzz/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_pyflakes --editable --build-directory /robofuzz/ros2_foxy/build/ament_pyflakes/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_pyflakes

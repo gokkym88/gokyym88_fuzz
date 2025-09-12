@@ -1,0 +1,426 @@
+[0.894s] Invoking command in '/robofuzz/ros2_foxy/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/ros2_foxy/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/cyclonedds
+[1.646s] -- The C compiler identification is GNU 9.4.0
+[1.647s] -- Check for working C compiler: /usr/bin/cc
+[1.647s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.648s] -- Detecting C compiler ABI info
+[1.648s] -- Detecting C compiler ABI info - done
+[1.651s] -- Detecting C compile features
+[1.652s] -- Detecting C compile features - done
+[1.652s] -- Setting build type to 'RelWithDebInfo' as none was specified.
+[1.652s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.652s] -- Building with OpenSSL support
+[1.652s] -- Looking for pthread.h
+[1.675s] -- Looking for pthread.h - found
+[1.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.808s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.808s] -- Looking for pthread_create in pthreads
+[1.942s] -- Looking for pthread_create in pthreads - not found
+[1.945s] -- Looking for pthread_create in pthread
+[2.218s] -- Looking for pthread_create in pthread - found
+[2.220s] -- Found Threads: TRUE  
+[2.221s] -- Looking for clock_gettime in c
+[2.430s] -- Looking for clock_gettime in c - found
+[2.443s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.590s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.591s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.742s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[2.742s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.886s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.944s] -- Configuring done
+[3.070s] -- Generating done
+[3.074s] -- Build files have been written to: /robofuzz/ros2_foxy/build/cyclonedds
+[3.082s] Invoked command in '/robofuzz/ros2_foxy/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /robofuzz/ros2_foxy/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/cyclonedds
+[3.087s] Invoking command in '/robofuzz/ros2_foxy/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/ros2_foxy/build/cyclonedds -- -j12 -l12
+[4.020s] [35m[1mScanning dependencies of target ddsc[0m
+[4.020s] [  1%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o[0m
+[4.021s] [  1%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o[0m
+[4.021s] [  1%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o[0m
+[4.022s] [  2%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o[0m
+[4.023s] [  3%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o[0m
+[4.023s] [  4%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o[0m
+[4.034s] [  4%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o[0m
+[4.035s] [  4%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o[0m
+[4.035s] [  4%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o[0m
+[4.036s] [  5%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o[0m
+[4.036s] [  6%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o[0m
+[4.036s] [  7%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o[0m
+[4.086s] [  7%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o[0m
+[4.270s] [  8%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o[0m
+[4.334s] [  8%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o[0m
+[4.416s] [  8%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_default.c.o[0m
+[4.447s] [  9%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o[0m
+[4.455s] [ 10%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o[0m
+[4.549s] [ 11%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_pserop.c.o[0m
+[4.575s] [ 11%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic_plist.c.o[0m
+[4.713s] [ 12%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o[0m
+[4.735s] [ 13%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o[0m
+[4.743s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o[0m
+[4.754s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o[0m
+[4.857s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o[0m
+[4.914s] [ 15%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o[0m
+[4.985s] [ 15%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o[0m
+[5.073s] [ 16%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o[0m
+[5.146s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o[0m
+[5.186s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o[0m
+[5.186s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o[0m
+[5.190s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o[0m
+[5.238s] [ 19%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o[0m
+[5.254s] [ 19%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o[0m
+[5.305s] [ 20%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o[0m
+[5.390s] [ 21%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o[0m
+[5.395s] [ 22%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o[0m
+[5.424s] [ 22%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o[0m
+[5.530s] [ 22%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_config.c.o[0m
+[5.537s] [ 23%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o[0m
+[5.692s] [ 24%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o[0m
+[5.744s] [ 24%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_entity.c.o[0m
+[5.794s] [ 25%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o[0m
+[5.826s] [ 25%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o[0m
+[6.098s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o[0m
+[6.259s] [ 27%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o[0m
+[6.500s] [ 27%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o[0m
+[6.531s] [ 28%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o[0m
+[6.534s] [ 28%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o[0m
+[6.665s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o[0m
+[6.899s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o[0m
+[7.009s] [ 30%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o[0m
+[7.029s] [ 31%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o[0m
+[7.128s] [ 31%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o[0m
+[7.556s] [ 31%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o[0m
+[7.567s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o[0m
+[7.679s] [ 33%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o[0m
+[7.857s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o[0m
+[7.878s] [ 34%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o[0m
+[8.023s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o[0m
+[8.046s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o[0m
+[8.066s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o[0m
+[8.287s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o[0m
+[8.412s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o[0m
+[8.517s] [ 38%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o[0m
+[8.653s] [ 38%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o[0m
+[8.722s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o[0m
+[8.796s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o[0m
+[8.847s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o[0m
+[8.926s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o[0m
+[9.007s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o[0m
+[9.063s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o[0m
+[9.091s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o[0m
+[9.221s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o[0m
+[9.311s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o[0m
+[9.390s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o[0m
+[9.397s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o[0m
+[9.447s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o[0m
+[9.487s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o[0m
+[9.605s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o[0m
+[9.675s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o[0m
+[9.784s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o[0m
+[9.875s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o[0m
+[9.903s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o[0m
+[9.999s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o[0m
+[10.013s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o[0m
+[10.094s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o[0m
+[10.207s] [ 51%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o[0m
+[10.308s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o[0m
+[10.408s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o[0m
+[10.441s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o[0m
+[10.459s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o[0m
+[10.488s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertopic_builtintopic.c.o[0m
+[10.523s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o[0m
+[10.524s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o[0m
+[10.560s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o[0m
+[10.678s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o[0m
+[10.806s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o[0m
+[10.895s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o[0m
+[10.895s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o[0m
+[10.903s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o[0m
+[10.919s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o[0m
+[10.923s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o[0m
+[11.040s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o[0m
+[11.051s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o[0m
+[11.057s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o[0m
+[11.076s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o[0m
+[11.082s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o[0m
+[11.132s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o[0m
+[11.163s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o[0m
+[11.185s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/thread_pool.c.o[0m
+[11.208s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o[0m
+[11.291s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o[0m
+[11.300s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o[0m
+[11.305s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o[0m
+[11.308s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o[0m
+[11.317s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o[0m
+[11.331s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o[0m
+[11.406s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o[0m
+[11.427s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o[0m
+[11.474s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o[0m
+[11.477s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o[0m
+[11.493s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o[0m
+[11.530s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o[0m
+[11.530s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o[0m
+[11.549s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o[0m
+[11.612s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string/posix/strerror.c.o[0m
+[11.634s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o[0m
+[11.635s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o[0m
+[11.693s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o[0m
+[11.704s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o[0m
+[11.730s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o[0m
+[11.751s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o[0m
+[11.763s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o[0m
+[11.812s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o[0m
+[11.825s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o[0m
+[11.839s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o[0m
+[11.852s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o[0m
+[12.018s] [ 81%] [32m[1mLinking C shared library ../../lib/libddsc.so[0m
+[12.266s] [ 81%] Built target ddsc
+[12.289s] [35m[1mScanning dependencies of target dds_security_auth[0m
+[12.290s] [35m[1mScanning dependencies of target pubsub[0m
+[12.290s] [35m[1mScanning dependencies of target ddsconf[0m
+[12.290s] [35m[1mScanning dependencies of target dds_security_ac[0m
+[12.290s] [35m[1mScanning dependencies of target dds_security_crypto[0m
+[12.290s] [35m[1mScanning dependencies of target ddsls[0m
+[12.326s] [ 81%] [32mBuilding C object src/tools/ddsls/CMakeFiles/ddsls.dir/ddsls.c.o[0m
+[12.335s] [ 81%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/xsd.c.o[0m
+[12.336s] [ 81%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/ddsconf.c.o[0m
+[12.340s] [ 82%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/pubsub.c.o[0m
+[12.350s] [ 83%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/rnc.c.o[0m
+[12.359s] [ 83%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/common.c.o[0m
+[12.367s] [ 84%] [32mBuilding C object src/tools/ddsconf/CMakeFiles/ddsconf.dir/md.c.o[0m
+[12.371s] [ 85%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o[0m
+[12.371s] [ 85%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o[0m
+[12.378s] [ 86%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/testtype.c.o[0m
+[12.390s] [ 86%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o[0m
+[12.417s] [ 87%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o[0m
+[12.587s] [ 88%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o[0m
+[12.874s] [ 89%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o[0m
+[13.007s] [ 89%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o[0m
+[13.020s] [ 90%] [32m[1mLinking C executable ../../../bin/ddsls[0m
+[13.104s] [ 90%] [32mBuilding C object src/tools/pubsub/CMakeFiles/pubsub.dir/porting.c.o[0m
+[13.180s] [ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o[0m
+[13.284s] [ 92%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o[0m
+[13.340s] [ 92%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o[0m
+[13.380s] [ 92%] Built target ddsls
+[13.434s] [ 92%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o[0m
+[13.438s] [ 93%] [32m[1mLinking C executable ../../../bin/ddsconf[0m
+[13.469s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o[0m
+[13.554s] [ 95%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o[0m
+[13.580s] [ 95%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o[0m
+[13.837s] [ 95%] Built target ddsconf
+[13.866s] [ 96%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o[0m
+[13.922s] [35m[1mScanning dependencies of target schema[0m
+[14.015s] [ 97%] [34m[1mGenerating cyclonedds.rnc, cyclonedds.xsd, manual/options.md[0m
+[14.054s] [ 97%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o[0m
+[14.523s] [ 97%] Built target schema
+[14.738s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_auth.so[0m
+[14.891s] [ 98%] [32m[1mLinking C shared library ../../../../lib/libdds_security_crypto.so[0m
+[14.936s] [ 98%] Built target dds_security_auth
+[15.074s] [ 98%] Built target dds_security_crypto
+[15.144s] [ 99%] [32m[1mLinking C shared library ../../../../lib/libdds_security_ac.so[0m
+[15.232s] [100%] [32m[1mLinking C executable ../../../bin/pubsub[0m
+[15.240s] [100%] Built target dds_security_ac
+[15.325s] [100%] Built target pubsub
+[15.438s] Invoked command in '/robofuzz/ros2_foxy/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/ros2_foxy/build/cyclonedds -- -j12 -l12
+[16.295s] Invoking command in '/robofuzz/ros2_foxy/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/ros2_foxy/build/cyclonedds
+[16.553s] -- Install configuration: "RelWithDebInfo"
+[16.554s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake
+[16.555s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSVersion.cmake
+[16.555s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake
+[16.556s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake
+[16.556s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include
+[16.556s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds
+[16.556s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt
+[16.556s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/random.h
+[16.557s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/environ.h
+[16.557s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/expand_vars.h
+[16.557s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sockets
+[16.558s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sockets/windows.h
+[16.565s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sockets/posix.h
+[16.566s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/filesystem
+[16.566s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/filesystem/windows.h
+[16.566s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/filesystem/posix.h
+[16.566s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/circlist.h
+[16.567s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/atomics
+[16.567s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/atomics/gcc.h
+[16.567s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/atomics/sun.h
+[16.567s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/atomics/arm.h
+[16.567s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/atomics/msvc.h
+[16.568s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/process.h
+[16.568s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/arch.h
+[16.568s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/dynlib.h
+[16.568s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/fibheap.h
+[16.568s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/countargs.h
+[16.569s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/hopscotch.h
+[16.569s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/endian.h
+[16.569s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/bswap.h
+[16.569s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/attributes.h
+[16.569s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/threads
+[16.570s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/threads/windows.h
+[16.570s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/threads/freertos.h
+[16.570s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/threads/posix.h
+[16.570s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/xmlparser.h
+[16.571s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/heap.h
+[16.571s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/md5.h
+[16.571s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/atomics.h
+[16.571s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/thread_pool.h
+[16.572s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/rusage.h
+[16.572s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/mh3.h
+[16.572s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/static_assert.h
+[16.572s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/time.h
+[16.572s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/string.h
+[16.573s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sync.h
+[16.573s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/types.h
+[16.573s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/filesystem.h
+[16.573s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/time
+[16.573s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/time/freertos.h
+[16.574s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/misc.h
+[16.574s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/threads.h
+[16.574s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sockets.h
+[16.574s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/avl.h
+[16.574s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/types
+[16.574s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/types/windows.h
+[16.575s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/types/vxworks.h
+[16.575s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/types/posix.h
+[16.575s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/retcode.h
+[16.575s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/netstat.h
+[16.575s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/io.h
+[16.576s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/cdtors.h
+[16.576s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/strtol.h
+[16.576s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sync
+[16.576s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sync/windows.h
+[16.576s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sync/freertos.h
+[16.577s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sync/solaris2.6.h
+[16.577s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/sync/posix.h
+[16.577s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/log.h
+[16.577s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/strtod.h
+[16.577s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsrt/ifaddrs.h
+[16.577s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include
+[16.578s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include/dds
+[16.585s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/version.h
+[16.586s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include
+[16.586s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include/dds
+[16.586s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security
+[16.586s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/dds_security_api_defs.h
+[16.587s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/dds_security_api_cryptography.h
+[16.587s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/dds_security_api_err.h
+[16.587s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/dds_security_api_access_control.h
+[16.587s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/dds_security_api.h
+[16.587s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/dds_security_api_types.h
+[16.593s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/dds_security_api_authentication.h
+[16.594s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core/
+[16.594s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core//shared_secret.h
+[16.594s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core//dds_security_fsm.h
+[16.594s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core//dds_security_types.h
+[16.595s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core//dds_security_serialize.h
+[16.595s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core//dds_security_utils.h
+[16.595s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core//dds_security_timed_cb.h
+[16.595s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/security/core//dds_security_plugins.h
+[16.595s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/libdds_security_ac.so
+[16.595s] -- Set runtime path of "/robofuzz/ros2_foxy/install/cyclonedds/lib/libdds_security_ac.so" to "$ORIGIN/../lib"
+[16.596s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/libdds_security_auth.so
+[16.596s] -- Set runtime path of "/robofuzz/ros2_foxy/install/cyclonedds/lib/libdds_security_auth.so" to "$ORIGIN/../lib"
+[16.596s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/libdds_security_crypto.so
+[16.596s] -- Set runtime path of "/robofuzz/ros2_foxy/install/cyclonedds/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"
+[16.596s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include
+[16.597s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include/dds
+[16.597s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi
+[16.597s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_transmit.h
+[16.597s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_serdata_plist.h
+[16.597s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_security_util.h
+[16.597s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_guid.h
+[16.598s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_time.h
+[16.598s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_lifespan.h
+[16.600s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_handshake.h
+[16.600s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_raweth.h
+[16.600s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_thread.h
+[16.600s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_radmin.h
+[16.600s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_log.h
+[16.600s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_unused.h
+[16.601s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_ssl.h
+[16.601s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_pmd.h
+[16.601s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_protocol.h
+[16.601s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_acknack.h
+[16.602s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_whc.h
+[16.602s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_config.h
+[16.602s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_serdata_pserop.h
+[16.602s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_misc.h
+[16.602s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_statistics.h
+[16.603s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_xevent.h
+[16.603s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_deadline.h
+[16.603s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_cfgunits.h
+[16.603s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_portmapping.h
+[16.603s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/sysdeps.h
+[16.603s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_pcap.h
+[16.604s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_mcgroup.h
+[16.604s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_bswap.h
+[16.604s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_rtps.h
+[16.604s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_addrset.h
+[16.604s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_cdrstream.h
+[16.605s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_sertopic.h
+[16.605s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_qosmatch.h
+[16.605s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_xqos.h
+[16.605s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_freelist.h
+[16.605s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_ownip.h
+[16.616s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_tcp.h
+[16.617s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_lat_estim.h
+[16.617s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_entity_index.h
+[16.620s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_bitset.h
+[16.620s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_debmon.h
+[16.620s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_serdata.h
+[16.620s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_receive.h
+[16.621s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_inverse_uint32_set.h
+[16.621s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_xmsg.h
+[16.621s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_udp.h
+[16.621s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_gc.h
+[16.621s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_serdata_default.h
+[16.622s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_entity.h
+[16.622s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_builtin_topic_if.h
+[16.622s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_deliver_locally.h
+[16.622s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_ddsi_discovery.h
+[16.622s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_rhc.h
+[16.623s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_init.h
+[16.623s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_tran.h
+[16.626s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_plist_generic.h
+[16.626s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_domaingv.h
+[16.626s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_tkmap.h
+[16.626s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_iid.h
+[16.627s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_security_omg.h
+[16.627s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_ipaddr.h
+[16.627s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_lease.h
+[16.627s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_feature_check.h
+[16.627s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_threadmon.h
+[16.628s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_cfgelems.h
+[16.628s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_security_exchange.h
+[16.628s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_hbcontrol.h
+[16.628s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_vendor.h
+[16.628s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_plist.h
+[16.629s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_keyhash.h
+[16.634s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/q_sockwaitset.h
+[16.634s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsi/ddsi_security_msg.h
+[16.634s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include
+[16.634s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/ddsc
+[16.634s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/ddsc/dds.h
+[16.635s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include/dds
+[16.635s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc
+[16.635s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_rhc.h
+[16.635s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_public_alloc.h
+[16.635s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_public_listener.h
+[16.636s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_internal_api.h
+[16.636s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_public_error.h
+[16.636s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_statistics.h
+[16.636s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_public_impl.h
+[16.636s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_public_status.h
+[16.637s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_public_qosdefs.h
+[16.637s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/ddsc/dds_public_qos.h
+[16.637s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/dds.h
+[16.637s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include
+[16.637s] -- Up-to-date: /robofuzz/ros2_foxy/install/cyclonedds/include/dds
+[16.638s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/features.h
+[16.638s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/include/dds/export.h
+[16.638s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/libddsc.so.0.7.0
+[16.638s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/libddsc.so.0
+[16.651s] -- Set runtime path of "/robofuzz/ros2_foxy/install/cyclonedds/lib/libddsc.so.0.7.0" to "$ORIGIN/../lib"
+[16.651s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/lib/libddsc.so
+[16.655s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/bin/pubsub
+[16.655s] -- Set runtime path of "/robofuzz/ros2_foxy/install/cyclonedds/bin/pubsub" to "$ORIGIN/../lib"
+[16.656s] -- Installing: /robofuzz/ros2_foxy/install/cyclonedds/bin/ddsls
+[16.656s] -- Set runtime path of "/robofuzz/ros2_foxy/install/cyclonedds/bin/ddsls" to "$ORIGIN/../lib"
+[16.711s] Invoked command in '/robofuzz/ros2_foxy/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/ros2_foxy/build/cyclonedds

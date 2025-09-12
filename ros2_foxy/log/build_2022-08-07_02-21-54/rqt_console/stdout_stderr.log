@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/rqt_console
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/environment/pythonpath.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/environment/pythonpath.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/console.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/console_settings_dialog.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/console_widget.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/base_filter.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/custom_filter.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/custom_filter_widget.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/filter_collection.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/filter_wrapper_widget.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/list_filter_widget.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/location_filter.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/message_filter.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/node_filter.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/severity_filter.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/text_filter_widget.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/time_filter.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/time_filter_widget.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message_data_model.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message_list.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message_proxy_model.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/text_browse_dialog.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/plugin.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/console_settings_dialog.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/console_widget.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/filters/custom_filter_widget.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/filters/filter_wrapper_widget.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/filters/list_filter_widget.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/filters/text_filter_widget.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/filters/time_filter_widget.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/resource/text_browse_dialog.ui
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/lib/rqt_console/rqt_console
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/ament_index/resource_index/package_run_dependencies/rqt_console
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/ament_index/resource_index/parent_prefix_path/rqt_console
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/ament_index/resource_index/packages/rqt_console
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/cmake/rqt_consoleConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/cmake/rqt_consoleConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rqt_console/share/rqt_console/package.xml
+Listing '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/__init__.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/console.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/console_settings_dialog.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/console_widget.py'...
+Listing '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/__init__.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/base_filter.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/custom_filter.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/custom_filter_widget.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/filter_collection.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/filter_wrapper_widget.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/list_filter_widget.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/location_filter.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/message_filter.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/node_filter.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/severity_filter.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/text_filter_widget.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/time_filter.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/filters/time_filter_widget.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message_data_model.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message_list.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/message_proxy_model.py'...
+Compiling '/robofuzz/ros2_foxy/install/rqt_console/lib/python3.8/site-packages/rqt_console/text_browse_dialog.py'...

@@ -1,0 +1,35 @@
+-- Found ament_cmake_core: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_python: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/ament_cmake_google_benchmark
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/environment/pythonpath.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/environment/pythonpath.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/lib/python3.8/site-packages/ament_cmake_google_benchmark/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_index/resource_index/package_run_dependencies/ament_cmake_google_benchmark
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_index/resource_index/parent_prefix_path/ament_cmake_google_benchmark
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_index/resource_index/packages/ament_cmake_google_benchmark
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmark-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/package.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_executable.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_test.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake/run_and_convert.py
+Listing '/robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/lib/python3.8/site-packages/ament_cmake_google_benchmark'...
+Compiling '/robofuzz/ros2_foxy/install/ament_cmake_google_benchmark/lib/python3.8/site-packages/ament_cmake_google_benchmark/__init__.py'...

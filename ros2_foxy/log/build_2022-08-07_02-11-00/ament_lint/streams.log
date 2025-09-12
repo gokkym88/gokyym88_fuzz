@@ -1,0 +1,24 @@
+[2.865s] Invoking command in '/robofuzz/ros2_foxy/build/ament_lint': PYTHONPATH=/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_lint --editable --build-directory /robofuzz/ros2_foxy/build/ament_lint/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_lint
+[3.464s] running develop
+[3.732s] running egg_info
+[3.733s] creating ament_lint.egg-info
+[3.733s] writing ament_lint.egg-info/PKG-INFO
+[3.733s] writing dependency_links to ament_lint.egg-info/dependency_links.txt
+[3.733s] writing entry points to ament_lint.egg-info/entry_points.txt
+[3.733s] writing requirements to ament_lint.egg-info/requires.txt
+[3.734s] writing top-level names to ament_lint.egg-info/top_level.txt
+[3.737s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.825s] reading manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.827s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.946s] running build_ext
+[3.954s] Creating /robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/site.py
+[3.959s] Creating /robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament-lint.egg-link (link to .)
+[3.961s] 
+[3.961s] Installed /robofuzz/ros2_foxy/build/ament_lint
+[3.961s] running install_data
+[3.962s] copying package.xml -> /robofuzz/ros2_foxy/install/ament_lint/share/ament_lint
+[3.963s] creating /robofuzz/ros2_foxy/install/ament_lint/share/ament_index
+[3.963s] creating /robofuzz/ros2_foxy/install/ament_lint/share/ament_index/resource_index
+[3.964s] creating /robofuzz/ros2_foxy/install/ament_lint/share/ament_index/resource_index/packages
+[3.964s] copying resource/ament_lint -> /robofuzz/ros2_foxy/install/ament_lint/share/ament_index/resource_index/packages
+[4.237s] Invoked command in '/robofuzz/ros2_foxy/build/ament_lint' returned '0': PYTHONPATH=/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_lint --editable --build-directory /robofuzz/ros2_foxy/build/ament_lint/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_lint

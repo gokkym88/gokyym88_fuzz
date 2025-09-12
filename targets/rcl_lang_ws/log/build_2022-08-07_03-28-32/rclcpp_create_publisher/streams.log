@@ -1,0 +1,23 @@
+[0.131s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher -- -j12 -l12
+[1.503s] [100%] Built target rclcpp_create_publisher
+[1.509s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher -- -j12 -l12
+[1.575s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher
+[1.603s] -- Install configuration: ""
+[1.604s] -- Execute custom install script
+[1.604s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/lib/rclcpp_create_publisher/rclcpp_create_publisher
+[1.604s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/ament_index/resource_index/package_run_dependencies/rclcpp_create_publisher
+[1.604s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/ament_index/resource_index/parent_prefix_path/rclcpp_create_publisher
+[1.605s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/ament_prefix_path.sh
+[1.605s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/ament_prefix_path.dsv
+[1.605s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/path.sh
+[1.606s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/environment/path.dsv
+[1.606s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.bash
+[1.606s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.sh
+[1.606s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.zsh
+[1.606s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/local_setup.dsv
+[1.606s] -- Symlinking: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/package.dsv
+[1.626s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/ament_index/resource_index/packages/rclcpp_create_publisher
+[1.626s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/cmake/rclcpp_create_publisherConfig.cmake
+[1.627s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/cmake/rclcpp_create_publisherConfig-version.cmake
+[1.628s] -- Up-to-date symlink: /robofuzz/targets/rcl_lang_ws/install/rclcpp_create_publisher/share/rclcpp_create_publisher/package.xml
+[1.657s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /robofuzz/targets/rcl_lang_ws/build/rclcpp_create_publisher

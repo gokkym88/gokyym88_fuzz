@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros2/rosidl_typesupport/rosidl_typesupport_c/resource/srv__type_support.cpp.em

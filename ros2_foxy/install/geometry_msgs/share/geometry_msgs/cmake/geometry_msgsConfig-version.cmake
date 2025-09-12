@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/geometry_msgs/ament_cmake_core/geometry_msgsConfig-version.cmake

@@ -1,0 +1,41 @@
+-- Found ament_cmake: 0.9.10 (/robofuzz/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.7 (/robofuzz/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /robofuzz/ros2_foxy/build/rosidl_parser
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/environment/pythonpath.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/environment/pythonpath.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/definition.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/grammar.lark
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/parser.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/ament_index/resource_index/package_run_dependencies/rosidl_parser
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/ament_index/resource_index/parent_prefix_path/rosidl_parser
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/ament_index/resource_index/packages/rosidl_parser
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/cmake/rosidl_parserConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/cmake/rosidl_parserConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/share/rosidl_parser/package.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_parser/lib/rosidl_parser/idl2png
+Listing '/robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/__init__.py'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/definition.py'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages/rosidl_parser/parser.py'...

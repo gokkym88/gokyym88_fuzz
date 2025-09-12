@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h

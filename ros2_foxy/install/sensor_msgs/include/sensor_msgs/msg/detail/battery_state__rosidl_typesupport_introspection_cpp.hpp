@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/sensor_msgs/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp

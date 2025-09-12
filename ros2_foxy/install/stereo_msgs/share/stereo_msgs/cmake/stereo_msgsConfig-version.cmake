@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/stereo_msgs/ament_cmake_core/stereo_msgsConfig-version.cmake

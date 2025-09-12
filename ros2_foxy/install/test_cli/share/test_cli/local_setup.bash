@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/test_cli/ament_cmake_environment_hooks/local_setup.bash

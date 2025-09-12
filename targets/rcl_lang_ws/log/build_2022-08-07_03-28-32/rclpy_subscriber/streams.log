@@ -1,0 +1,17 @@
+[2.149s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber': PYTHONPATH=/robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber --editable --build-directory /robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber/build --no-deps install_data --install-dir /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber
+[2.496s] running develop
+[2.695s] running egg_info
+[2.695s] writing rclpy_subscriber.egg-info/PKG-INFO
+[2.696s] writing dependency_links to rclpy_subscriber.egg-info/dependency_links.txt
+[2.696s] writing entry points to rclpy_subscriber.egg-info/entry_points.txt
+[2.696s] writing requirements to rclpy_subscriber.egg-info/requires.txt
+[2.696s] writing top-level names to rclpy_subscriber.egg-info/top_level.txt
+[2.756s] reading manifest file 'rclpy_subscriber.egg-info/SOURCES.txt'
+[2.757s] writing manifest file 'rclpy_subscriber.egg-info/SOURCES.txt'
+[2.821s] running build_ext
+[2.822s] Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/lib/python3.8/site-packages/rclpy-subscriber.egg-link (link to .)
+[2.822s] Installing rclpy_subscriber script to /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/bin
+[2.822s] 
+[2.822s] Installed /robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber
+[2.823s] running install_data
+[2.865s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber' returned '0': PYTHONPATH=/robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber --editable --build-directory /robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber/build --no-deps install_data --install-dir /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber

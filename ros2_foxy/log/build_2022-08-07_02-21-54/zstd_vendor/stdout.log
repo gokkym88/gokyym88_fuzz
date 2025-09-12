@@ -1,0 +1,25 @@
+[100%] Built target zstd-1.4.4
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/include/zstd.h
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/lib/libzstd.so
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/lib/libzstd.so.1
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/lib/libzstd.so.1.4.4
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/lib/pkgconfig/libzstd.pc
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/Modules/Findzstd.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/package_run_dependencies/zstd_vendor
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/parent_prefix_path/zstd_vendor
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/packages/zstd_vendor
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendor-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/zstd_vendor/share/zstd_vendor/package.xml

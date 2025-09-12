@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/ros_environment/ament_cmake_environment_hooks/0.ros_distro_check.sh

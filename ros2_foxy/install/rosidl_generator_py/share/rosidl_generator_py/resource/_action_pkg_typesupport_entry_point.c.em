@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros2/rosidl_python/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em

@@ -1,0 +1,25 @@
+[3.155s] Invoking command in '/robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber': PYTHONPATH=/robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber --editable --build-directory /robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber/build --no-deps install_data --install-dir /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber
+[4.345s] running develop
+[4.346s] running egg_info
+[4.346s] creating rclpy_subscriber.egg-info
+[4.347s] writing rclpy_subscriber.egg-info/PKG-INFO
+[4.347s] writing dependency_links to rclpy_subscriber.egg-info/dependency_links.txt
+[4.348s] writing entry points to rclpy_subscriber.egg-info/entry_points.txt
+[4.348s] writing requirements to rclpy_subscriber.egg-info/requires.txt
+[4.348s] writing top-level names to rclpy_subscriber.egg-info/top_level.txt
+[4.349s] writing manifest file 'rclpy_subscriber.egg-info/SOURCES.txt'
+[4.349s] reading manifest file 'rclpy_subscriber.egg-info/SOURCES.txt'
+[4.349s] writing manifest file 'rclpy_subscriber.egg-info/SOURCES.txt'
+[4.350s] running build_ext
+[4.352s] Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/lib/python3.8/site-packages/site.py
+[4.353s] Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/lib/python3.8/site-packages/rclpy-subscriber.egg-link (link to .)
+[4.353s] Installing rclpy_subscriber script to /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/bin
+[4.353s] 
+[4.353s] Installed /robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber
+[4.354s] running install_data
+[4.354s] creating /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/share/ament_index
+[4.354s] creating /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/share/ament_index/resource_index
+[4.354s] creating /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/share/ament_index/resource_index/packages
+[4.355s] copying resource/rclpy_subscriber -> /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/share/ament_index/resource_index/packages
+[4.355s] copying package.xml -> /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/share/rclpy_subscriber
+[4.380s] Invoked command in '/robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber' returned '0': PYTHONPATH=/robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber --editable --build-directory /robofuzz/targets/rcl_lang_ws/build/rclpy_subscriber/build --no-deps install_data --install-dir /robofuzz/targets/rcl_lang_ws/install/rclpy_subscriber

@@ -1,0 +1,132 @@
+[0.015s] Invoking command in '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /robofuzz/targets/moveit2_ws/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/moveit2_ws/install/moveit_visual_tools
+[0.070s] -- The C compiler identification is GNU 9.4.0
+[0.134s] -- The CXX compiler identification is GNU 9.4.0
+[0.141s] -- Check for working C compiler: /usr/bin/cc
+[0.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.213s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.306s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.384s] -- Detecting CXX compiler ABI info
+[0.459s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.479s] -- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)
+[0.483s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.521s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.522s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.752s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.889s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[0.898s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.956s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.971s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.076s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.120s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.359s] -- Found graph_msgs: 0.2.0 (/opt/ros/foxy/share/graph_msgs/cmake)
+[1.456s] -- Found moveit_core: 2.2.3 (/opt/ros/foxy/share/moveit_core/cmake)
+[1.799s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.833s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.948s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.953s] -- Found Threads: TRUE  
+[2.245s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.497s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.955s] -- Found moveit_ros_planning: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning/cmake)
+[4.962s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[5.319s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[6.090s] -- Found rviz_visual_tools: 4.0.3 (/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake)
+[6.266s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.269s] -- Found OGRE
+[6.269s] --   static     : OFF
+[6.269s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.269s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.269s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.269s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.269s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[6.269s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.270s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[6.270s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.270s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.270s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.270s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.311s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.320s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.457s] -- Found X11: /usr/include   
+[6.457s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.547s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.548s] -- Looking for gethostbyname
+[6.632s] -- Looking for gethostbyname - found
+[6.632s] -- Looking for connect
+[6.714s] -- Looking for connect - found
+[6.714s] -- Looking for remove
+[6.803s] -- Looking for remove - found
+[6.804s] -- Looking for shmat
+[6.893s] -- Looking for shmat - found
+[6.893s] -- Looking for IceConnectionNumber in ICE
+[6.984s] -- Looking for IceConnectionNumber in ICE - found
+[6.988s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[6.988s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[7.064s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[8.483s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.516s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.518s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.520s] -- Added test 'lint_cmake' to check CMake code style
+[8.521s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.522s] -- Added test 'xmllint' to check XML markup files
+[8.530s] -- Configuring done
+[8.789s] -- Generating done
+[8.792s] -- Build files have been written to: /robofuzz/targets/moveit2_ws/build/moveit_visual_tools
+[8.804s] Invoked command in '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /robofuzz/targets/moveit2_ws/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/robofuzz/targets/moveit2_ws/install/moveit_visual_tools
+[8.807s] Invoking command in '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /robofuzz/targets/moveit2_ws/build/moveit_visual_tools -- -j12 -l12
+[8.851s] [35m[1mScanning dependencies of target moveit_visual_tools[0m
+[8.996s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[8.997s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[8.997s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[26.998s] [ 66%] [32m[1mLinking CXX shared library libmoveit_visual_tools.so[0m
+[27.473s] [ 66%] Built target moveit_visual_tools
+[27.483s] [35m[1mScanning dependencies of target moveit_visual_tools_demo[0m
+[27.595s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[37.698s] [100%] [32m[1mLinking CXX executable moveit_visual_tools_demo[0m
+[38.401s] [100%] Built target moveit_visual_tools_demo
+[38.415s] Invoked command in '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /robofuzz/targets/moveit2_ws/build/moveit_visual_tools -- -j12 -l12
+[38.446s] Invoking command in '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /robofuzz/targets/moveit2_ws/build/moveit_visual_tools
+[38.454s] -- Install configuration: "Release"
+[38.455s] -- Execute custom install script
+[38.455s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh
+[38.464s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv
+[38.472s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo
+[38.481s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h
+[38.490s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h
+[38.498s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h
+[38.507s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz
+[38.515s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py
+[38.524s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
+[38.533s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
+[38.541s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
+[38.550s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
+[38.558s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+[38.567s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
+[38.576s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
+[38.585s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh
+[38.593s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv
+[38.602s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh
+[38.610s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv
+[38.619s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash
+[38.627s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh
+[38.636s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh
+[38.645s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv
+[38.653s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv
+[38.662s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools
+[38.671s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[38.679s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.688s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
+[38.696s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
+[38.705s] -- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.xml
+[38.713s] -- Installing: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so
+[38.714s] -- Set runtime path of "/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""
+[38.714s] -- Installing: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake
+[38.714s] -- Installing: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake
+[38.717s] Invoked command in '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /robofuzz/targets/moveit2_ws/build/moveit_visual_tools

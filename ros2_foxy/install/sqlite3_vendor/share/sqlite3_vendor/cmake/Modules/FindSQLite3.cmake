@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros2/rosbag2/sqlite3_vendor/cmake/Modules/FindSQLite3.cmake

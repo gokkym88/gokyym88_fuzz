@@ -1,0 +1,51 @@
+[1.148s] Invoking command in '/robofuzz/ros2_foxy/build/urdfdom_headers': /usr/bin/cmake /robofuzz/ros2_foxy/src/ros/urdfdom_headers -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/urdfdom_headers
+[1.612s] -- The C compiler identification is GNU 9.4.0
+[1.613s] -- The CXX compiler identification is GNU 9.4.0
+[1.614s] -- Check for working C compiler: /usr/bin/cc
+[1.614s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.615s] -- Detecting C compiler ABI info
+[1.618s] -- Detecting C compiler ABI info - done
+[1.619s] -- Detecting C compile features
+[1.620s] -- Detecting C compile features - done
+[1.620s] -- Check for working CXX compiler: /usr/bin/c++
+[1.732s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.736s] -- Detecting CXX compiler ABI info
+[1.925s] -- Detecting CXX compiler ABI info - done
+[1.990s] -- Detecting CXX compile features
+[1.991s] -- Detecting CXX compile features - done
+[1.999s] -- urdfdom_headers version 1.0.5
+[2.006s] -- Configuration successful. Type make install to install urdfdom_headers.
+[2.009s] -- Configuring done
+[2.017s] -- Generating done
+[2.019s] -- Build files have been written to: /robofuzz/ros2_foxy/build/urdfdom_headers
+[2.029s] Invoked command in '/robofuzz/ros2_foxy/build/urdfdom_headers' returned '0': /usr/bin/cmake /robofuzz/ros2_foxy/src/ros/urdfdom_headers -DCMAKE_INSTALL_PREFIX=/robofuzz/ros2_foxy/install/urdfdom_headers
+[2.030s] Invoking command in '/robofuzz/ros2_foxy/build/urdfdom_headers': /usr/bin/cmake --build /robofuzz/ros2_foxy/build/urdfdom_headers -- -j12 -l12
+[2.134s] Invoked command in '/robofuzz/ros2_foxy/build/urdfdom_headers' returned '0': /usr/bin/cmake --build /robofuzz/ros2_foxy/build/urdfdom_headers -- -j12 -l12
+[2.244s] Invoking command in '/robofuzz/ros2_foxy/build/urdfdom_headers': /usr/bin/cmake --install /robofuzz/ros2_foxy/build/urdfdom_headers
+[2.286s] -- Install configuration: ""
+[2.287s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config.cmake
+[2.287s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config-version.cmake
+[2.288s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/pkgconfig/urdfdom_headers.pc
+[2.289s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headersExport.cmake
+[2.289s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_sensor
+[2.290s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_sensor/types.h
+[2.290s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_sensor/sensor.h
+[2.291s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model
+[2.291s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/joint.h
+[2.291s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/pose.h
+[2.295s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/utils.h
+[2.295s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/model.h
+[2.305s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/color.h
+[2.305s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/twist.h
+[2.305s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/link.h
+[2.306s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model/types.h
+[2.306s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state
+[2.306s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/model_state.h
+[2.307s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/twist.h
+[2.307s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/types.h
+[2.307s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_world
+[2.307s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_world/world.h
+[2.308s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_world/types.h
+[2.308s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_exception
+[2.308s] -- Installing: /robofuzz/ros2_foxy/install/urdfdom_headers/include/urdf_exception/exception.h
+[2.321s] Invoked command in '/robofuzz/ros2_foxy/build/urdfdom_headers' returned '0': /usr/bin/cmake --install /robofuzz/ros2_foxy/build/urdfdom_headers

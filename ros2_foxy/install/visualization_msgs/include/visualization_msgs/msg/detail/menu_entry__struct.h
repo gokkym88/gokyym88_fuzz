@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/visualization_msgs/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__struct.h

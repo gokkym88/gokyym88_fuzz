@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/statistics_msgs/ament_cmake_core/statistics_msgsConfig-version.cmake

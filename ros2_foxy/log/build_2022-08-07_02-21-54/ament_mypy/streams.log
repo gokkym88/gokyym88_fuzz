@@ -1,0 +1,17 @@
+[2.036s] Invoking command in '/robofuzz/ros2_foxy/build/ament_mypy': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_mypy --editable --build-directory /robofuzz/ros2_foxy/build/ament_mypy/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_mypy
+[2.442s] running develop
+[2.665s] running egg_info
+[2.665s] writing ament_mypy.egg-info/PKG-INFO
+[2.665s] writing dependency_links to ament_mypy.egg-info/dependency_links.txt
+[2.666s] writing entry points to ament_mypy.egg-info/entry_points.txt
+[2.666s] writing requirements to ament_mypy.egg-info/requires.txt
+[2.666s] writing top-level names to ament_mypy.egg-info/top_level.txt
+[2.722s] reading manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[2.723s] writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[2.784s] running build_ext
+[2.784s] Creating /robofuzz/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament-mypy.egg-link (link to .)
+[2.785s] Installing ament_mypy script to /robofuzz/ros2_foxy/install/ament_mypy/bin
+[2.786s] 
+[2.786s] Installed /robofuzz/ros2_foxy/build/ament_mypy
+[2.786s] running install_data
+[2.824s] Invoked command in '/robofuzz/ros2_foxy/build/ament_mypy' returned '0': AMENT_PREFIX_PATH=/robofuzz/ros2_foxy/install/ament_flake8:/robofuzz/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/robofuzz/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/robofuzz/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_flake8:/robofuzz/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/robofuzz/ros2_foxy/build/ament_lint:/robofuzz/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/ament_mypy --editable --build-directory /robofuzz/ros2_foxy/build/ament_mypy/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/ament_mypy

@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/logging_demo/rosidl_generator_cpp/logging_demo/srv/detail/config_logger__struct.hpp

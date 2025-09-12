@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros2/example_interfaces/msg/Bool.msg

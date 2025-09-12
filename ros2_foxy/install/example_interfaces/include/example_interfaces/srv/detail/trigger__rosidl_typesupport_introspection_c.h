@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/example_interfaces/rosidl_typesupport_introspection_c/example_interfaces/srv/detail/trigger__rosidl_typesupport_introspection_c.h

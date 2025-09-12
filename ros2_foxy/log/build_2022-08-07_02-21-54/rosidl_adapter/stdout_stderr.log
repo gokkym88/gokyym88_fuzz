@@ -1,0 +1,50 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/pythonpath.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/pythonpath.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__main__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/cli.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/main.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/action.idl.em
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/msg.idl.em
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/srv.idl.em
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/struct.idl.em
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/ament_index/resource_index/package_run_dependencies/rosidl_adapter
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/ament_index/resource_index/parent_prefix_path/rosidl_adapter
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/ament_prefix_path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/ament_prefix_path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/path.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/path.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.bash
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.sh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.zsh
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/package.dsv
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/ament_index/resource_index/packages/rosidl_adapter
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapter-extras.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig-version.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/package.xml
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/rosidl_adapter/msg2idl.py
+-- Symlinking: /robofuzz/ros2_foxy/install/rosidl_adapter/lib/rosidl_adapter/srv2idl.py
+Listing '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__init__.py'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__main__.py'...
+Listing '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/cli.py'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/main.py'...
+Listing '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py'...
+Listing '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py'...
+Listing '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv'...
+Compiling '/robofuzz/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py'...

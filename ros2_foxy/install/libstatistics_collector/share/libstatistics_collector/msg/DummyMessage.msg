@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ros-tooling/libstatistics_collector/test/msg/DummyMessage.msg

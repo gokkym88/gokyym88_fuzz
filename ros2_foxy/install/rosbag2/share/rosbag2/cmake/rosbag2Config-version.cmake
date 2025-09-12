@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/rosbag2/ament_cmake_core/rosbag2Config-version.cmake

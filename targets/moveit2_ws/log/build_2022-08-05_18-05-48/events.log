@@ -1,0 +1,1718 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (rviz_visual_tools) JobQueued: {'identifier': 'rviz_visual_tools', 'dependencies': OrderedDict()}
+[0.000389] (moveit_visual_tools) JobQueued: {'identifier': 'moveit_visual_tools', 'dependencies': OrderedDict([('rviz_visual_tools', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools')])}
+[0.000429] (moveit2_tutorials) JobQueued: {'identifier': 'moveit2_tutorials', 'dependencies': OrderedDict([('rviz_visual_tools', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools'), ('moveit_visual_tools', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools')])}
+[0.000469] (rviz_visual_tools) JobStarted: {'identifier': 'rviz_visual_tools'}
+[0.016732] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'cmake'}
+[0.017126] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '/robofuzz/targets/moveit2_ws/src/rviz_visual_tools', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/robofuzz/targets/moveit2_ws/install/rviz_visual_tools'], 'cwd': '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.099609] (-) TimerEvent: {}
+[0.105370] (rviz_visual_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.160842] (rviz_visual_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.167036] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199713] (-) TimerEvent: {}
+[0.235715] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.236983] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299844] (-) TimerEvent: {}
+[0.316069] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.334232] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.334689] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.338223] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399969] (-) TimerEvent: {}
+[0.414768] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.416381] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.494003] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500052] (-) TimerEvent: {}
+[0.509797] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.510351] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.515039] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.553658] (rviz_visual_tools) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.553893] (rviz_visual_tools) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600135] (-) TimerEvent: {}
+[0.700416] (-) TimerEvent: {}
+[0.758673] (rviz_visual_tools) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800505] (-) TimerEvent: {}
+[0.811399] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.888912] (rviz_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900620] (-) TimerEvent: {}
+[0.905283] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.000751] (-) TimerEvent: {}
+[1.027257] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.068968] (rviz_visual_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.100877] (-) TimerEvent: {}
+[1.182240] (rviz_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200992] (-) TimerEvent: {}
+[1.266016] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.268754] (rviz_visual_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.269703] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301119] (-) TimerEvent: {}
+[1.339533] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.339847] (rviz_visual_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401244] (-) TimerEvent: {}
+[1.414911] (rviz_visual_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.415234] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.477474] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.477709] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.501372] (-) TimerEvent: {}
+[1.554531] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.555890] (rviz_visual_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.601491] (-) TimerEvent: {}
+[1.701756] (-) TimerEvent: {}
+[1.769824] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.801845] (-) TimerEvent: {}
+[1.858222] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_ogre_vendor: 8.2.6 (/opt/ros/foxy/share/rviz_ogre_vendor/cmake)\n'}
+[1.858491] (rviz_visual_tools) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.861501] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.861613] (rviz_visual_tools) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.861726] (rviz_visual_tools) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.861822] (rviz_visual_tools) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.862005] (rviz_visual_tools) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.862105] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.862198] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[1.862288] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.862378] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.862471] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.862601] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.862840] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.862992] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.901931] (-) TimerEvent: {}
+[1.906513] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.916013] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[2.002047] (-) TimerEvent: {}
+[2.044273] (rviz_visual_tools) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.044606] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.102171] (-) TimerEvent: {}
+[2.120854] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.121159] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.202308] (-) TimerEvent: {}
+[2.208341] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.208721] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.296492] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.296873] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.302425] (-) TimerEvent: {}
+[2.390873] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.391344] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.402554] (-) TimerEvent: {}
+[2.487129] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.487545] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.502687] (-) TimerEvent: {}
+[2.585295] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.591365] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.591696] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.598166] (rviz_visual_tools) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.602777] (-) TimerEvent: {}
+[2.703090] (-) TimerEvent: {}
+[2.752647] (rviz_visual_tools) StdoutLine: {'line': b'-- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)\n'}
+[2.803171] (-) TimerEvent: {}
+[2.837166] (rviz_visual_tools) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.903618] (-) TimerEvent: {}
+[2.936483] (rviz_visual_tools) StdoutLine: {'line': b'-- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)\n'}
+[3.003739] (-) TimerEvent: {}
+[3.033479] (rviz_visual_tools) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[3.037261] (rviz_visual_tools) StdoutLine: {'line': b'-- Found eigen_stl_containers: 1.0.0 (/opt/ros/foxy/share/eigen_stl_containers/cmake)\n'}
+[3.044489] (rviz_visual_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[3.048119] (rviz_visual_tools) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[3.052801] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.067627] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[3.103854] (-) TimerEvent: {}
+[3.204143] (-) TimerEvent: {}
+[3.304442] (-) TimerEvent: {}
+[3.404711] (-) TimerEvent: {}
+[3.461855] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[3.504832] (-) TimerEvent: {}
+[3.511614] (rviz_visual_tools) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[3.547592] (rviz_visual_tools) StdoutLine: {'line': b'-- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)\n'}
+[3.579686] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_common: 8.2.6 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[3.604950] (-) TimerEvent: {}
+[3.686197] (rviz_visual_tools) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.705064] (-) TimerEvent: {}
+[3.804081] (rviz_visual_tools) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[3.805128] (-) TimerEvent: {}
+[3.811866] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.6 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[3.905260] (-) TimerEvent: {}
+[4.005569] (-) TimerEvent: {}
+[4.105853] (-) TimerEvent: {}
+[4.206146] (-) TimerEvent: {}
+[4.306442] (-) TimerEvent: {}
+[4.406747] (-) TimerEvent: {}
+[4.411427] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[4.416182] (rviz_visual_tools) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.420001] (rviz_visual_tools) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[4.491533] (rviz_visual_tools) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[4.506862] (-) TimerEvent: {}
+[4.576851] (rviz_visual_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.606990] (-) TimerEvent: {}
+[4.707274] (-) TimerEvent: {}
+[4.765206] (rviz_visual_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[4.769305] (rviz_visual_tools) StdoutLine: {'line': b'-- Build files have been written to: /robofuzz/targets/moveit2_ws/build/rviz_visual_tools\n'}
+[4.780824] (rviz_visual_tools) CommandEnded: {'returncode': 0}
+[4.781569] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'build'}
+[4.782494] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools', '--', '-j12', '-l12'], 'cwd': '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[4.807435] (-) TimerEvent: {}
+[4.831467] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main_autogen\x1b[0m\n'}
+[4.831862] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_autogen\x1b[0m\n'}
+[4.831999] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_gui_autogen\x1b[0m\n'}
+[4.832114] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_remote_control_autogen\x1b[0m\n'}
+[4.850206] (rviz_visual_tools) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_gui\x1b[0m\n'}
+[4.850677] (rviz_visual_tools) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_remote_control\x1b[0m\n'}
+[4.850915] (rviz_visual_tools) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mAutomatic MOC for target gtest_main\x1b[0m\n'}
+[4.851147] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC for target gtest\x1b[0m\n'}
+[4.876215] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] Built target rviz_visual_tools_remote_control_autogen\n'}
+[4.876454] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] Built target gtest_autogen\n'}
+[4.876585] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] Built target gtest_main_autogen\n'}
+[4.889942] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[4.890135] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[4.907568] (-) TimerEvent: {}
+[4.915069] (rviz_visual_tools) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[4.915697] (rviz_visual_tools) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[4.921757] (rviz_visual_tools) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[4.922214] (rviz_visual_tools) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.007674] (-) TimerEvent: {}
+[5.067736] (rviz_visual_tools) StdoutLine: {'line': b'[ 20%] Built target rviz_visual_tools_gui_autogen\n'}
+[5.080731] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_remote_control\x1b[0m\n'}
+[5.081001] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_gui\x1b[0m\n'}
+[5.107796] (-) TimerEvent: {}
+[5.135642] (rviz_visual_tools) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.141500] (rviz_visual_tools) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o\x1b[0m\n'}
+[5.207913] (-) TimerEvent: {}
+[5.213039] (rviz_visual_tools) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.213981] (rviz_visual_tools) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o\x1b[0m\n'}
+[5.219813] (rviz_visual_tools) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o\x1b[0m\n'}
+[5.220259] (rviz_visual_tools) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o\x1b[0m\n'}
+[5.308049] (-) TimerEvent: {}
+[5.408509] (-) TimerEvent: {}
+[5.508888] (-) TimerEvent: {}
+[5.609272] (-) TimerEvent: {}
+[5.709684] (-) TimerEvent: {}
+[5.810101] (-) TimerEvent: {}
+[5.871603] (rviz_visual_tools) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.910234] (-) TimerEvent: {}
+[5.918285] (rviz_visual_tools) StdoutLine: {'line': b'[ 38%] Built target gtest_main\n'}
+[6.010357] (-) TimerEvent: {}
+[6.110735] (-) TimerEvent: {}
+[6.211110] (-) TimerEvent: {}
+[6.311489] (-) TimerEvent: {}
+[6.411877] (-) TimerEvent: {}
+[6.512267] (-) TimerEvent: {}
+[6.612700] (-) TimerEvent: {}
+[6.713076] (-) TimerEvent: {}
+[6.813466] (-) TimerEvent: {}
+[6.913864] (-) TimerEvent: {}
+[7.014255] (-) TimerEvent: {}
+[7.114736] (-) TimerEvent: {}
+[7.215130] (-) TimerEvent: {}
+[7.315547] (-) TimerEvent: {}
+[7.415958] (-) TimerEvent: {}
+[7.516347] (-) TimerEvent: {}
+[7.616830] (-) TimerEvent: {}
+[7.717245] (-) TimerEvent: {}
+[7.817705] (-) TimerEvent: {}
+[7.918065] (-) TimerEvent: {}
+[8.018469] (-) TimerEvent: {}
+[8.118942] (-) TimerEvent: {}
+[8.219496] (-) TimerEvent: {}
+[8.319895] (-) TimerEvent: {}
+[8.420321] (-) TimerEvent: {}
+[8.520715] (-) TimerEvent: {}
+[8.621175] (-) TimerEvent: {}
+[8.721711] (-) TimerEvent: {}
+[8.822083] (-) TimerEvent: {}
+[8.922479] (-) TimerEvent: {}
+[9.022908] (-) TimerEvent: {}
+[9.123304] (-) TimerEvent: {}
+[9.223697] (-) TimerEvent: {}
+[9.324105] (-) TimerEvent: {}
+[9.424514] (-) TimerEvent: {}
+[9.524938] (-) TimerEvent: {}
+[9.625398] (-) TimerEvent: {}
+[9.725815] (-) TimerEvent: {}
+[9.826154] (-) TimerEvent: {}
+[9.926554] (-) TimerEvent: {}
+[10.026919] (-) TimerEvent: {}
+[10.127319] (-) TimerEvent: {}
+[10.227684] (-) TimerEvent: {}
+[10.328024] (-) TimerEvent: {}
+[10.428376] (-) TimerEvent: {}
+[10.528745] (-) TimerEvent: {}
+[10.629089] (-) TimerEvent: {}
+[10.729426] (-) TimerEvent: {}
+[10.829867] (-) TimerEvent: {}
+[10.930220] (-) TimerEvent: {}
+[11.030581] (-) TimerEvent: {}
+[11.130946] (-) TimerEvent: {}
+[11.231406] (-) TimerEvent: {}
+[11.331781] (-) TimerEvent: {}
+[11.432262] (-) TimerEvent: {}
+[11.532632] (-) TimerEvent: {}
+[11.633066] (-) TimerEvent: {}
+[11.733552] (-) TimerEvent: {}
+[11.833907] (-) TimerEvent: {}
+[11.934237] (-) TimerEvent: {}
+[12.034611] (-) TimerEvent: {}
+[12.134960] (-) TimerEvent: {}
+[12.235274] (-) TimerEvent: {}
+[12.335606] (-) TimerEvent: {}
+[12.435925] (-) TimerEvent: {}
+[12.536257] (-) TimerEvent: {}
+[12.636595] (-) TimerEvent: {}
+[12.736916] (-) TimerEvent: {}
+[12.837239] (-) TimerEvent: {}
+[12.937585] (-) TimerEvent: {}
+[13.037917] (-) TimerEvent: {}
+[13.138240] (-) TimerEvent: {}
+[13.238573] (-) TimerEvent: {}
+[13.338902] (-) TimerEvent: {}
+[13.340758] (rviz_visual_tools) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_remote_control.so\x1b[0m\n'}
+[13.439012] (-) TimerEvent: {}
+[13.505420] (rviz_visual_tools) StdoutLine: {'line': b'[ 41%] Built target rviz_visual_tools_remote_control\n'}
+[13.516597] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_autogen\x1b[0m\n'}
+[13.528592] (rviz_visual_tools) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools\x1b[0m\n'}
+[13.539116] (-) TimerEvent: {}
+[13.550077] (rviz_visual_tools) StdoutLine: {'line': b'[ 43%] Built target rviz_visual_tools_autogen\n'}
+[13.562256] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools\x1b[0m\n'}
+[13.616965] (rviz_visual_tools) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_gui.so\x1b[0m\n'}
+[13.639219] (-) TimerEvent: {}
+[13.665885] (rviz_visual_tools) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[13.679175] (rviz_visual_tools) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o\x1b[0m\n'}
+[13.680520] (rviz_visual_tools) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o\x1b[0m\n'}
+[13.739327] (-) TimerEvent: {}
+[13.839693] (-) TimerEvent: {}
+[13.940202] (-) TimerEvent: {}
+[14.040721] (-) TimerEvent: {}
+[14.141258] (-) TimerEvent: {}
+[14.241781] (-) TimerEvent: {}
+[14.342318] (-) TimerEvent: {}
+[14.442963] (-) TimerEvent: {}
+[14.543457] (-) TimerEvent: {}
+[14.643922] (-) TimerEvent: {}
+[14.744413] (-) TimerEvent: {}
+[14.844910] (-) TimerEvent: {}
+[14.945376] (-) TimerEvent: {}
+[14.982619] (rviz_visual_tools) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[15.045512] (-) TimerEvent: {}
+[15.063297] (rviz_visual_tools) StdoutLine: {'line': b'[ 56%] Built target gtest\n'}
+[15.145693] (-) TimerEvent: {}
+[15.246143] (-) TimerEvent: {}
+[15.346506] (-) TimerEvent: {}
+[15.446376] (rviz_visual_tools) StdoutLine: {'line': b'[ 56%] Built target rviz_visual_tools_gui\n'}
+[15.446634] (-) TimerEvent: {}
+[15.546891] (-) TimerEvent: {}
+[15.647204] (-) TimerEvent: {}
+[15.747515] (-) TimerEvent: {}
+[15.847826] (-) TimerEvent: {}
+[15.948129] (-) TimerEvent: {}
+[16.048435] (-) TimerEvent: {}
+[16.148742] (-) TimerEvent: {}
+[16.249056] (-) TimerEvent: {}
+[16.349367] (-) TimerEvent: {}
+[16.449692] (-) TimerEvent: {}
+[16.550007] (-) TimerEvent: {}
+[16.650314] (-) TimerEvent: {}
+[16.750617] (-) TimerEvent: {}
+[16.850942] (-) TimerEvent: {}
+[16.951260] (-) TimerEvent: {}
+[17.051600] (-) TimerEvent: {}
+[17.151917] (-) TimerEvent: {}
+[17.252225] (-) TimerEvent: {}
+[17.352533] (-) TimerEvent: {}
+[17.452851] (-) TimerEvent: {}
+[17.553177] (-) TimerEvent: {}
+[17.653499] (-) TimerEvent: {}
+[17.753810] (-) TimerEvent: {}
+[17.854118] (-) TimerEvent: {}
+[17.954426] (-) TimerEvent: {}
+[18.054729] (-) TimerEvent: {}
+[18.155023] (-) TimerEvent: {}
+[18.255320] (-) TimerEvent: {}
+[18.355625] (-) TimerEvent: {}
+[18.455933] (-) TimerEvent: {}
+[18.556257] (-) TimerEvent: {}
+[18.656572] (-) TimerEvent: {}
+[18.756890] (-) TimerEvent: {}
+[18.857203] (-) TimerEvent: {}
+[18.957513] (-) TimerEvent: {}
+[19.057830] (-) TimerEvent: {}
+[19.158141] (-) TimerEvent: {}
+[19.258442] (-) TimerEvent: {}
+[19.358763] (-) TimerEvent: {}
+[19.459084] (-) TimerEvent: {}
+[19.559397] (-) TimerEvent: {}
+[19.659712] (-) TimerEvent: {}
+[19.760043] (-) TimerEvent: {}
+[19.860376] (-) TimerEvent: {}
+[19.960685] (-) TimerEvent: {}
+[20.060997] (-) TimerEvent: {}
+[20.161339] (-) TimerEvent: {}
+[20.261659] (-) TimerEvent: {}
+[20.361992] (-) TimerEvent: {}
+[20.462324] (-) TimerEvent: {}
+[20.562608] (-) TimerEvent: {}
+[20.662901] (-) TimerEvent: {}
+[20.763190] (-) TimerEvent: {}
+[20.863477] (-) TimerEvent: {}
+[20.963777] (-) TimerEvent: {}
+[21.064044] (-) TimerEvent: {}
+[21.164321] (-) TimerEvent: {}
+[21.264599] (-) TimerEvent: {}
+[21.364837] (-) TimerEvent: {}
+[21.465121] (-) TimerEvent: {}
+[21.565395] (-) TimerEvent: {}
+[21.665678] (-) TimerEvent: {}
+[21.765921] (-) TimerEvent: {}
+[21.866203] (-) TimerEvent: {}
+[21.966492] (-) TimerEvent: {}
+[22.066776] (-) TimerEvent: {}
+[22.167053] (-) TimerEvent: {}
+[22.267330] (-) TimerEvent: {}
+[22.367614] (-) TimerEvent: {}
+[22.467896] (-) TimerEvent: {}
+[22.568172] (-) TimerEvent: {}
+[22.668445] (-) TimerEvent: {}
+[22.768718] (-) TimerEvent: {}
+[22.869000] (-) TimerEvent: {}
+[22.969287] (-) TimerEvent: {}
+[23.069567] (-) TimerEvent: {}
+[23.169832] (-) TimerEvent: {}
+[23.270106] (-) TimerEvent: {}
+[23.370389] (-) TimerEvent: {}
+[23.470662] (-) TimerEvent: {}
+[23.570940] (-) TimerEvent: {}
+[23.671217] (-) TimerEvent: {}
+[23.771492] (-) TimerEvent: {}
+[23.871766] (-) TimerEvent: {}
+[23.972041] (-) TimerEvent: {}
+[24.072318] (-) TimerEvent: {}
+[24.172596] (-) TimerEvent: {}
+[24.272874] (-) TimerEvent: {}
+[24.373153] (-) TimerEvent: {}
+[24.473434] (-) TimerEvent: {}
+[24.573714] (-) TimerEvent: {}
+[24.673997] (-) TimerEvent: {}
+[24.774284] (-) TimerEvent: {}
+[24.874564] (-) TimerEvent: {}
+[24.974843] (-) TimerEvent: {}
+[25.075124] (-) TimerEvent: {}
+[25.175411] (-) TimerEvent: {}
+[25.275687] (-) TimerEvent: {}
+[25.375961] (-) TimerEvent: {}
+[25.476239] (-) TimerEvent: {}
+[25.576516] (-) TimerEvent: {}
+[25.676800] (-) TimerEvent: {}
+[25.777082] (-) TimerEvent: {}
+[25.877364] (-) TimerEvent: {}
+[25.977638] (-) TimerEvent: {}
+[26.077894] (-) TimerEvent: {}
+[26.178169] (-) TimerEvent: {}
+[26.278443] (-) TimerEvent: {}
+[26.378721] (-) TimerEvent: {}
+[26.478998] (-) TimerEvent: {}
+[26.579277] (-) TimerEvent: {}
+[26.679562] (-) TimerEvent: {}
+[26.779830] (-) TimerEvent: {}
+[26.880099] (-) TimerEvent: {}
+[26.980379] (-) TimerEvent: {}
+[27.080650] (-) TimerEvent: {}
+[27.180918] (-) TimerEvent: {}
+[27.281188] (-) TimerEvent: {}
+[27.381468] (-) TimerEvent: {}
+[27.481813] (-) TimerEvent: {}
+[27.587921] (-) TimerEvent: {}
+[27.688207] (-) TimerEvent: {}
+[27.788501] (-) TimerEvent: {}
+[27.888795] (-) TimerEvent: {}
+[27.989078] (-) TimerEvent: {}
+[28.089362] (-) TimerEvent: {}
+[28.189646] (-) TimerEvent: {}
+[28.289909] (-) TimerEvent: {}
+[28.390181] (-) TimerEvent: {}
+[28.490465] (-) TimerEvent: {}
+[28.590749] (-) TimerEvent: {}
+[28.691016] (-) TimerEvent: {}
+[28.791301] (-) TimerEvent: {}
+[28.891581] (-) TimerEvent: {}
+[28.991861] (-) TimerEvent: {}
+[29.092133] (-) TimerEvent: {}
+[29.192413] (-) TimerEvent: {}
+[29.292695] (-) TimerEvent: {}
+[29.392980] (-) TimerEvent: {}
+[29.493269] (-) TimerEvent: {}
+[29.566378] (rviz_visual_tools) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools.so\x1b[0m\n'}
+[29.593371] (-) TimerEvent: {}
+[29.693668] (-) TimerEvent: {}
+[29.712966] (rviz_visual_tools) StdoutLine: {'line': b'[ 58%] Built target rviz_visual_tools\n'}
+[29.724267] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_rvt_test_autogen\x1b[0m\n'}
+[29.724502] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple_autogen\x1b[0m\n'}
+[29.724645] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_demo_autogen\x1b[0m\n'}
+[29.735439] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_demo\x1b[0m\n'}
+[29.735692] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_rvt_test\x1b[0m\n'}
+[29.735842] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_imarker_simple\x1b[0m\n'}
+[29.755452] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] Built target rviz_visual_tools_imarker_simple_autogen\n'}
+[29.755708] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] Built target rviz_visual_tools_demo_autogen\n'}
+[29.755861] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] Built target rviz_visual_tools_rvt_test_autogen\n'}
+[29.767280] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_demo\x1b[0m\n'}
+[29.767446] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple\x1b[0m\n'}
+[29.767534] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_rvt_test\x1b[0m\n'}
+[29.793793] (-) TimerEvent: {}
+[29.852371] (rviz_visual_tools) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[29.852654] (rviz_visual_tools) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[29.855559] (rviz_visual_tools) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[29.867860] (rviz_visual_tools) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o\x1b[0m\n'}
+[29.870829] (rviz_visual_tools) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o\x1b[0m\n'}
+[29.871843] (rviz_visual_tools) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o\x1b[0m\n'}
+[29.893891] (-) TimerEvent: {}
+[29.994191] (-) TimerEvent: {}
+[30.094483] (-) TimerEvent: {}
+[30.194785] (-) TimerEvent: {}
+[30.295094] (-) TimerEvent: {}
+[30.395406] (-) TimerEvent: {}
+[30.495699] (-) TimerEvent: {}
+[30.595985] (-) TimerEvent: {}
+[30.696272] (-) TimerEvent: {}
+[30.796571] (-) TimerEvent: {}
+[30.896860] (-) TimerEvent: {}
+[30.997153] (-) TimerEvent: {}
+[31.097444] (-) TimerEvent: {}
+[31.197755] (-) TimerEvent: {}
+[31.298040] (-) TimerEvent: {}
+[31.398345] (-) TimerEvent: {}
+[31.498619] (-) TimerEvent: {}
+[31.598908] (-) TimerEvent: {}
+[31.699152] (-) TimerEvent: {}
+[31.799447] (-) TimerEvent: {}
+[31.899749] (-) TimerEvent: {}
+[32.000049] (-) TimerEvent: {}
+[32.100307] (-) TimerEvent: {}
+[32.200598] (-) TimerEvent: {}
+[32.300884] (-) TimerEvent: {}
+[32.401176] (-) TimerEvent: {}
+[32.501464] (-) TimerEvent: {}
+[32.601780] (-) TimerEvent: {}
+[32.702059] (-) TimerEvent: {}
+[32.802347] (-) TimerEvent: {}
+[32.902636] (-) TimerEvent: {}
+[33.002923] (-) TimerEvent: {}
+[33.103218] (-) TimerEvent: {}
+[33.187377] (rviz_visual_tools) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so\x1b[0m\n'}
+[33.203332] (-) TimerEvent: {}
+[33.303643] (-) TimerEvent: {}
+[33.348769] (rviz_visual_tools) StdoutLine: {'line': b'[ 84%] Built target rviz_visual_tools_imarker_simple\n'}
+[33.360978] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo_autogen\x1b[0m\n'}
+[33.373282] (rviz_visual_tools) StdoutLine: {'line': b'[ 87%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo\x1b[0m\n'}
+[33.395854] (rviz_visual_tools) StdoutLine: {'line': b'[ 87%] Built target rviz_visual_tools_imarker_simple_demo_autogen\n'}
+[33.403756] (-) TimerEvent: {}
+[33.410815] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo\x1b[0m\n'}
+[33.501147] (rviz_visual_tools) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[33.503879] (-) TimerEvent: {}
+[33.510568] (rviz_visual_tools) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o\x1b[0m\n'}
+[33.603992] (-) TimerEvent: {}
+[33.704326] (-) TimerEvent: {}
+[33.804630] (-) TimerEvent: {}
+[33.904936] (-) TimerEvent: {}
+[34.005241] (-) TimerEvent: {}
+[34.105558] (-) TimerEvent: {}
+[34.205870] (-) TimerEvent: {}
+[34.226385] (rviz_visual_tools) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable rviz_visual_tools_demo\x1b[0m\n'}
+[34.305979] (-) TimerEvent: {}
+[34.404584] (rviz_visual_tools) StdoutLine: {'line': b'[ 94%] Built target rviz_visual_tools_demo\n'}
+[34.406078] (-) TimerEvent: {}
+[34.506331] (-) TimerEvent: {}
+[34.606615] (-) TimerEvent: {}
+[34.706891] (-) TimerEvent: {}
+[34.807180] (-) TimerEvent: {}
+[34.907471] (-) TimerEvent: {}
+[35.007757] (-) TimerEvent: {}
+[35.108045] (-) TimerEvent: {}
+[35.208331] (-) TimerEvent: {}
+[35.308617] (-) TimerEvent: {}
+[35.408924] (-) TimerEvent: {}
+[35.509222] (-) TimerEvent: {}
+[35.609512] (-) TimerEvent: {}
+[35.644231] (rviz_visual_tools) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable rviz_visual_tools_rvt_test\x1b[0m\n'}
+[35.709617] (-) TimerEvent: {}
+[35.810038] (-) TimerEvent: {}
+[35.827533] (rviz_visual_tools) StdoutLine: {'line': b'[ 97%] Built target rviz_visual_tools_rvt_test\n'}
+[35.910162] (-) TimerEvent: {}
+[36.010437] (-) TimerEvent: {}
+[36.110709] (-) TimerEvent: {}
+[36.211000] (-) TimerEvent: {}
+[36.311275] (-) TimerEvent: {}
+[36.411550] (-) TimerEvent: {}
+[36.511816] (-) TimerEvent: {}
+[36.612100] (-) TimerEvent: {}
+[36.712381] (-) TimerEvent: {}
+[36.812660] (-) TimerEvent: {}
+[36.891604] (rviz_visual_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo\x1b[0m\n'}
+[36.912780] (-) TimerEvent: {}
+[37.013048] (-) TimerEvent: {}
+[37.029106] (rviz_visual_tools) StdoutLine: {'line': b'[100%] Built target rviz_visual_tools_imarker_simple_demo\n'}
+[37.040804] (rviz_visual_tools) CommandEnded: {'returncode': 0}
+[37.107558] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'install'}
+[37.113209] (-) TimerEvent: {}
+[37.118368] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools'], 'cwd': '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/rviz_visual_tools'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[37.132634] (rviz_visual_tools) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[37.133335] (rviz_visual_tools) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.133877] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools//plugin_description.xml\n'}
+[37.146302] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo\n'}
+[37.158344] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo\n'}
+[37.170956] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp\n'}
+[37.180663] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp\n'}
+[37.190007] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp\n'}
+[37.199180] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp\n'}
+[37.208216] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp\n'}
+[37.213302] (-) TimerEvent: {}
+[37.217426] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp\n'}
+[37.227029] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp\n'}
+[37.236858] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz\n'}
+[37.246250] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py\n'}
+[37.255430] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py\n'}
+[37.265009] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch\n'}
+[37.274457] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh\n'}
+[37.284303] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv\n'}
+[37.293901] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools\n'}
+[37.303150] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools\n'}
+[37.311730] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh\n'}
+[37.313400] (-) TimerEvent: {}
+[37.320156] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv\n'}
+[37.328805] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh\n'}
+[37.337237] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv\n'}
+[37.346040] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash\n'}
+[37.354631] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh\n'}
+[37.363788] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh\n'}
+[37.372424] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv\n'}
+[37.381217] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv\n'}
+[37.389940] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools\n'}
+[37.398511] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools\n'}
+[37.407059] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.413513] (-) TimerEvent: {}
+[37.415720] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[37.424421] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.433191] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake\n'}
+[37.441588] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake\n'}
+[37.450255] (rviz_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.xml\n'}
+[37.458784] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so\n'}
+[37.459619] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""\n'}
+[37.459841] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so\n'}
+[37.460502] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""\n'}
+[37.460717] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so\n'}
+[37.461782] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""\n'}
+[37.461967] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so\n'}
+[37.462349] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""\n'}
+[37.464796] (rviz_visual_tools) CommandEnded: {'returncode': 0}
+[37.513669] (-) TimerEvent: {}
+[37.565723] (rviz_visual_tools) JobEnded: {'identifier': 'rviz_visual_tools', 'rc': 0}
+[37.566201] (moveit_visual_tools) JobStarted: {'identifier': 'moveit_visual_tools'}
+[37.579310] (moveit_visual_tools) JobProgress: {'identifier': 'moveit_visual_tools', 'progress': 'cmake'}
+[37.579831] (moveit_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '/robofuzz/targets/moveit2_ws/src/moveit_visual_tools', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/robofuzz/targets/moveit2_ws/install/moveit_visual_tools'], 'cwd': '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[37.613782] (-) TimerEvent: {}
+[37.635604] (moveit_visual_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[37.700333] (moveit_visual_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[37.706952] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[37.713847] (-) TimerEvent: {}
+[37.777944] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[37.779055] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[37.813971] (-) TimerEvent: {}
+[37.855373] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[37.871921] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[37.872268] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[37.874993] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[37.914091] (-) TimerEvent: {}
+[37.948905] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[37.950134] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[38.014212] (-) TimerEvent: {}
+[38.025028] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[38.039933] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[38.040573] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[38.045041] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)\n'}
+[38.048925] (moveit_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[38.087505] (moveit_visual_tools) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[38.087762] (moveit_visual_tools) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[38.114320] (-) TimerEvent: {}
+[38.214528] (-) TimerEvent: {}
+[38.314784] (-) TimerEvent: {}
+[38.317801] (moveit_visual_tools) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[38.414902] (-) TimerEvent: {}
+[38.454863] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system \n'}
+[38.463967] (moveit_visual_tools) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[38.515003] (-) TimerEvent: {}
+[38.522079] (moveit_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[38.536938] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[38.615123] (-) TimerEvent: {}
+[38.642352] (moveit_visual_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[38.685757] (moveit_visual_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[38.715214] (-) TimerEvent: {}
+[38.805081] (moveit_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[38.815292] (-) TimerEvent: {}
+[38.915540] (-) TimerEvent: {}
+[38.925153] (moveit_visual_tools) StdoutLine: {'line': b'-- Found graph_msgs: 0.2.0 (/opt/ros/foxy/share/graph_msgs/cmake)\n'}
+[39.015638] (-) TimerEvent: {}
+[39.021947] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_core: 2.2.3 (/opt/ros/foxy/share/moveit_core/cmake)\n'}
+[39.115758] (-) TimerEvent: {}
+[39.216026] (-) TimerEvent: {}
+[39.316304] (-) TimerEvent: {}
+[39.364690] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[39.399069] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem \n'}
+[39.416423] (-) TimerEvent: {}
+[39.514245] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[39.516526] (-) TimerEvent: {}
+[39.517051] (moveit_visual_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[39.518914] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[39.616655] (-) TimerEvent: {}
+[39.716925] (-) TimerEvent: {}
+[39.811187] (moveit_visual_tools) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[39.817026] (-) TimerEvent: {}
+[39.917277] (-) TimerEvent: {}
+[40.017546] (-) TimerEvent: {}
+[40.062743] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[40.117676] (-) TimerEvent: {}
+[40.217909] (-) TimerEvent: {}
+[40.318180] (-) TimerEvent: {}
+[40.418449] (-) TimerEvent: {}
+[40.518722] (-) TimerEvent: {}
+[40.618993] (-) TimerEvent: {}
+[40.719267] (-) TimerEvent: {}
+[40.819535] (-) TimerEvent: {}
+[40.919809] (-) TimerEvent: {}
+[41.020081] (-) TimerEvent: {}
+[41.120356] (-) TimerEvent: {}
+[41.220627] (-) TimerEvent: {}
+[41.320897] (-) TimerEvent: {}
+[41.421169] (-) TimerEvent: {}
+[41.521440] (-) TimerEvent: {}
+[41.621710] (-) TimerEvent: {}
+[41.721981] (-) TimerEvent: {}
+[41.822252] (-) TimerEvent: {}
+[41.922524] (-) TimerEvent: {}
+[42.022794] (-) TimerEvent: {}
+[42.123066] (-) TimerEvent: {}
+[42.223334] (-) TimerEvent: {}
+[42.323602] (-) TimerEvent: {}
+[42.423869] (-) TimerEvent: {}
+[42.521271] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning/cmake)\n'}
+[42.523968] (-) TimerEvent: {}
+[42.527811] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono \n'}
+[42.624099] (-) TimerEvent: {}
+[42.724365] (-) TimerEvent: {}
+[42.824634] (-) TimerEvent: {}
+[42.885416] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[42.924739] (-) TimerEvent: {}
+[43.024980] (-) TimerEvent: {}
+[43.125257] (-) TimerEvent: {}
+[43.225529] (-) TimerEvent: {}
+[43.325808] (-) TimerEvent: {}
+[43.426076] (-) TimerEvent: {}
+[43.526349] (-) TimerEvent: {}
+[43.626622] (-) TimerEvent: {}
+[43.656588] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rviz_visual_tools: 4.0.3 (/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake)\n'}
+[43.726729] (-) TimerEvent: {}
+[43.826983] (-) TimerEvent: {}
+[43.831643] (moveit_visual_tools) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[43.834815] (moveit_visual_tools) StdoutLine: {'line': b'-- Found OGRE\n'}
+[43.834958] (moveit_visual_tools) StdoutLine: {'line': b'--   static     : OFF\n'}
+[43.835050] (moveit_visual_tools) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[43.835139] (moveit_visual_tools) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[43.835229] (moveit_visual_tools) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[43.835324] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[43.835414] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[43.835514] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[43.835695] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[43.835870] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[43.835969] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[43.836059] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[43.836158] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[43.877560] (moveit_visual_tools) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[43.886499] (moveit_visual_tools) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[43.927106] (-) TimerEvent: {}
+[44.023073] (moveit_visual_tools) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[44.023559] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[44.027210] (-) TimerEvent: {}
+[44.113487] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[44.113728] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[44.127333] (-) TimerEvent: {}
+[44.197965] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[44.198278] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for connect\n'}
+[44.227466] (-) TimerEvent: {}
+[44.280244] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[44.280554] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for remove\n'}
+[44.327600] (-) TimerEvent: {}
+[44.369399] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[44.369644] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[44.427730] (-) TimerEvent: {}
+[44.459285] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[44.459593] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[44.527825] (-) TimerEvent: {}
+[44.549600] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[44.554291] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[44.554460] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[44.627941] (-) TimerEvent: {}
+[44.629811] (moveit_visual_tools) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[44.728065] (-) TimerEvent: {}
+[44.828333] (-) TimerEvent: {}
+[44.928602] (-) TimerEvent: {}
+[45.028872] (-) TimerEvent: {}
+[45.129145] (-) TimerEvent: {}
+[45.229416] (-) TimerEvent: {}
+[45.329690] (-) TimerEvent: {}
+[45.429962] (-) TimerEvent: {}
+[45.530236] (-) TimerEvent: {}
+[45.630507] (-) TimerEvent: {}
+[45.730778] (-) TimerEvent: {}
+[45.831047] (-) TimerEvent: {}
+[45.931319] (-) TimerEvent: {}
+[46.031592] (-) TimerEvent: {}
+[46.048731] (moveit_visual_tools) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[46.082485] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[46.083941] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[46.085719] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[46.087214] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[46.088498] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[46.095986] (moveit_visual_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[46.131713] (-) TimerEvent: {}
+[46.231976] (-) TimerEvent: {}
+[46.332242] (-) TimerEvent: {}
+[46.354842] (moveit_visual_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[46.357889] (moveit_visual_tools) StdoutLine: {'line': b'-- Build files have been written to: /robofuzz/targets/moveit2_ws/build/moveit_visual_tools\n'}
+[46.370002] (moveit_visual_tools) CommandEnded: {'returncode': 0}
+[46.370769] (moveit_visual_tools) JobProgress: {'identifier': 'moveit_visual_tools', 'progress': 'build'}
+[46.372558] (moveit_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools', '--', '-j12', '-l12'], 'cwd': '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[46.416864] (moveit_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target moveit_visual_tools\x1b[0m\n'}
+[46.432343] (-) TimerEvent: {}
+[46.532603] (-) TimerEvent: {}
+[46.562285] (moveit_visual_tools) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o\x1b[0m\n'}
+[46.562707] (moveit_visual_tools) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o\x1b[0m\n'}
+[46.563274] (moveit_visual_tools) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o\x1b[0m\n'}
+[46.632733] (-) TimerEvent: {}
+[46.733042] (-) TimerEvent: {}
+[46.833327] (-) TimerEvent: {}
+[46.933597] (-) TimerEvent: {}
+[47.033929] (-) TimerEvent: {}
+[47.134264] (-) TimerEvent: {}
+[47.234602] (-) TimerEvent: {}
+[47.334901] (-) TimerEvent: {}
+[47.435225] (-) TimerEvent: {}
+[47.535558] (-) TimerEvent: {}
+[47.635875] (-) TimerEvent: {}
+[47.736135] (-) TimerEvent: {}
+[47.836430] (-) TimerEvent: {}
+[47.936727] (-) TimerEvent: {}
+[48.037020] (-) TimerEvent: {}
+[48.137301] (-) TimerEvent: {}
+[48.237587] (-) TimerEvent: {}
+[48.337856] (-) TimerEvent: {}
+[48.438154] (-) TimerEvent: {}
+[48.538441] (-) TimerEvent: {}
+[48.638734] (-) TimerEvent: {}
+[48.739031] (-) TimerEvent: {}
+[48.839333] (-) TimerEvent: {}
+[48.939633] (-) TimerEvent: {}
+[49.039932] (-) TimerEvent: {}
+[49.140236] (-) TimerEvent: {}
+[49.240545] (-) TimerEvent: {}
+[49.340814] (-) TimerEvent: {}
+[49.441119] (-) TimerEvent: {}
+[49.541416] (-) TimerEvent: {}
+[49.641716] (-) TimerEvent: {}
+[49.742003] (-) TimerEvent: {}
+[49.842302] (-) TimerEvent: {}
+[49.942599] (-) TimerEvent: {}
+[50.042896] (-) TimerEvent: {}
+[50.143189] (-) TimerEvent: {}
+[50.243494] (-) TimerEvent: {}
+[50.343805] (-) TimerEvent: {}
+[50.444129] (-) TimerEvent: {}
+[50.544428] (-) TimerEvent: {}
+[50.644729] (-) TimerEvent: {}
+[50.745030] (-) TimerEvent: {}
+[50.845356] (-) TimerEvent: {}
+[50.945690] (-) TimerEvent: {}
+[51.045987] (-) TimerEvent: {}
+[51.146296] (-) TimerEvent: {}
+[51.246602] (-) TimerEvent: {}
+[51.346920] (-) TimerEvent: {}
+[51.447229] (-) TimerEvent: {}
+[51.547546] (-) TimerEvent: {}
+[51.647864] (-) TimerEvent: {}
+[51.748167] (-) TimerEvent: {}
+[51.848460] (-) TimerEvent: {}
+[51.948718] (-) TimerEvent: {}
+[52.049016] (-) TimerEvent: {}
+[52.149321] (-) TimerEvent: {}
+[52.249627] (-) TimerEvent: {}
+[52.349938] (-) TimerEvent: {}
+[52.450238] (-) TimerEvent: {}
+[52.550538] (-) TimerEvent: {}
+[52.650844] (-) TimerEvent: {}
+[52.751146] (-) TimerEvent: {}
+[52.851447] (-) TimerEvent: {}
+[52.951742] (-) TimerEvent: {}
+[53.052098] (-) TimerEvent: {}
+[53.152421] (-) TimerEvent: {}
+[53.252743] (-) TimerEvent: {}
+[53.353062] (-) TimerEvent: {}
+[53.453391] (-) TimerEvent: {}
+[53.553719] (-) TimerEvent: {}
+[53.654038] (-) TimerEvent: {}
+[53.754357] (-) TimerEvent: {}
+[53.854670] (-) TimerEvent: {}
+[53.954988] (-) TimerEvent: {}
+[54.055303] (-) TimerEvent: {}
+[54.155621] (-) TimerEvent: {}
+[54.255946] (-) TimerEvent: {}
+[54.356277] (-) TimerEvent: {}
+[54.456613] (-) TimerEvent: {}
+[54.556930] (-) TimerEvent: {}
+[54.657272] (-) TimerEvent: {}
+[54.757564] (-) TimerEvent: {}
+[54.857888] (-) TimerEvent: {}
+[54.958208] (-) TimerEvent: {}
+[55.058521] (-) TimerEvent: {}
+[55.158835] (-) TimerEvent: {}
+[55.259136] (-) TimerEvent: {}
+[55.359412] (-) TimerEvent: {}
+[55.459724] (-) TimerEvent: {}
+[55.560026] (-) TimerEvent: {}
+[55.660331] (-) TimerEvent: {}
+[55.760650] (-) TimerEvent: {}
+[55.860956] (-) TimerEvent: {}
+[55.961266] (-) TimerEvent: {}
+[56.061586] (-) TimerEvent: {}
+[56.161864] (-) TimerEvent: {}
+[56.262162] (-) TimerEvent: {}
+[56.362470] (-) TimerEvent: {}
+[56.462773] (-) TimerEvent: {}
+[56.563094] (-) TimerEvent: {}
+[56.663402] (-) TimerEvent: {}
+[56.763715] (-) TimerEvent: {}
+[56.864025] (-) TimerEvent: {}
+[56.964315] (-) TimerEvent: {}
+[57.064627] (-) TimerEvent: {}
+[57.164929] (-) TimerEvent: {}
+[57.265243] (-) TimerEvent: {}
+[57.365527] (-) TimerEvent: {}
+[57.465823] (-) TimerEvent: {}
+[57.566121] (-) TimerEvent: {}
+[57.666432] (-) TimerEvent: {}
+[57.766743] (-) TimerEvent: {}
+[57.867055] (-) TimerEvent: {}
+[57.967388] (-) TimerEvent: {}
+[58.067709] (-) TimerEvent: {}
+[58.168023] (-) TimerEvent: {}
+[58.268327] (-) TimerEvent: {}
+[58.368623] (-) TimerEvent: {}
+[58.468902] (-) TimerEvent: {}
+[58.569192] (-) TimerEvent: {}
+[58.669485] (-) TimerEvent: {}
+[58.769776] (-) TimerEvent: {}
+[58.870063] (-) TimerEvent: {}
+[58.970348] (-) TimerEvent: {}
+[59.070629] (-) TimerEvent: {}
+[59.170912] (-) TimerEvent: {}
+[59.271270] (-) TimerEvent: {}
+[59.371559] (-) TimerEvent: {}
+[59.471840] (-) TimerEvent: {}
+[59.572125] (-) TimerEvent: {}
+[59.672407] (-) TimerEvent: {}
+[59.772707] (-) TimerEvent: {}
+[59.872996] (-) TimerEvent: {}
+[59.973286] (-) TimerEvent: {}
+[60.073589] (-) TimerEvent: {}
+[60.173884] (-) TimerEvent: {}
+[60.274160] (-) TimerEvent: {}
+[60.374740] (-) TimerEvent: {}
+[60.475024] (-) TimerEvent: {}
+[60.575310] (-) TimerEvent: {}
+[60.675589] (-) TimerEvent: {}
+[60.775883] (-) TimerEvent: {}
+[60.876171] (-) TimerEvent: {}
+[60.976451] (-) TimerEvent: {}
+[61.076737] (-) TimerEvent: {}
+[61.177025] (-) TimerEvent: {}
+[61.277306] (-) TimerEvent: {}
+[61.377594] (-) TimerEvent: {}
+[61.477850] (-) TimerEvent: {}
+[61.578140] (-) TimerEvent: {}
+[61.678418] (-) TimerEvent: {}
+[61.778707] (-) TimerEvent: {}
+[61.878995] (-) TimerEvent: {}
+[61.979284] (-) TimerEvent: {}
+[62.079589] (-) TimerEvent: {}
+[62.179866] (-) TimerEvent: {}
+[62.280149] (-) TimerEvent: {}
+[62.380430] (-) TimerEvent: {}
+[62.480744] (-) TimerEvent: {}
+[62.581000] (-) TimerEvent: {}
+[62.681280] (-) TimerEvent: {}
+[62.781572] (-) TimerEvent: {}
+[62.881831] (-) TimerEvent: {}
+[62.982111] (-) TimerEvent: {}
+[63.082399] (-) TimerEvent: {}
+[63.182677] (-) TimerEvent: {}
+[63.282965] (-) TimerEvent: {}
+[63.383244] (-) TimerEvent: {}
+[63.483522] (-) TimerEvent: {}
+[63.583804] (-) TimerEvent: {}
+[63.684086] (-) TimerEvent: {}
+[63.784359] (-) TimerEvent: {}
+[63.884640] (-) TimerEvent: {}
+[63.984931] (-) TimerEvent: {}
+[64.085175] (-) TimerEvent: {}
+[64.185449] (-) TimerEvent: {}
+[64.285736] (-) TimerEvent: {}
+[64.386006] (-) TimerEvent: {}
+[64.486288] (-) TimerEvent: {}
+[64.564014] (moveit_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_visual_tools.so\x1b[0m\n'}
+[64.586410] (-) TimerEvent: {}
+[64.686685] (-) TimerEvent: {}
+[64.786975] (-) TimerEvent: {}
+[64.887263] (-) TimerEvent: {}
+[64.987544] (-) TimerEvent: {}
+[65.038788] (moveit_visual_tools) StdoutLine: {'line': b'[ 66%] Built target moveit_visual_tools\n'}
+[65.049353] (moveit_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target moveit_visual_tools_demo\x1b[0m\n'}
+[65.087671] (-) TimerEvent: {}
+[65.161308] (moveit_visual_tools) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o\x1b[0m\n'}
+[65.187797] (-) TimerEvent: {}
+[65.288075] (-) TimerEvent: {}
+[65.388331] (-) TimerEvent: {}
+[65.488611] (-) TimerEvent: {}
+[65.588891] (-) TimerEvent: {}
+[65.689191] (-) TimerEvent: {}
+[65.789480] (-) TimerEvent: {}
+[65.889767] (-) TimerEvent: {}
+[65.990054] (-) TimerEvent: {}
+[66.090334] (-) TimerEvent: {}
+[66.190636] (-) TimerEvent: {}
+[66.290918] (-) TimerEvent: {}
+[66.391226] (-) TimerEvent: {}
+[66.491498] (-) TimerEvent: {}
+[66.591773] (-) TimerEvent: {}
+[66.692047] (-) TimerEvent: {}
+[66.792322] (-) TimerEvent: {}
+[66.892595] (-) TimerEvent: {}
+[66.992872] (-) TimerEvent: {}
+[67.093161] (-) TimerEvent: {}
+[67.193435] (-) TimerEvent: {}
+[67.293724] (-) TimerEvent: {}
+[67.393990] (-) TimerEvent: {}
+[67.494271] (-) TimerEvent: {}
+[67.594541] (-) TimerEvent: {}
+[67.694811] (-) TimerEvent: {}
+[67.795090] (-) TimerEvent: {}
+[67.895364] (-) TimerEvent: {}
+[67.995637] (-) TimerEvent: {}
+[68.095911] (-) TimerEvent: {}
+[68.196186] (-) TimerEvent: {}
+[68.296465] (-) TimerEvent: {}
+[68.396734] (-) TimerEvent: {}
+[68.497006] (-) TimerEvent: {}
+[68.597287] (-) TimerEvent: {}
+[68.697565] (-) TimerEvent: {}
+[68.797817] (-) TimerEvent: {}
+[68.898105] (-) TimerEvent: {}
+[68.998395] (-) TimerEvent: {}
+[69.098685] (-) TimerEvent: {}
+[69.198964] (-) TimerEvent: {}
+[69.299245] (-) TimerEvent: {}
+[69.399523] (-) TimerEvent: {}
+[69.499790] (-) TimerEvent: {}
+[69.600060] (-) TimerEvent: {}
+[69.700343] (-) TimerEvent: {}
+[69.800630] (-) TimerEvent: {}
+[69.900921] (-) TimerEvent: {}
+[70.001214] (-) TimerEvent: {}
+[70.101540] (-) TimerEvent: {}
+[70.201852] (-) TimerEvent: {}
+[70.302156] (-) TimerEvent: {}
+[70.402467] (-) TimerEvent: {}
+[70.502769] (-) TimerEvent: {}
+[70.603092] (-) TimerEvent: {}
+[70.703396] (-) TimerEvent: {}
+[70.803699] (-) TimerEvent: {}
+[70.904002] (-) TimerEvent: {}
+[71.004307] (-) TimerEvent: {}
+[71.104615] (-) TimerEvent: {}
+[71.204942] (-) TimerEvent: {}
+[71.305221] (-) TimerEvent: {}
+[71.405500] (-) TimerEvent: {}
+[71.505767] (-) TimerEvent: {}
+[71.606043] (-) TimerEvent: {}
+[71.706319] (-) TimerEvent: {}
+[71.806593] (-) TimerEvent: {}
+[71.906857] (-) TimerEvent: {}
+[72.007130] (-) TimerEvent: {}
+[72.107418] (-) TimerEvent: {}
+[72.207698] (-) TimerEvent: {}
+[72.307970] (-) TimerEvent: {}
+[72.408248] (-) TimerEvent: {}
+[72.508527] (-) TimerEvent: {}
+[72.608815] (-) TimerEvent: {}
+[72.709102] (-) TimerEvent: {}
+[72.809387] (-) TimerEvent: {}
+[72.909668] (-) TimerEvent: {}
+[73.009904] (-) TimerEvent: {}
+[73.110164] (-) TimerEvent: {}
+[73.210436] (-) TimerEvent: {}
+[73.310707] (-) TimerEvent: {}
+[73.410979] (-) TimerEvent: {}
+[73.511260] (-) TimerEvent: {}
+[73.611540] (-) TimerEvent: {}
+[73.711827] (-) TimerEvent: {}
+[73.812109] (-) TimerEvent: {}
+[73.912392] (-) TimerEvent: {}
+[74.012667] (-) TimerEvent: {}
+[74.112954] (-) TimerEvent: {}
+[74.213229] (-) TimerEvent: {}
+[74.313511] (-) TimerEvent: {}
+[74.413768] (-) TimerEvent: {}
+[74.514051] (-) TimerEvent: {}
+[74.614333] (-) TimerEvent: {}
+[74.714621] (-) TimerEvent: {}
+[74.814897] (-) TimerEvent: {}
+[74.915180] (-) TimerEvent: {}
+[75.015456] (-) TimerEvent: {}
+[75.115735] (-) TimerEvent: {}
+[75.216026] (-) TimerEvent: {}
+[75.264051] (moveit_visual_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveit_visual_tools_demo\x1b[0m\n'}
+[75.316152] (-) TimerEvent: {}
+[75.416440] (-) TimerEvent: {}
+[75.516728] (-) TimerEvent: {}
+[75.617017] (-) TimerEvent: {}
+[75.717304] (-) TimerEvent: {}
+[75.817593] (-) TimerEvent: {}
+[75.917915] (-) TimerEvent: {}
+[75.966865] (moveit_visual_tools) StdoutLine: {'line': b'[100%] Built target moveit_visual_tools_demo\n'}
+[75.978683] (moveit_visual_tools) CommandEnded: {'returncode': 0}
+[76.011828] (moveit_visual_tools) JobProgress: {'identifier': 'moveit_visual_tools', 'progress': 'install'}
+[76.012011] (moveit_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools'], 'cwd': '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/moveit_visual_tools'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[76.018011] (-) TimerEvent: {}
+[76.020175] (moveit_visual_tools) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[76.020691] (moveit_visual_tools) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[76.021061] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh\n'}
+[76.029731] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv\n'}
+[76.038538] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo\n'}
+[76.047522] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h\n'}
+[76.056123] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h\n'}
+[76.064424] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h\n'}
+[76.073153] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz\n'}
+[76.081561] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py\n'}
+[76.090075] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png\n'}
+[76.098782] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl\n'}
+[76.107116] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf\n'}
+[76.115940] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf\n'}
+[76.118115] (-) TimerEvent: {}
+[76.124586] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png\n'}
+[76.133453] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools\n'}
+[76.142111] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools\n'}
+[76.150768] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh\n'}
+[76.159421] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv\n'}
+[76.167980] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh\n'}
+[76.176440] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv\n'}
+[76.184825] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash\n'}
+[76.193510] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh\n'}
+[76.201994] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh\n'}
+[76.210741] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv\n'}
+[76.218236] (-) TimerEvent: {}
+[76.219542] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv\n'}
+[76.228285] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools\n'}
+[76.236749] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[76.245262] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[76.254054] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake\n'}
+[76.262339] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake\n'}
+[76.270707] (moveit_visual_tools) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.xml\n'}
+[76.279005] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so\n'}
+[76.280029] (moveit_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""\n'}
+[76.280274] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake\n'}
+[76.280514] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake\n'}
+[76.282002] (moveit_visual_tools) CommandEnded: {'returncode': 0}
+[76.318347] (-) TimerEvent: {}
+[76.334876] (moveit_visual_tools) JobEnded: {'identifier': 'moveit_visual_tools', 'rc': 0}
+[76.335345] (moveit2_tutorials) JobStarted: {'identifier': 'moveit2_tutorials'}
+[76.350786] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'cmake'}
+[76.352440] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/robofuzz/targets/moveit2_ws/src/moveit2_tutorials', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/robofuzz/targets/moveit2_ws/install/moveit2_tutorials'], 'cwd': '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[76.413231] (moveit2_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[76.418435] (-) TimerEvent: {}
+[76.473273] (moveit2_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[76.480544] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[76.518565] (-) TimerEvent: {}
+[76.546596] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[76.547619] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[76.613726] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[76.618663] (-) TimerEvent: {}
+[76.628933] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[76.629298] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[76.632039] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[76.706512] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[76.707654] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[76.718790] (-) TimerEvent: {}
+[76.783720] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[76.799524] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[76.800140] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[76.804804] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)\n'}
+[76.808879] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[76.818880] (-) TimerEvent: {}
+[76.848347] (moveit2_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[76.848511] (moveit2_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[76.919001] (-) TimerEvent: {}
+[77.019260] (-) TimerEvent: {}
+[77.076533] (moveit2_tutorials) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[77.119389] (-) TimerEvent: {}
+[77.219659] (-) TimerEvent: {}
+[77.319945] (-) TimerEvent: {}
+[77.420231] (-) TimerEvent: {}
+[77.520110] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time thread \n'}
+[77.520278] (-) TimerEvent: {}
+[77.525989] (moveit2_tutorials) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[77.584599] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[77.600090] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[77.620412] (-) TimerEvent: {}
+[77.708425] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[77.720532] (-) TimerEvent: {}
+[77.752779] (moveit2_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[77.820662] (-) TimerEvent: {}
+[77.873133] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[77.920789] (-) TimerEvent: {}
+[78.021066] (-) TimerEvent: {}
+[78.121340] (-) TimerEvent: {}
+[78.221618] (-) TimerEvent: {}
+[78.321868] (-) TimerEvent: {}
+[78.422142] (-) TimerEvent: {}
+[78.505635] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_core: 2.2.3 (/opt/ros/foxy/share/moveit_core/cmake)\n'}
+[78.522264] (-) TimerEvent: {}
+[78.539189] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[78.573564] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem \n'}
+[78.622397] (-) TimerEvent: {}
+[78.699236] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[78.702312] (moveit2_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[78.704280] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[78.722514] (-) TimerEvent: {}
+[78.822776] (-) TimerEvent: {}
+[78.923050] (-) TimerEvent: {}
+[79.004945] (moveit2_tutorials) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[79.023166] (-) TimerEvent: {}
+[79.123423] (-) TimerEvent: {}
+[79.223697] (-) TimerEvent: {}
+[79.254545] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[79.323825] (-) TimerEvent: {}
+[79.424100] (-) TimerEvent: {}
+[79.524380] (-) TimerEvent: {}
+[79.624650] (-) TimerEvent: {}
+[79.724932] (-) TimerEvent: {}
+[79.825218] (-) TimerEvent: {}
+[79.925497] (-) TimerEvent: {}
+[80.025761] (-) TimerEvent: {}
+[80.126051] (-) TimerEvent: {}
+[80.226339] (-) TimerEvent: {}
+[80.326623] (-) TimerEvent: {}
+[80.426912] (-) TimerEvent: {}
+[80.527199] (-) TimerEvent: {}
+[80.627482] (-) TimerEvent: {}
+[80.727778] (-) TimerEvent: {}
+[80.828064] (-) TimerEvent: {}
+[80.928308] (-) TimerEvent: {}
+[81.028556] (-) TimerEvent: {}
+[81.128817] (-) TimerEvent: {}
+[81.229113] (-) TimerEvent: {}
+[81.329399] (-) TimerEvent: {}
+[81.429689] (-) TimerEvent: {}
+[81.529967] (-) TimerEvent: {}
+[81.630244] (-) TimerEvent: {}
+[81.692612] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning/cmake)\n'}
+[81.699655] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono \n'}
+[81.730376] (-) TimerEvent: {}
+[81.830656] (-) TimerEvent: {}
+[81.930943] (-) TimerEvent: {}
+[82.031231] (-) TimerEvent: {}
+[82.081468] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[82.131356] (-) TimerEvent: {}
+[82.231640] (-) TimerEvent: {}
+[82.331930] (-) TimerEvent: {}
+[82.432216] (-) TimerEvent: {}
+[82.532496] (-) TimerEvent: {}
+[82.632770] (-) TimerEvent: {}
+[82.733052] (-) TimerEvent: {}
+[82.833329] (-) TimerEvent: {}
+[82.906412] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)\n'}
+[82.910697] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  \n'}
+[82.918095] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread \n'}
+[82.933433] (-) TimerEvent: {}
+[83.033683] (-) TimerEvent: {}
+[83.133963] (-) TimerEvent: {}
+[83.234215] (-) TimerEvent: {}
+[83.334493] (-) TimerEvent: {}
+[83.413713] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options \n'}
+[83.434604] (-) TimerEvent: {}
+[83.534858] (-) TimerEvent: {}
+[83.635140] (-) TimerEvent: {}
+[83.735420] (-) TimerEvent: {}
+[83.835697] (-) TimerEvent: {}
+[83.932973] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread \n'}
+[83.935793] (-) TimerEvent: {}
+[84.036035] (-) TimerEvent: {}
+[84.136310] (-) TimerEvent: {}
+[84.236587] (-) TimerEvent: {}
+[84.336865] (-) TimerEvent: {}
+[84.437143] (-) TimerEvent: {}
+[84.537424] (-) TimerEvent: {}
+[84.637706] (-) TimerEvent: {}
+[84.737977] (-) TimerEvent: {}
+[84.765119] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_perception: 2.2.3 (/opt/ros/foxy/share/moveit_ros_perception/cmake)\n'}
+[84.769972] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[84.838101] (-) TimerEvent: {}
+[84.938381] (-) TimerEvent: {}
+[85.038630] (-) TimerEvent: {}
+[85.138905] (-) TimerEvent: {}
+[85.239179] (-) TimerEvent: {}
+[85.339465] (-) TimerEvent: {}
+[85.439744] (-) TimerEvent: {}
+[85.536569] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_servo: 2.2.3 (/opt/ros/foxy/share/moveit_servo/cmake)\n'}
+[85.539844] (-) TimerEvent: {}
+[85.640084] (-) TimerEvent: {}
+[85.740366] (-) TimerEvent: {}
+[85.840627] (-) TimerEvent: {}
+[85.940914] (-) TimerEvent: {}
+[85.944062] (moveit2_tutorials) StdoutLine: {'line': b'-- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)\n'}
+[85.976377] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rviz_visual_tools: 4.0.3 (/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake)\n'}
+[86.041041] (-) TimerEvent: {}
+[86.131827] (moveit2_tutorials) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[86.135005] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OGRE\n'}
+[86.135125] (moveit2_tutorials) StdoutLine: {'line': b'--   static     : OFF\n'}
+[86.135236] (moveit2_tutorials) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[86.135337] (moveit2_tutorials) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[86.135503] (moveit2_tutorials) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[86.135617] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[86.135714] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[86.135807] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[86.135900] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[86.135990] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[86.136081] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[86.136265] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[86.136370] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[86.141141] (-) TimerEvent: {}
+[86.180214] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[86.190452] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[86.241257] (-) TimerEvent: {}
+[86.326312] (moveit2_tutorials) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[86.326653] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[86.341380] (-) TimerEvent: {}
+[86.412411] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[86.412711] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[86.441519] (-) TimerEvent: {}
+[86.505318] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[86.505592] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect\n'}
+[86.541650] (-) TimerEvent: {}
+[86.595436] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[86.595778] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove\n'}
+[86.641854] (-) TimerEvent: {}
+[86.672622] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[86.672888] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[86.741972] (-) TimerEvent: {}
+[86.755953] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[86.756169] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[86.835028] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[86.840102] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[86.840248] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[86.842073] (-) TimerEvent: {}
+[86.923356] (moveit2_tutorials) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[86.942186] (-) TimerEvent: {}
+[87.042436] (-) TimerEvent: {}
+[87.142720] (-) TimerEvent: {}
+[87.243005] (-) TimerEvent: {}
+[87.343294] (-) TimerEvent: {}
+[87.443772] (-) TimerEvent: {}
+[87.544051] (-) TimerEvent: {}
+[87.555512] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.0.0 (/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake)\n'}
+[87.644181] (-) TimerEvent: {}
+[87.744459] (-) TimerEvent: {}
+[87.844743] (-) TimerEvent: {}
+[87.945030] (-) TimerEvent: {}
+[88.045300] (-) TimerEvent: {}
+[88.145577] (-) TimerEvent: {}
+[88.245831] (-) TimerEvent: {}
+[88.346072] (-) TimerEvent: {}
+[88.446315] (-) TimerEvent: {}
+[88.546590] (-) TimerEvent: {}
+[88.646872] (-) TimerEvent: {}
+[88.747151] (-) TimerEvent: {}
+[88.847400] (-) TimerEvent: {}
+[88.947679] (-) TimerEvent: {}
+[89.047956] (-) TimerEvent: {}
+[89.148228] (-) TimerEvent: {}
+[89.248523] (-) TimerEvent: {}
+[89.348805] (-) TimerEvent: {}
+[89.449080] (-) TimerEvent: {}
+[89.549355] (-) TimerEvent: {}
+[89.649639] (-) TimerEvent: {}
+[89.749890] (-) TimerEvent: {}
+[89.850170] (-) TimerEvent: {}
+[89.950435] (-) TimerEvent: {}
+[90.050732] (-) TimerEvent: {}
+[90.151010] (-) TimerEvent: {}
+[90.251286] (-) TimerEvent: {}
+[90.351560] (-) TimerEvent: {}
+[90.451839] (-) TimerEvent: {}
+[90.552118] (-) TimerEvent: {}
+[90.652395] (-) TimerEvent: {}
+[90.752671] (-) TimerEvent: {}
+[90.852939] (-) TimerEvent: {}
+[90.953224] (-) TimerEvent: {}
+[91.053518] (-) TimerEvent: {}
+[91.153828] (-) TimerEvent: {}
+[91.254155] (-) TimerEvent: {}
+[91.354496] (-) TimerEvent: {}
+[91.454808] (-) TimerEvent: {}
+[91.555123] (-) TimerEvent: {}
+[91.655455] (-) TimerEvent: {}
+[91.755750] (-) TimerEvent: {}
+[91.856020] (-) TimerEvent: {}
+[91.956312] (-) TimerEvent: {}
+[92.056592] (-) TimerEvent: {}
+[92.156874] (-) TimerEvent: {}
+[92.257156] (-) TimerEvent: {}
+[92.270687] (moveit2_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[92.357284] (-) TimerEvent: {}
+[92.457567] (-) TimerEvent: {}
+[92.557821] (-) TimerEvent: {}
+[92.658097] (-) TimerEvent: {}
+[92.758376] (-) TimerEvent: {}
+[92.858655] (-) TimerEvent: {}
+[92.958939] (-) TimerEvent: {}
+[93.059187] (-) TimerEvent: {}
+[93.159465] (-) TimerEvent: {}
+[93.259739] (-) TimerEvent: {}
+[93.268569] (moveit2_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[93.273321] (moveit2_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /robofuzz/targets/moveit2_ws/build/moveit2_tutorials\n'}
+[93.291710] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[93.292435] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'build'}
+[93.294111] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials', '--', '-j12', '-l12'], 'cwd': '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[93.346701] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target moveit_cpp_tutorial\x1b[0m\n'}
+[93.347320] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_cpp_interface_demo\x1b[0m\n'}
+[93.347536] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move_group_interface_tutorial\x1b[0m\n'}
+[93.347671] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_planning_api_tutorial\x1b[0m\n'}
+[93.350593] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planning_scene_ros_api_tutorial\x1b[0m\n'}
+[93.350931] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planning_scene_tutorial\x1b[0m\n'}
+[93.353418] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_keyboard_input\x1b[0m\n'}
+[93.353763] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_model_and_robot_state_tutorial\x1b[0m\n'}
+[93.359834] (-) TimerEvent: {}
+[93.455894] (moveit2_tutorials) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object doc/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o\x1b[0m\n'}
+[93.459937] (-) TimerEvent: {}
+[93.526732] (moveit2_tutorials) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object doc/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o\x1b[0m\n'}
+[93.532069] (moveit2_tutorials) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object doc/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o\x1b[0m\n'}
+[93.546388] (moveit2_tutorials) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object doc/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o\x1b[0m\n'}
+[93.554083] (moveit2_tutorials) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object doc/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o\x1b[0m\n'}
+[93.560056] (-) TimerEvent: {}
+[93.561325] (moveit2_tutorials) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o\x1b[0m\n'}
+[93.562846] (moveit2_tutorials) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object doc/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o\x1b[0m\n'}
+[93.564328] (moveit2_tutorials) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object doc/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o\x1b[0m\n'}
+[93.660167] (-) TimerEvent: {}
+[93.760516] (-) TimerEvent: {}
+[93.860869] (-) TimerEvent: {}
+[93.961224] (-) TimerEvent: {}
+[94.061839] (-) TimerEvent: {}
+[94.162189] (-) TimerEvent: {}
+[94.262587] (-) TimerEvent: {}
+[94.362997] (-) TimerEvent: {}
+[94.463380] (-) TimerEvent: {}
+[94.563769] (-) TimerEvent: {}
+[94.664166] (-) TimerEvent: {}
+[94.764570] (-) TimerEvent: {}
+[94.864959] (-) TimerEvent: {}
+[94.965343] (-) TimerEvent: {}
+[95.065764] (-) TimerEvent: {}
+[95.166158] (-) TimerEvent: {}
+[95.266533] (-) TimerEvent: {}
+[95.366910] (-) TimerEvent: {}
+[95.467317] (-) TimerEvent: {}
+[95.567796] (-) TimerEvent: {}
+[95.668350] (-) TimerEvent: {}
+[95.768733] (-) TimerEvent: {}
+[95.869149] (-) TimerEvent: {}
+[95.969561] (-) TimerEvent: {}
+[96.070003] (-) TimerEvent: {}
+[96.170392] (-) TimerEvent: {}
+[96.270771] (-) TimerEvent: {}
+[96.371158] (-) TimerEvent: {}
+[96.471520] (-) TimerEvent: {}
+[96.571885] (-) TimerEvent: {}
+[96.672285] (-) TimerEvent: {}
+[96.772678] (-) TimerEvent: {}
+[96.873093] (-) TimerEvent: {}
+[96.973488] (-) TimerEvent: {}
+[97.073869] (-) TimerEvent: {}
+[97.174255] (-) TimerEvent: {}
+[97.274651] (-) TimerEvent: {}
+[97.375050] (-) TimerEvent: {}
+[97.475466] (-) TimerEvent: {}
+[97.575843] (-) TimerEvent: {}
+[97.676218] (-) TimerEvent: {}
+[97.776589] (-) TimerEvent: {}
+[97.876958] (-) TimerEvent: {}
+[97.977362] (-) TimerEvent: {}
+[98.077751] (-) TimerEvent: {}
+[98.178142] (-) TimerEvent: {}
+[98.278555] (-) TimerEvent: {}
+[98.378957] (-) TimerEvent: {}
+[98.479373] (-) TimerEvent: {}
+[98.579765] (-) TimerEvent: {}
+[98.680190] (-) TimerEvent: {}
+[98.780590] (-) TimerEvent: {}
+[98.880991] (-) TimerEvent: {}
+[98.981400] (-) TimerEvent: {}
+[99.081857] (-) TimerEvent: {}
+[99.182229] (-) TimerEvent: {}
+[99.282677] (-) TimerEvent: {}
+[99.383091] (-) TimerEvent: {}
+[99.483501] (-) TimerEvent: {}
+[99.583892] (-) TimerEvent: {}
+[99.684291] (-) TimerEvent: {}
+[99.784689] (-) TimerEvent: {}
+[99.815121] (moveit2_tutorials) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable servo_keyboard_input\x1b[0m\n'}
+[99.884865] (-) TimerEvent: {}
+[99.985290] (-) TimerEvent: {}
+[100.085741] (-) TimerEvent: {}
+[100.186184] (-) TimerEvent: {}
+[100.286579] (-) TimerEvent: {}
+[100.386991] (-) TimerEvent: {}
+[100.434303] (moveit2_tutorials) StdoutLine: {'line': b'[ 56%] Built target servo_keyboard_input\n'}
+[100.487103] (-) TimerEvent: {}
+[100.587483] (-) TimerEvent: {}
+[100.687865] (-) TimerEvent: {}
+[100.788246] (-) TimerEvent: {}
+[100.888633] (-) TimerEvent: {}
+[100.989022] (-) TimerEvent: {}
+[101.089392] (-) TimerEvent: {}
+[101.189766] (-) TimerEvent: {}
+[101.290177] (-) TimerEvent: {}
+[101.390620] (-) TimerEvent: {}
+[101.451721] (moveit2_tutorials) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable robot_model_and_robot_state_tutorial\x1b[0m\n'}
+[101.490740] (-) TimerEvent: {}
+[101.591138] (-) TimerEvent: {}
+[101.691585] (-) TimerEvent: {}
+[101.791954] (-) TimerEvent: {}
+[101.892351] (-) TimerEvent: {}
+[101.992828] (-) TimerEvent: {}
+[102.093265] (-) TimerEvent: {}
+[102.193654] (-) TimerEvent: {}
+[102.214438] (moveit2_tutorials) StdoutLine: {'line': b'[ 62%] Built target robot_model_and_robot_state_tutorial\n'}
+[102.293773] (-) TimerEvent: {}
+[102.394099] (-) TimerEvent: {}
+[102.485608] (moveit2_tutorials) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable planning_scene_tutorial\x1b[0m\n'}
+[102.494210] (-) TimerEvent: {}
+[102.594590] (-) TimerEvent: {}
+[102.694996] (-) TimerEvent: {}
+[102.795403] (-) TimerEvent: {}
+[102.895823] (-) TimerEvent: {}
+[102.996279] (-) TimerEvent: {}
+[103.096766] (-) TimerEvent: {}
+[103.197149] (-) TimerEvent: {}
+[103.297596] (moveit2_tutorials) StdoutLine: {'line': b'[ 68%] Built target planning_scene_tutorial\n'}
+[103.297928] (-) TimerEvent: {}
+[103.398230] (-) TimerEvent: {}
+[103.498598] (-) TimerEvent: {}
+[103.598945] (-) TimerEvent: {}
+[103.699296] (-) TimerEvent: {}
+[103.799647] (-) TimerEvent: {}
+[103.900029] (-) TimerEvent: {}
+[104.000401] (-) TimerEvent: {}
+[104.100756] (-) TimerEvent: {}
+[104.201093] (-) TimerEvent: {}
+[104.301445] (-) TimerEvent: {}
+[104.401820] (-) TimerEvent: {}
+[104.502162] (-) TimerEvent: {}
+[104.602508] (-) TimerEvent: {}
+[104.702853] (-) TimerEvent: {}
+[104.803210] (-) TimerEvent: {}
+[104.903565] (-) TimerEvent: {}
+[105.003924] (-) TimerEvent: {}
+[105.104283] (-) TimerEvent: {}
+[105.204642] (-) TimerEvent: {}
+[105.305002] (-) TimerEvent: {}
+[105.405359] (-) TimerEvent: {}
+[105.505733] (-) TimerEvent: {}
+[105.606092] (-) TimerEvent: {}
+[105.706456] (-) TimerEvent: {}
+[105.806824] (-) TimerEvent: {}
+[105.907226] (-) TimerEvent: {}
+[106.007572] (-) TimerEvent: {}
+[106.107919] (-) TimerEvent: {}
+[106.208265] (-) TimerEvent: {}
+[106.308614] (-) TimerEvent: {}
+[106.397944] (moveit2_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable planning_scene_ros_api_tutorial\x1b[0m\n'}
+[106.408741] (-) TimerEvent: {}
+[106.509110] (-) TimerEvent: {}
+[106.609514] (-) TimerEvent: {}
+[106.709933] (-) TimerEvent: {}
+[106.810342] (-) TimerEvent: {}
+[106.910708] (-) TimerEvent: {}
+[107.011057] (-) TimerEvent: {}
+[107.111399] (-) TimerEvent: {}
+[107.211793] (-) TimerEvent: {}
+[107.312203] (-) TimerEvent: {}
+[107.410327] (moveit2_tutorials) StdoutLine: {'line': b'[ 75%] Built target planning_scene_ros_api_tutorial\n'}
+[107.412293] (-) TimerEvent: {}
+[107.512618] (-) TimerEvent: {}
+[107.612983] (-) TimerEvent: {}
+[107.713339] (-) TimerEvent: {}
+[107.813710] (-) TimerEvent: {}
+[107.914050] (-) TimerEvent: {}
+[108.014436] (-) TimerEvent: {}
+[108.114757] (-) TimerEvent: {}
+[108.215086] (-) TimerEvent: {}
+[108.315433] (-) TimerEvent: {}
+[108.415787] (-) TimerEvent: {}
+[108.516107] (-) TimerEvent: {}
+[108.616439] (-) TimerEvent: {}
+[108.716790] (-) TimerEvent: {}
+[108.817102] (-) TimerEvent: {}
+[108.917404] (-) TimerEvent: {}
+[109.017759] (-) TimerEvent: {}
+[109.118099] (-) TimerEvent: {}
+[109.218442] (-) TimerEvent: {}
+[109.318788] (-) TimerEvent: {}
+[109.419108] (-) TimerEvent: {}
+[109.519424] (-) TimerEvent: {}
+[109.619752] (-) TimerEvent: {}
+[109.720082] (-) TimerEvent: {}
+[109.809836] (moveit2_tutorials) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable move_group_interface_tutorial\x1b[0m\n'}
+[109.820193] (-) TimerEvent: {}
+[109.920545] (-) TimerEvent: {}
+[110.020903] (-) TimerEvent: {}
+[110.121290] (-) TimerEvent: {}
+[110.221679] (-) TimerEvent: {}
+[110.322040] (-) TimerEvent: {}
+[110.422411] (-) TimerEvent: {}
+[110.522769] (-) TimerEvent: {}
+[110.623148] (-) TimerEvent: {}
+[110.723567] (-) TimerEvent: {}
+[110.789951] (moveit2_tutorials) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable moveit_cpp_tutorial\x1b[0m\n'}
+[110.823685] (-) TimerEvent: {}
+[110.897985] (moveit2_tutorials) StdoutLine: {'line': b'[ 87%] Built target move_group_interface_tutorial\n'}
+[110.923817] (-) TimerEvent: {}
+[111.024133] (-) TimerEvent: {}
+[111.124474] (-) TimerEvent: {}
+[111.224813] (-) TimerEvent: {}
+[111.325147] (-) TimerEvent: {}
+[111.425469] (-) TimerEvent: {}
+[111.525756] (-) TimerEvent: {}
+[111.626046] (-) TimerEvent: {}
+[111.726350] (-) TimerEvent: {}
+[111.813449] (moveit2_tutorials) StdoutLine: {'line': b'[ 87%] Built target moveit_cpp_tutorial\n'}
+[111.826476] (-) TimerEvent: {}
+[111.926765] (-) TimerEvent: {}
+[112.027054] (-) TimerEvent: {}
+[112.127340] (-) TimerEvent: {}
+[112.227626] (-) TimerEvent: {}
+[112.327917] (-) TimerEvent: {}
+[112.428208] (-) TimerEvent: {}
+[112.528497] (-) TimerEvent: {}
+[112.628798] (-) TimerEvent: {}
+[112.729100] (-) TimerEvent: {}
+[112.829399] (-) TimerEvent: {}
+[112.929706] (-) TimerEvent: {}
+[113.030004] (-) TimerEvent: {}
+[113.130302] (-) TimerEvent: {}
+[113.230609] (-) TimerEvent: {}
+[113.330924] (-) TimerEvent: {}
+[113.431215] (-) TimerEvent: {}
+[113.531516] (-) TimerEvent: {}
+[113.631819] (-) TimerEvent: {}
+[113.732098] (-) TimerEvent: {}
+[113.832386] (-) TimerEvent: {}
+[113.932674] (-) TimerEvent: {}
+[114.032964] (-) TimerEvent: {}
+[114.133248] (-) TimerEvent: {}
+[114.233571] (-) TimerEvent: {}
+[114.333834] (-) TimerEvent: {}
+[114.425179] (moveit2_tutorials) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable servo_cpp_interface_demo\x1b[0m\n'}
+[114.433927] (-) TimerEvent: {}
+[114.534212] (-) TimerEvent: {}
+[114.634515] (-) TimerEvent: {}
+[114.734814] (-) TimerEvent: {}
+[114.835107] (-) TimerEvent: {}
+[114.935405] (-) TimerEvent: {}
+[115.035702] (-) TimerEvent: {}
+[115.136030] (-) TimerEvent: {}
+[115.136440] (moveit2_tutorials) StdoutLine: {'line': b'[ 93%] Built target servo_cpp_interface_demo\n'}
+[115.236171] (-) TimerEvent: {}
+[115.336477] (-) TimerEvent: {}
+[115.436779] (-) TimerEvent: {}
+[115.537052] (-) TimerEvent: {}
+[115.637352] (-) TimerEvent: {}
+[115.737677] (-) TimerEvent: {}
+[115.837977] (-) TimerEvent: {}
+[115.938268] (-) TimerEvent: {}
+[116.038566] (-) TimerEvent: {}
+[116.138868] (-) TimerEvent: {}
+[116.239170] (-) TimerEvent: {}
+[116.339471] (-) TimerEvent: {}
+[116.439777] (-) TimerEvent: {}
+[116.540077] (-) TimerEvent: {}
+[116.640379] (-) TimerEvent: {}
+[116.740711] (-) TimerEvent: {}
+[116.840992] (-) TimerEvent: {}
+[116.941258] (-) TimerEvent: {}
+[117.041553] (-) TimerEvent: {}
+[117.141819] (-) TimerEvent: {}
+[117.242076] (-) TimerEvent: {}
+[117.277252] (moveit2_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motion_planning_api_tutorial\x1b[0m\n'}
+[117.342178] (-) TimerEvent: {}
+[117.442472] (-) TimerEvent: {}
+[117.542778] (-) TimerEvent: {}
+[117.643081] (-) TimerEvent: {}
+[117.743399] (-) TimerEvent: {}
+[117.843701] (-) TimerEvent: {}
+[117.943983] (-) TimerEvent: {}
+[118.044273] (-) TimerEvent: {}
+[118.144574] (-) TimerEvent: {}
+[118.159544] (moveit2_tutorials) StdoutLine: {'line': b'[100%] Built target motion_planning_api_tutorial\n'}
+[118.171065] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[118.199980] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'install'}
+[118.201982] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--install', '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials'], 'cwd': '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials', 'env': OrderedDict([('HOSTNAME', '9054283480d6'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools/lib:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools/lib:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk/lib:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/lib:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/robofuzz/targets'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install:/robofuzz/targets/turtlebot3_ws/install:/robofuzz/targets/idltest_ws/install:/robofuzz/targets/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('PWD', '/robofuzz/targets/moveit2_ws/build/moveit2_tutorials'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/robofuzz/targets/turtlebot3_ws/build/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/build/turtlebot3_example:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/robofuzz/targets/idltest_ws/install/idltest_msgs/lib/python3.8/site-packages:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robofuzz/targets/moveit2_ws/install/moveit_visual_tools:/robofuzz/targets/moveit2_ws/install/rviz_visual_tools:/robofuzz/targets/moveit2_ws/install/moveit2_tutorials:/robofuzz/targets/turtlebot3_ws/install/turtlebot3:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_simulations:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_bringup:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_navigation2:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_fake_node:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_gazebo:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_description:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_cartographer:/robofuzz/targets/turtlebot3_ws/install/hls_lfcd_lds_driver:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_examples:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/robofuzz/targets/turtlebot3_ws/install/dynamixel_sdk:/robofuzz/targets/idltest_ws/install/idltest_target:/robofuzz/targets/idltest_ws/install/idltest_msgs:/robofuzz/targets/px4_ros_com_ros2/install/px4_ros_com:/robofuzz/targets/px4_ros_com_ros2/install/px4_msgs:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_teleop:/robofuzz/targets/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[118.211617] (moveit2_tutorials) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[118.212293] (moveit2_tutorials) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[118.212895] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial\n'}
+[118.223797] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py\n'}
+[118.233417] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial\n'}
+[118.242296] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py\n'}
+[118.244675] (-) TimerEvent: {}
+[118.251146] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz\n'}
+[118.260351] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py\n'}
+[118.271991] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial\n'}
+[118.282987] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py\n'}
+[118.293378] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz\n'}
+[118.304401] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml\n'}
+[118.315493] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial\n'}
+[118.326113] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py\n'}
+[118.336727] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial\n'}
+[118.344822] (-) TimerEvent: {}
+[118.348067] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py\n'}
+[118.358932] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py\n'}
+[118.368175] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz\n'}
+[118.376668] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz\n'}
+[118.385389] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input\n'}
+[118.394248] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo\n'}
+[118.402940] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py\n'}
+[118.411235] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_server_panda.launch.py\n'}
+[118.419803] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_teleop.launch.py\n'}
+[118.428883] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz\n'}
+[118.437800] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial\n'}
+[118.444943] (-) TimerEvent: {}
+[118.447053] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py\n'}
+[118.455624] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials\n'}
+[118.464597] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials\n'}
+[118.473119] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh\n'}
+[118.481810] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv\n'}
+[118.490693] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh\n'}
+[118.499360] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv\n'}
+[118.507711] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash\n'}
+[118.516078] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh\n'}
+[118.524454] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh\n'}
+[118.533448] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv\n'}
+[118.541984] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv\n'}
+[118.545073] (-) TimerEvent: {}
+[118.551109] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials\n'}
+[118.559890] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[118.568649] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[118.577413] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake\n'}
+[118.585971] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake\n'}
+[118.594791] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /robofuzz/targets/moveit2_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.xml\n'}
+[118.607189] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[118.645875] (-) TimerEvent: {}
+[118.653634] (moveit2_tutorials) JobEnded: {'identifier': 'moveit2_tutorials', 'rc': 0}
+[118.654447] (-) EventReactorShutdown: {}

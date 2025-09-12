@@ -1,0 +1,15 @@
+[2.437s] Invoking command in '/robofuzz/ros2_foxy/build/osrf_pycommon': PYTHONPATH=/robofuzz/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/osrf_pycommon --editable --build-directory /robofuzz/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/osrf_pycommon
+[2.791s] running develop
+[2.997s] running egg_info
+[2.997s] writing osrf_pycommon.egg-info/PKG-INFO
+[2.997s] writing dependency_links to osrf_pycommon.egg-info/dependency_links.txt
+[2.997s] writing requirements to osrf_pycommon.egg-info/requires.txt
+[2.998s] writing top-level names to osrf_pycommon.egg-info/top_level.txt
+[3.059s] reading manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[3.060s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[3.124s] running build_ext
+[3.125s] Creating /robofuzz/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf-pycommon.egg-link (link to .)
+[3.126s] 
+[3.126s] Installed /robofuzz/ros2_foxy/build/osrf_pycommon
+[3.126s] running install_data
+[3.247s] Invoked command in '/robofuzz/ros2_foxy/build/osrf_pycommon' returned '0': PYTHONPATH=/robofuzz/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/osrf_pycommon --editable --build-directory /robofuzz/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/osrf_pycommon

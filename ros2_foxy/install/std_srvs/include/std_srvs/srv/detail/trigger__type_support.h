@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/std_srvs/rosidl_generator_c/std_srvs/srv/detail/trigger__type_support.h

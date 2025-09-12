@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/build/map_msgs/rosidl_generator_c/map_msgs/srv/detail/get_map_roi__struct.h

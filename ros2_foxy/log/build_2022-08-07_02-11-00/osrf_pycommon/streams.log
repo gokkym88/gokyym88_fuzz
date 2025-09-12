@@ -1,0 +1,23 @@
+[2.829s] Invoking command in '/robofuzz/ros2_foxy/build/osrf_pycommon': PYTHONPATH=/robofuzz/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/osrf_pycommon --editable --build-directory /robofuzz/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/osrf_pycommon
+[3.428s] running develop
+[3.702s] running egg_info
+[3.702s] creating osrf_pycommon.egg-info
+[3.703s] writing osrf_pycommon.egg-info/PKG-INFO
+[3.703s] writing dependency_links to osrf_pycommon.egg-info/dependency_links.txt
+[3.703s] writing requirements to osrf_pycommon.egg-info/requires.txt
+[3.704s] writing top-level names to osrf_pycommon.egg-info/top_level.txt
+[3.706s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[3.794s] reading manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[3.796s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[3.920s] running build_ext
+[3.921s] Creating /robofuzz/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/site.py
+[3.925s] Creating /robofuzz/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf-pycommon.egg-link (link to .)
+[3.927s] 
+[3.927s] Installed /robofuzz/ros2_foxy/build/osrf_pycommon
+[3.928s] running install_data
+[3.928s] copying package.xml -> /robofuzz/ros2_foxy/install/osrf_pycommon/share/osrf_pycommon
+[3.928s] creating /robofuzz/ros2_foxy/install/osrf_pycommon/share/ament_index
+[3.928s] creating /robofuzz/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index
+[3.929s] creating /robofuzz/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index/packages
+[3.929s] copying resource/osrf_pycommon -> /robofuzz/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index/packages
+[4.024s] Invoked command in '/robofuzz/ros2_foxy/build/osrf_pycommon' returned '0': PYTHONPATH=/robofuzz/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /robofuzz/ros2_foxy/install/osrf_pycommon --editable --build-directory /robofuzz/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /robofuzz/ros2_foxy/install/osrf_pycommon

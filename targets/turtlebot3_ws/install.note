@@ -1,0 +1,78 @@
+# Building TurtleBot3 from source (NEW)
+
+1. Requirements
+* Ubuntu 20.04
+* ROS foxy (either from src or pkg manager)
+
+2. Install dependencies
+```sh
+$ cd ../../deps/gazebo_ros_pkgs
+$ mkdir src
+$ vcs import src < gazebo_ros_pkgs.repos
+$ vcs custom --args checkout foxy-devel
+$ colcon build --symlink-install
+$ source install/setup.zsh # or setup.bash
+```
+
+3. Install TurtleBot3 packages
+```sh
+$ cd ~/workspace/ros-security
+$ mkdir -p turtlebot3_ws/src
+$ cd turtlebot3_ws
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/turtlebot3/ros2/turtlebot3.repos
+$ vcs import src < turtlebot3.repos
+$ vcs custom --args checkout foxy-devel
+$ ./patch.sh
+$ colcon build --symlink-install
+$ source install/setup.zsh # or setup.bash
+```
+
+
+# Setting up turtlebot3 (OLD)
+
+1. Requirements
+* Ubuntu 18.04
+
+2. Install ROS 2 dasing
+```sh
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros2_dashing.sh
+$ chmod 755 ./install_ros2_dashing.sh
+$ bash ./install_ros2_dashing.sh
+```
+
+3. Install dependent ROS 2 packages
+```sh
+// colcon
+$ sudo apt install python3-colcon-common-extensions
+// Gazebo9
+$ curl -sSL http://get.gazebosim.org | sh
+$ sudo apt remove gazebo11 libgazebo11-dev
+$ sudo apt install gazebo9 libgazebo9-dev
+$ sudo apt install ros-dashing-gazebo-ros-pkgs
+// cartographer
+$ sudo apt install ros-dashing-cartographer
+$ sudo apt install ros-dashing-cartographer-ros
+// navigation2
+$ sudo apt install ros-dashing-navigation2
+$ sudo apt install ros-dashing-nav2-bringup
+// vcstool
+$ sudo apt install python3-vcstool
+```
+
+4. Install TurtleBot3 packages
+```sh
+$ cd ~/workspace/ros-security
+$ mkdir -p turtlebot3_ws/src
+$ cd turtlebot3_ws
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/turtlebot3/ros2/turtlebot3.repos
+$ vcs import src < turtlebot3.repos
+$ colcon build --symlink-install
+```
+
+5. Environment configuration
+```sh
+source ~/workspace/ros-security/turtlebot3_ws/install/setup.bash
+export ROS_DOMAIN_ID=30
+```

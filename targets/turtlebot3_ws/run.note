@@ -1,0 +1,21 @@
+# Running simulation
+
+1. Launch simulator
+```sh
+$ source ~/workspace/ros-security/targets/turtlebot3_ws/install/setup.zsh
+$ export TURTLEBOT3_MODEL=burger
+$ ros2 launch turtlebot3_gazebo empty_world.launch.py # turtlebot3_storage.launch.py
+```
+
+2. Operators
+
+2.1. Autonomous Collision Avoidance
+```sh
+$ ros2 run turtlebot3_gazebo turtlebot3_drive
+```
+
+2.2. Teleop (alternative to autonomous mode)
+```sh
+$ ros2 run turtlebot3_teleop teleop_keyboard
+```
+

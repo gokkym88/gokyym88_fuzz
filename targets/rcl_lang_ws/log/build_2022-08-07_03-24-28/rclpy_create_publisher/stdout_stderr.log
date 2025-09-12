@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating rclpy_create_publisher.egg-info
+writing rclpy_create_publisher.egg-info/PKG-INFO
+writing dependency_links to rclpy_create_publisher.egg-info/dependency_links.txt
+writing entry points to rclpy_create_publisher.egg-info/entry_points.txt
+writing requirements to rclpy_create_publisher.egg-info/requires.txt
+writing top-level names to rclpy_create_publisher.egg-info/top_level.txt
+writing manifest file 'rclpy_create_publisher.egg-info/SOURCES.txt'
+reading manifest file 'rclpy_create_publisher.egg-info/SOURCES.txt'
+writing manifest file 'rclpy_create_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/lib/python3.8/site-packages/site.py
+Creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/lib/python3.8/site-packages/rclpy-create-publisher.egg-link (link to .)
+Installing rclpy_create_publisher script to /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/bin
+
+Installed /robofuzz/targets/rcl_lang_ws/build/rclpy_create_publisher
+running install_data
+creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/share/ament_index
+creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/share/ament_index/resource_index
+creating /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/share/ament_index/resource_index/packages
+copying resource/rclpy_create_publisher -> /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /robofuzz/targets/rcl_lang_ws/install/rclpy_create_publisher/share/rclpy_create_publisher

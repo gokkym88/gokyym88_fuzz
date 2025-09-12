@@ -1,0 +1,1 @@
+/robofuzz/ros2_foxy/src/ament/ament_index/ament_index_cpp/include/ament_index_cpp/has_resource.hpp

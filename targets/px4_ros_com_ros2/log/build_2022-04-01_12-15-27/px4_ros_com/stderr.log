@@ -1,0 +1,7 @@
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~20.04-b07)
+OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
+make[2]: *** [CMakeFiles/micrortps_agent.dir/build.make:63: /robofuzz/targets/px4_ros_com_ros2/src/px4_ros_com/src/micrortps_agent/microRTPS_agent.cpp] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/micrortps_agent.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2
